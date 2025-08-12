@@ -47,6 +47,95 @@ image = (
 model_volume = modal.Volume.from_name("ace-step-models", create_if_missing=True)
 temp_volume = modal.Volume.from_name("ace-step-temp", create_if_missing=True)
 
+
+# Helper to extract generation parameters from request dict with safe defaults.
+def _extract_generation_params(request_dict: dict) -> dict:
+    """
+    Normalize and collect all supported generation parameters from the request body.
+    Keeps backward compatibility with minimal payloads (prompt/lyrics/length).
+    """
+    data = request_dict or {}
+
+    # Back-compat: allow either audio_duration or length
+    audio_duration = data.get("audio_duration", data.get("length", 60))
+    try:
+        audio_duration = float(audio_duration)
+    except Exception:
+        audio_duration = 60.0
+
+    def _float(name: str, default: float) -> float:
+        value = data.get(name, default)
+        try:
+            return float(value)
+        except Exception:
+            return default
+
+    def _int(name: str, default: int) -> int:
+        value = data.get(name, default)
+        try:
+            return int(value)
+        except Exception:
+            return default
+
+    def _bool(name: str, default: bool) -> bool:
+        value = data.get(name, default)
+        if isinstance(value, str):
+            return value.lower() in ("1", "true", "yes", "on")
+        return bool(value)
+
+    params = {
+        # core
+        "format": data.get("format", "wav"),
+        "audio_duration": audio_duration,
+        "prompt": data.get("prompt", ""),
+        "lyrics": data.get("lyrics", ""),
+
+        # basic settings
+        "infer_step": _int("infer_step", 60),
+        "guidance_scale": _float("guidance_scale", 15.0),
+        "scheduler_type": data.get("scheduler_type", "euler"),
+        "cfg_type": data.get("cfg_type", "apg"),
+        "omega_scale": _float("omega_scale", 10.0),
+        "manual_seeds": data.get("manual_seeds", None),
+        "guidance_interval": _float("guidance_interval", 0.5),
+        "guidance_interval_decay": _float("guidance_interval_decay", 0.0),
+        "min_guidance_scale": _float("min_guidance_scale", 3.0),
+        "use_erg_tag": _bool("use_erg_tag", True),
+        "use_erg_lyric": _bool("use_erg_lyric", True),
+        "use_erg_diffusion": _bool("use_erg_diffusion", True),
+        "oss_steps": data.get("oss_steps", None),  # accepts list or comma-separated string
+        "guidance_scale_text": _float("guidance_scale_text", 0.0),
+        "guidance_scale_lyric": _float("guidance_scale_lyric", 0.0),
+
+        # audio2audio
+        "audio2audio_enable": _bool("audio2audio_enable", False),
+        "ref_audio_strength": _float("ref_audio_strength", 0.5),
+        "ref_audio_input": data.get("ref_audio_input", None),
+
+        # LoRA
+        "lora_name_or_path": data.get("lora_name_or_path", "none"),
+        "lora_weight": _float("lora_weight", 1.0),
+
+        # retake/repaint/edit/extend controls
+        "retake_seeds": data.get("retake_seeds", None),
+        "retake_variance": _float("retake_variance", 0.5),
+        "task": data.get("task", "text2music"),
+        "repaint_start": _float("repaint_start", 0.0),
+        "repaint_end": _float("repaint_end", 0.0),
+        "src_audio_path": data.get("src_audio_path", None),
+        "edit_target_prompt": data.get("edit_target_prompt", None),
+        "edit_target_lyrics": data.get("edit_target_lyrics", None),
+        "edit_n_min": _float("edit_n_min", 0.0),
+        "edit_n_max": _float("edit_n_max", 1.0),
+
+        # misc
+        "batch_size": _int("batch_size", 1),
+        "save_path": data.get("save_path", None),
+        "debug": _bool("debug", False),
+    }
+
+    return params
+
 @app.function(
     image=image,
     gpu="A10G",
@@ -72,10 +161,8 @@ def generate_song(request_data: dict):
     import tempfile
     import json
     
-    # Get request data
-    prompt = request_data.get('prompt', '')
-    lyrics = request_data.get('lyrics', '')
-    length = float(request_data.get('length', 60))
+    # Gather generation parameters (backward compatible)
+    gen_params = _extract_generation_params(request_data)
     
     # Environment configuration
     device_id = 0  # Use first GPU
@@ -91,12 +178,8 @@ def generate_song(request_data: dict):
             model_cache_dir="/models",  # Use the mounted volume
         )
         
-        # Call the ACE Step pipeline
-        output_paths = pipeline(
-            audio_duration=length,
-            prompt=prompt,
-            lyrics=lyrics,
-        )
+        # Call the ACE Step pipeline with full parameter set
+        output_paths = pipeline(**gen_params)
         
         # Explicitly release memory used by the pipeline
         del pipeline
@@ -168,9 +251,7 @@ def flask_app():
     @flask_app.route('/generate', methods=['POST'])
     def generate_song():
         data = request.get_json(force=True)
-        prompt = data.get('prompt', '')
-        lyrics = data.get('lyrics', '')
-        length = float(data.get('length', 60))
+        gen_params = _extract_generation_params(data)
         
         try:
             # Load the pipeline on demand
@@ -182,11 +263,7 @@ def flask_app():
             )
             
             # Call the ACE Step pipeline
-            output_paths = pipeline(
-                audio_duration=length,
-                prompt=prompt,
-                lyrics=lyrics,
-            )
+            output_paths = pipeline(**gen_params)
             
             # Explicitly release memory used by the pipeline
             del pipeline
