@@ -215,6 +215,245 @@ def generate_song(request_data: dict):
         return {"error": f"Generation failed: {str(e)}"}, 500
 
 
+# -------------------- Additional task-specific endpoints --------------------
+
+@app.function(
+    image=image,
+    gpu="A10G",
+    volumes={
+        "/models": model_volume,
+        "/tmp/ace_outputs": temp_volume,
+    },
+    timeout=600,
+)
+@modal.fastapi_endpoint(method="POST", label="ace-step-generate-retake")
+def generate_retake(request_data: dict):
+    """Generate with retake task. Mirrors the UI 'retake' tab behavior."""
+    from acestep.pipeline_ace_step import ACEStepPipeline
+    import base64, gc, shutil, torch, os
+
+    gen_params = _extract_generation_params(request_data)
+    gen_params["task"] = "retake"
+    # Default variance similar to UI (0.2) if not provided
+    if "retake_variance" not in request_data:
+        gen_params["retake_variance"] = 0.2
+
+    device_id = 0
+    torch_compile = True
+    overlapped_decode = True
+
+    try:
+        pipeline = ACEStepPipeline(
+            device_id=device_id,
+            torch_compile=torch_compile,
+            overlapped_decode=overlapped_decode,
+            model_cache_dir="/models",
+        )
+        output_paths = pipeline(**gen_params)
+        del pipeline
+        gc.collect()
+        if torch.cuda.is_available():
+            torch.cuda.empty_cache()
+        if not output_paths:
+            return {"error": "generation failed"}, 500
+        audio_path = output_paths[0]
+        with open(audio_path, "rb") as f:
+            audio_bytes = f.read()
+        audio_b64 = base64.b64encode(audio_bytes).decode("utf-8")
+        try:
+            shutil.rmtree(os.path.dirname(audio_path))
+        except Exception:
+            pass
+        return {"audio_base64": audio_b64}
+    except Exception as e:
+        if torch.cuda.is_available():
+            torch.cuda.empty_cache()
+        gc.collect()
+        return {"error": f"Generation failed: {str(e)}"}, 500
+
+
+@app.function(
+    image=image,
+    gpu="A10G",
+    volumes={
+        "/models": model_volume,
+        "/tmp/ace_outputs": temp_volume,
+    },
+    timeout=600,
+)
+@modal.fastapi_endpoint(method="POST", label="ace-step-generate-repaint")
+def generate_repaint(request_data: dict):
+    """Generate with repaint task. Requires repaint_start, repaint_end, src_audio_path."""
+    from acestep.pipeline_ace_step import ACEStepPipeline
+    import base64, gc, shutil, torch, os
+
+    gen_params = _extract_generation_params(request_data)
+    gen_params["task"] = "repaint"
+
+    device_id = 0
+    torch_compile = True
+    overlapped_decode = True
+
+    try:
+        pipeline = ACEStepPipeline(
+            device_id=device_id,
+            torch_compile=torch_compile,
+            overlapped_decode=overlapped_decode,
+            model_cache_dir="/models",
+        )
+        output_paths = pipeline(**gen_params)
+        del pipeline
+        gc.collect()
+        if torch.cuda.is_available():
+            torch.cuda.empty_cache()
+        if not output_paths:
+            return {"error": "generation failed"}, 500
+        audio_path = output_paths[0]
+        with open(audio_path, "rb") as f:
+            audio_bytes = f.read()
+        audio_b64 = base64.b64encode(audio_bytes).decode("utf-8")
+        try:
+            shutil.rmtree(os.path.dirname(audio_path))
+        except Exception:
+            pass
+        return {"audio_base64": audio_b64}
+    except Exception as e:
+        if torch.cuda.is_available():
+            torch.cuda.empty_cache()
+        gc.collect()
+        return {"error": f"Generation failed: {str(e)}"}, 500
+
+
+@app.function(
+    image=image,
+    gpu="A10G",
+    volumes={
+        "/models": model_volume,
+        "/tmp/ace_outputs": temp_volume,
+    },
+    timeout=600,
+)
+@modal.fastapi_endpoint(method="POST", label="ace-step-generate-edit")
+def generate_edit(request_data: dict):
+    """Generate with edit task. Supports edit_target_prompt/lyrics and edit window controls."""
+    from acestep.pipeline_ace_step import ACEStepPipeline
+    import base64, gc, shutil, torch, os
+
+    gen_params = _extract_generation_params(request_data)
+    gen_params["task"] = "edit"
+    # If edit targets are not provided, fall back to base prompt/lyrics
+    if not gen_params.get("edit_target_prompt"):
+        gen_params["edit_target_prompt"] = gen_params.get("prompt")
+    if not gen_params.get("edit_target_lyrics"):
+        gen_params["edit_target_lyrics"] = gen_params.get("lyrics")
+
+    device_id = 0
+    torch_compile = True
+    overlapped_decode = True
+
+    try:
+        pipeline = ACEStepPipeline(
+            device_id=device_id,
+            torch_compile=torch_compile,
+            overlapped_decode=overlapped_decode,
+            model_cache_dir="/models",
+        )
+        output_paths = pipeline(**gen_params)
+        del pipeline
+        gc.collect()
+        if torch.cuda.is_available():
+            torch.cuda.empty_cache()
+        if not output_paths:
+            return {"error": "generation failed"}, 500
+        audio_path = output_paths[0]
+        with open(audio_path, "rb") as f:
+            audio_bytes = f.read()
+        audio_b64 = base64.b64encode(audio_bytes).decode("utf-8")
+        try:
+            shutil.rmtree(os.path.dirname(audio_path))
+        except Exception:
+            pass
+        return {"audio_base64": audio_b64}
+    except Exception as e:
+        if torch.cuda.is_available():
+            torch.cuda.empty_cache()
+        gc.collect()
+        return {"error": f"Generation failed: {str(e)}"}, 500
+
+
+@app.function(
+    image=image,
+    gpu="A10G",
+    volumes={
+        "/models": model_volume,
+        "/tmp/ace_outputs": temp_volume,
+    },
+    timeout=600,
+)
+@modal.fastapi_endpoint(method="POST", label="ace-step-generate-extend")
+def generate_extend(request_data: dict):
+    """Generate with extend task. Optionally accepts left/right extend length and computes repaint window."""
+    from acestep.pipeline_ace_step import ACEStepPipeline
+    import base64, gc, shutil, torch, os
+
+    gen_params = _extract_generation_params(request_data)
+    gen_params["task"] = "extend"
+
+    # Map optional left/right extend lengths to repaint window if provided
+    left_extend_length = request_data.get("left_extend_length", None)
+    right_extend_length = request_data.get("right_extend_length", None)
+    if left_extend_length is not None or right_extend_length is not None:
+        try:
+            left_len = float(left_extend_length or 0.0)
+            right_len = float(right_extend_length or 0.0)
+            repaint_start = -left_len
+            repaint_end = float(gen_params.get("audio_duration", 0.0)) + right_len
+            gen_params["repaint_start"] = repaint_start
+            gen_params["repaint_end"] = repaint_end
+        except Exception:
+            pass
+
+    # UI uses retake_variance=1.0 for extend
+    if "retake_variance" not in request_data:
+        gen_params["retake_variance"] = 1.0
+    # Allow extend_seeds alias for retake_seeds
+    if "extend_seeds" in request_data and not gen_params.get("retake_seeds"):
+        gen_params["retake_seeds"] = request_data.get("extend_seeds")
+
+    device_id = 0
+    torch_compile = True
+    overlapped_decode = True
+
+    try:
+        pipeline = ACEStepPipeline(
+            device_id=device_id,
+            torch_compile=torch_compile,
+            overlapped_decode=overlapped_decode,
+            model_cache_dir="/models",
+        )
+        output_paths = pipeline(**gen_params)
+        del pipeline
+        gc.collect()
+        if torch.cuda.is_available():
+            torch.cuda.empty_cache()
+        if not output_paths:
+            return {"error": "generation failed"}, 500
+        audio_path = output_paths[0]
+        with open(audio_path, "rb") as f:
+            audio_bytes = f.read()
+        audio_b64 = base64.b64encode(audio_bytes).decode("utf-8")
+        try:
+            shutil.rmtree(os.path.dirname(audio_path))
+        except Exception:
+            pass
+        return {"audio_base64": audio_b64}
+    except Exception as e:
+        if torch.cuda.is_available():
+            torch.cuda.empty_cache()
+        gc.collect()
+        return {"error": f"Generation failed: {str(e)}"}, 500
+
+
 # Alternative approach: Run the Flask app directly in Modal
 @app.function(
     image=image,
@@ -292,6 +531,166 @@ def flask_app():
             
         except Exception as e:
             # Clean up on error
+            if torch.cuda.is_available():
+                torch.cuda.empty_cache()
+            gc.collect()
+            return jsonify({"error": f"Generation failed: {str(e)}"}), 500
+    
+    @flask_app.route('/generate/retake', methods=['POST'])
+    def generate_retake():
+        data = request.get_json(force=True)
+        gen_params = _extract_generation_params(data)
+        gen_params["task"] = "retake"
+        if "retake_variance" not in data:
+            gen_params["retake_variance"] = 0.2
+        try:
+            pipeline = ACEStepPipeline(
+                device_id=device_id,
+                torch_compile=torch_compile,
+                overlapped_decode=overlapped_decode,
+                model_cache_dir="/models",
+            )
+            output_paths = pipeline(**gen_params)
+            del pipeline
+            gc.collect()
+            if torch.cuda.is_available():
+                torch.cuda.empty_cache()
+            if not output_paths:
+                return jsonify({'error': 'generation failed'}), 500
+            audio_path = output_paths[0]
+            with open(audio_path, "rb") as f:
+                audio_bytes = f.read()
+            audio_b64 = base64.b64encode(audio_bytes).decode("utf-8")
+            try:
+                shutil.rmtree(os.path.dirname(audio_path))
+            except Exception:
+                pass
+            return jsonify({"audio_base64": audio_b64})
+        except Exception as e:
+            if torch.cuda.is_available():
+                torch.cuda.empty_cache()
+            gc.collect()
+            return jsonify({"error": f"Generation failed: {str(e)}"}), 500
+
+    @flask_app.route('/generate/repaint', methods=['POST'])
+    def generate_repaint():
+        data = request.get_json(force=True)
+        gen_params = _extract_generation_params(data)
+        gen_params["task"] = "repaint"
+        try:
+            pipeline = ACEStepPipeline(
+                device_id=device_id,
+                torch_compile=torch_compile,
+                overlapped_decode=overlapped_decode,
+                model_cache_dir="/models",
+            )
+            output_paths = pipeline(**gen_params)
+            del pipeline
+            gc.collect()
+            if torch.cuda.is_available():
+                torch.cuda.empty_cache()
+            if not output_paths:
+                return jsonify({'error': 'generation failed'}), 500
+            audio_path = output_paths[0]
+            with open(audio_path, "rb") as f:
+                audio_bytes = f.read()
+            audio_b64 = base64.b64encode(audio_bytes).decode("utf-8")
+            try:
+                shutil.rmtree(os.path.dirname(audio_path))
+            except Exception:
+                pass
+            return jsonify({"audio_base64": audio_b64})
+        except Exception as e:
+            if torch.cuda.is_available():
+                torch.cuda.empty_cache()
+            gc.collect()
+            return jsonify({"error": f"Generation failed: {str(e)}"}), 500
+
+    @flask_app.route('/generate/edit', methods=['POST'])
+    def generate_edit():
+        data = request.get_json(force=True)
+        gen_params = _extract_generation_params(data)
+        gen_params["task"] = "edit"
+        if not gen_params.get("edit_target_prompt"):
+            gen_params["edit_target_prompt"] = gen_params.get("prompt")
+        if not gen_params.get("edit_target_lyrics"):
+            gen_params["edit_target_lyrics"] = gen_params.get("lyrics")
+        try:
+            pipeline = ACEStepPipeline(
+                device_id=device_id,
+                torch_compile=torch_compile,
+                overlapped_decode=overlapped_decode,
+                model_cache_dir="/models",
+            )
+            output_paths = pipeline(**gen_params)
+            del pipeline
+            gc.collect()
+            if torch.cuda.is_available():
+                torch.cuda.empty_cache()
+            if not output_paths:
+                return jsonify({'error': 'generation failed'}), 500
+            audio_path = output_paths[0]
+            with open(audio_path, "rb") as f:
+                audio_bytes = f.read()
+            audio_b64 = base64.b64encode(audio_bytes).decode("utf-8")
+            try:
+                shutil.rmtree(os.path.dirname(audio_path))
+            except Exception:
+                pass
+            return jsonify({"audio_base64": audio_b64})
+        except Exception as e:
+            if torch.cuda.is_available():
+                torch.cuda.empty_cache()
+            gc.collect()
+            return jsonify({"error": f"Generation failed: {str(e)}"}), 500
+
+    @flask_app.route('/generate/extend', methods=['POST'])
+    def generate_extend():
+        data = request.get_json(force=True)
+        gen_params = _extract_generation_params(data)
+        gen_params["task"] = "extend"
+
+        left_extend_length = data.get("left_extend_length", None)
+        right_extend_length = data.get("right_extend_length", None)
+        if left_extend_length is not None or right_extend_length is not None:
+            try:
+                left_len = float(left_extend_length or 0.0)
+                right_len = float(right_extend_length or 0.0)
+                repaint_start = -left_len
+                repaint_end = float(gen_params.get("audio_duration", 0.0)) + right_len
+                gen_params["repaint_start"] = repaint_start
+                gen_params["repaint_end"] = repaint_end
+            except Exception:
+                pass
+
+        if "retake_variance" not in data:
+            gen_params["retake_variance"] = 1.0
+        if "extend_seeds" in data and not gen_params.get("retake_seeds"):
+            gen_params["retake_seeds"] = data.get("extend_seeds")
+        try:
+            pipeline = ACEStepPipeline(
+                device_id=device_id,
+                torch_compile=torch_compile,
+                overlapped_decode=overlapped_decode,
+                model_cache_dir="/models",
+            )
+            output_paths = pipeline(**gen_params)
+            del pipeline
+            gc.collect()
+            if torch.cuda.is_available():
+                torch.cuda.empty_cache()
+            if not output_paths:
+                return jsonify({'error': 'generation failed'}), 500
+            audio_path = output_paths[0]
+            with open(audio_path, "rb") as f:
+                audio_bytes = f.read()
+            audio_b64 = base64.b64encode(audio_bytes).decode("utf-8")
+            try:
+                shutil.rmtree(os.path.dirname(audio_path))
+            except Exception:
+                pass
+            return jsonify({"audio_base64": audio_b64})
+        except Exception as e:
             if torch.cuda.is_available():
                 torch.cuda.empty_cache()
             gc.collect()
