@@ -1,0 +1,3411 @@
+[
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "OrderedDict",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "Counter",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "defaultdict",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Set",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Callable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Callable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "TypeVar",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "LanguageIdentifier",
+        "importPath": "py3langid.langid",
+        "description": "py3langid.langid",
+        "isExtraImport": true,
+        "detail": "py3langid.langid",
+        "documentation": {}
+    },
+    {
+        "label": "MODEL_FILE",
+        "importPath": "py3langid.langid",
+        "description": "py3langid.langid",
+        "isExtraImport": true,
+        "detail": "py3langid.langid",
+        "documentation": {}
+    },
+    {
+        "label": "num2str",
+        "importPath": "acestep.language_segmentation.utils.num",
+        "description": "acestep.language_segmentation.utils.num",
+        "isExtraImport": true,
+        "detail": "acestep.language_segmentation.utils.num",
+        "documentation": {}
+    },
+    {
+        "label": "math",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "math",
+        "description": "math",
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "prod",
+        "importPath": "math",
+        "description": "math",
+        "isExtraImport": true,
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "torch",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torch",
+        "description": "torch",
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "nn",
+        "importPath": "torch",
+        "description": "torch",
+        "isExtraImport": true,
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "nn",
+        "importPath": "torch",
+        "description": "torch",
+        "isExtraImport": true,
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "nn",
+        "importPath": "torch",
+        "description": "torch",
+        "isExtraImport": true,
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "nn",
+        "importPath": "torch",
+        "description": "torch",
+        "isExtraImport": true,
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "Tensor",
+        "importPath": "torch",
+        "description": "torch",
+        "isExtraImport": true,
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "nn",
+        "importPath": "torch",
+        "description": "torch",
+        "isExtraImport": true,
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "OpenCC",
+        "importPath": "opencc",
+        "description": "opencc",
+        "isExtraImport": true,
+        "detail": "opencc",
+        "documentation": {}
+    },
+    {
+        "label": "textwrap",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "textwrap",
+        "description": "textwrap",
+        "detail": "textwrap",
+        "documentation": {}
+    },
+    {
+        "label": "functools",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "functools",
+        "description": "functools",
+        "detail": "functools",
+        "documentation": {}
+    },
+    {
+        "label": "cached_property",
+        "importPath": "functools",
+        "description": "functools",
+        "isExtraImport": true,
+        "detail": "functools",
+        "documentation": {}
+    },
+    {
+        "label": "partial",
+        "importPath": "functools",
+        "description": "functools",
+        "isExtraImport": true,
+        "detail": "functools",
+        "documentation": {}
+    },
+    {
+        "label": "pypinyin",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pypinyin",
+        "description": "pypinyin",
+        "detail": "pypinyin",
+        "documentation": {}
+    },
+    {
+        "label": "Transliter",
+        "importPath": "hangul_romanize",
+        "description": "hangul_romanize",
+        "isExtraImport": true,
+        "detail": "hangul_romanize",
+        "documentation": {}
+    },
+    {
+        "label": "academic",
+        "importPath": "hangul_romanize.rule",
+        "description": "hangul_romanize.rule",
+        "isExtraImport": true,
+        "detail": "hangul_romanize.rule",
+        "documentation": {}
+    },
+    {
+        "label": "num2words",
+        "importPath": "num2words",
+        "description": "num2words",
+        "isExtraImport": true,
+        "detail": "num2words",
+        "documentation": {}
+    },
+    {
+        "label": "Arabic",
+        "importPath": "spacy.lang.ar",
+        "description": "spacy.lang.ar",
+        "isExtraImport": true,
+        "detail": "spacy.lang.ar",
+        "documentation": {}
+    },
+    {
+        "label": "English",
+        "importPath": "spacy.lang.en",
+        "description": "spacy.lang.en",
+        "isExtraImport": true,
+        "detail": "spacy.lang.en",
+        "documentation": {}
+    },
+    {
+        "label": "Spanish",
+        "importPath": "spacy.lang.es",
+        "description": "spacy.lang.es",
+        "isExtraImport": true,
+        "detail": "spacy.lang.es",
+        "documentation": {}
+    },
+    {
+        "label": "Japanese",
+        "importPath": "spacy.lang.ja",
+        "description": "spacy.lang.ja",
+        "isExtraImport": true,
+        "detail": "spacy.lang.ja",
+        "documentation": {}
+    },
+    {
+        "label": "Chinese",
+        "importPath": "spacy.lang.zh",
+        "description": "spacy.lang.zh",
+        "isExtraImport": true,
+        "detail": "spacy.lang.zh",
+        "documentation": {}
+    },
+    {
+        "label": "Tokenizer",
+        "importPath": "tokenizers",
+        "description": "tokenizers",
+        "isExtraImport": true,
+        "detail": "tokenizers",
+        "documentation": {}
+    },
+    {
+        "label": "argparse",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "argparse",
+        "description": "argparse",
+        "detail": "argparse",
+        "documentation": {}
+    },
+    {
+        "label": "csv",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "csv",
+        "description": "csv",
+        "detail": "csv",
+        "documentation": {}
+    },
+    {
+        "label": "string",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "string",
+        "description": "string",
+        "detail": "string",
+        "documentation": {}
+    },
+    {
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "torch.nn.functional",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torch.nn.functional",
+        "description": "torch.nn.functional",
+        "detail": "torch.nn.functional",
+        "documentation": {}
+    },
+    {
+        "label": "ConfigMixin",
+        "importPath": "diffusers.configuration_utils",
+        "description": "diffusers.configuration_utils",
+        "isExtraImport": true,
+        "detail": "diffusers.configuration_utils",
+        "documentation": {}
+    },
+    {
+        "label": "register_to_config",
+        "importPath": "diffusers.configuration_utils",
+        "description": "diffusers.configuration_utils",
+        "isExtraImport": true,
+        "detail": "diffusers.configuration_utils",
+        "documentation": {}
+    },
+    {
+        "label": "ConfigMixin",
+        "importPath": "diffusers.configuration_utils",
+        "description": "diffusers.configuration_utils",
+        "isExtraImport": true,
+        "detail": "diffusers.configuration_utils",
+        "documentation": {}
+    },
+    {
+        "label": "register_to_config",
+        "importPath": "diffusers.configuration_utils",
+        "description": "diffusers.configuration_utils",
+        "isExtraImport": true,
+        "detail": "diffusers.configuration_utils",
+        "documentation": {}
+    },
+    {
+        "label": "ConfigMixin",
+        "importPath": "diffusers.configuration_utils",
+        "description": "diffusers.configuration_utils",
+        "isExtraImport": true,
+        "detail": "diffusers.configuration_utils",
+        "documentation": {}
+    },
+    {
+        "label": "register_to_config",
+        "importPath": "diffusers.configuration_utils",
+        "description": "diffusers.configuration_utils",
+        "isExtraImport": true,
+        "detail": "diffusers.configuration_utils",
+        "documentation": {}
+    },
+    {
+        "label": "ConfigMixin",
+        "importPath": "diffusers.configuration_utils",
+        "description": "diffusers.configuration_utils",
+        "isExtraImport": true,
+        "detail": "diffusers.configuration_utils",
+        "documentation": {}
+    },
+    {
+        "label": "register_to_config",
+        "importPath": "diffusers.configuration_utils",
+        "description": "diffusers.configuration_utils",
+        "isExtraImport": true,
+        "detail": "diffusers.configuration_utils",
+        "documentation": {}
+    },
+    {
+        "label": "ConfigMixin",
+        "importPath": "diffusers.configuration_utils",
+        "description": "diffusers.configuration_utils",
+        "isExtraImport": true,
+        "detail": "diffusers.configuration_utils",
+        "documentation": {}
+    },
+    {
+        "label": "register_to_config",
+        "importPath": "diffusers.configuration_utils",
+        "description": "diffusers.configuration_utils",
+        "isExtraImport": true,
+        "detail": "diffusers.configuration_utils",
+        "documentation": {}
+    },
+    {
+        "label": "ConfigMixin",
+        "importPath": "diffusers.configuration_utils",
+        "description": "diffusers.configuration_utils",
+        "isExtraImport": true,
+        "detail": "diffusers.configuration_utils",
+        "documentation": {}
+    },
+    {
+        "label": "register_to_config",
+        "importPath": "diffusers.configuration_utils",
+        "description": "diffusers.configuration_utils",
+        "isExtraImport": true,
+        "detail": "diffusers.configuration_utils",
+        "documentation": {}
+    },
+    {
+        "label": "BaseOutput",
+        "importPath": "diffusers.utils",
+        "description": "diffusers.utils",
+        "isExtraImport": true,
+        "detail": "diffusers.utils",
+        "documentation": {}
+    },
+    {
+        "label": "is_torch_version",
+        "importPath": "diffusers.utils",
+        "description": "diffusers.utils",
+        "isExtraImport": true,
+        "detail": "diffusers.utils",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "importPath": "diffusers.utils",
+        "description": "diffusers.utils",
+        "isExtraImport": true,
+        "detail": "diffusers.utils",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "importPath": "diffusers.utils",
+        "description": "diffusers.utils",
+        "isExtraImport": true,
+        "detail": "diffusers.utils",
+        "documentation": {}
+    },
+    {
+        "label": "BaseOutput",
+        "importPath": "diffusers.utils",
+        "description": "diffusers.utils",
+        "isExtraImport": true,
+        "detail": "diffusers.utils",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "importPath": "diffusers.utils",
+        "description": "diffusers.utils",
+        "isExtraImport": true,
+        "detail": "diffusers.utils",
+        "documentation": {}
+    },
+    {
+        "label": "BaseOutput",
+        "importPath": "diffusers.utils",
+        "description": "diffusers.utils",
+        "isExtraImport": true,
+        "detail": "diffusers.utils",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "importPath": "diffusers.utils",
+        "description": "diffusers.utils",
+        "isExtraImport": true,
+        "detail": "diffusers.utils",
+        "documentation": {}
+    },
+    {
+        "label": "BaseOutput",
+        "importPath": "diffusers.utils",
+        "description": "diffusers.utils",
+        "isExtraImport": true,
+        "detail": "diffusers.utils",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "importPath": "diffusers.utils",
+        "description": "diffusers.utils",
+        "isExtraImport": true,
+        "detail": "diffusers.utils",
+        "documentation": {}
+    },
+    {
+        "label": "ModelMixin",
+        "importPath": "diffusers.models.modeling_utils",
+        "description": "diffusers.models.modeling_utils",
+        "isExtraImport": true,
+        "detail": "diffusers.models.modeling_utils",
+        "documentation": {}
+    },
+    {
+        "label": "ModelMixin",
+        "importPath": "diffusers.models.modeling_utils",
+        "description": "diffusers.models.modeling_utils",
+        "isExtraImport": true,
+        "detail": "diffusers.models.modeling_utils",
+        "documentation": {}
+    },
+    {
+        "label": "ModelMixin",
+        "importPath": "diffusers.models.modeling_utils",
+        "description": "diffusers.models.modeling_utils",
+        "isExtraImport": true,
+        "detail": "diffusers.models.modeling_utils",
+        "documentation": {}
+    },
+    {
+        "label": "TimestepEmbedding",
+        "importPath": "diffusers.models.embeddings",
+        "description": "diffusers.models.embeddings",
+        "isExtraImport": true,
+        "detail": "diffusers.models.embeddings",
+        "documentation": {}
+    },
+    {
+        "label": "Timesteps",
+        "importPath": "diffusers.models.embeddings",
+        "description": "diffusers.models.embeddings",
+        "isExtraImport": true,
+        "detail": "diffusers.models.embeddings",
+        "documentation": {}
+    },
+    {
+        "label": "FromOriginalModelMixin",
+        "importPath": "diffusers.loaders",
+        "description": "diffusers.loaders",
+        "isExtraImport": true,
+        "detail": "diffusers.loaders",
+        "documentation": {}
+    },
+    {
+        "label": "PeftAdapterMixin",
+        "importPath": "diffusers.loaders",
+        "description": "diffusers.loaders",
+        "isExtraImport": true,
+        "detail": "diffusers.loaders",
+        "documentation": {}
+    },
+    {
+        "label": "FromOriginalModelMixin",
+        "importPath": "diffusers.loaders",
+        "description": "diffusers.loaders",
+        "isExtraImport": true,
+        "detail": "diffusers.loaders",
+        "documentation": {}
+    },
+    {
+        "label": "FromOriginalModelMixin",
+        "importPath": "diffusers.loaders",
+        "description": "diffusers.loaders",
+        "isExtraImport": true,
+        "detail": "diffusers.loaders",
+        "documentation": {}
+    },
+    {
+        "label": "RMSNorm",
+        "importPath": "diffusers.models.normalization",
+        "description": "diffusers.models.normalization",
+        "isExtraImport": true,
+        "detail": "diffusers.models.normalization",
+        "documentation": {}
+    },
+    {
+        "label": "Attention",
+        "importPath": "diffusers.models.attention_processor",
+        "description": "diffusers.models.attention_processor",
+        "isExtraImport": true,
+        "detail": "diffusers.models.attention_processor",
+        "documentation": {}
+    },
+    {
+        "label": "AutoencoderDC",
+        "importPath": "diffusers",
+        "description": "diffusers",
+        "isExtraImport": true,
+        "detail": "diffusers",
+        "documentation": {}
+    },
+    {
+        "label": "torchaudio",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torchaudio",
+        "description": "torchaudio",
+        "detail": "torchaudio",
+        "documentation": {}
+    },
+    {
+        "label": "torchvision.transforms",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torchvision.transforms",
+        "description": "torchvision.transforms",
+        "detail": "torchvision.transforms",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
+        "label": "torch.nn",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torch.nn",
+        "description": "torch.nn",
+        "detail": "torch.nn",
+        "documentation": {}
+    },
+    {
+        "label": "Conv1d",
+        "importPath": "torch.nn",
+        "description": "torch.nn",
+        "isExtraImport": true,
+        "detail": "torch.nn",
+        "documentation": {}
+    },
+    {
+        "label": "MelScale",
+        "importPath": "torchaudio.transforms",
+        "description": "torchaudio.transforms",
+        "isExtraImport": true,
+        "detail": "torchaudio.transforms",
+        "documentation": {}
+    },
+    {
+        "label": "librosa",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "librosa",
+        "description": "librosa",
+        "detail": "librosa",
+        "documentation": {}
+    },
+    {
+        "label": "weight_norm",
+        "importPath": "torch.nn.utils",
+        "description": "torch.nn.utils",
+        "isExtraImport": true,
+        "detail": "torch.nn.utils",
+        "documentation": {}
+    },
+    {
+        "label": "remove_parametrizations",
+        "importPath": "torch.nn.utils.parametrize",
+        "description": "torch.nn.utils.parametrize",
+        "isExtraImport": true,
+        "detail": "torch.nn.utils.parametrize",
+        "documentation": {}
+    },
+    {
+        "label": "SchedulerMixin",
+        "importPath": "diffusers.schedulers.scheduling_utils",
+        "description": "diffusers.schedulers.scheduling_utils",
+        "isExtraImport": true,
+        "detail": "diffusers.schedulers.scheduling_utils",
+        "documentation": {}
+    },
+    {
+        "label": "SchedulerMixin",
+        "importPath": "diffusers.schedulers.scheduling_utils",
+        "description": "diffusers.schedulers.scheduling_utils",
+        "isExtraImport": true,
+        "detail": "diffusers.schedulers.scheduling_utils",
+        "documentation": {}
+    },
+    {
+        "label": "SchedulerMixin",
+        "importPath": "diffusers.schedulers.scheduling_utils",
+        "description": "diffusers.schedulers.scheduling_utils",
+        "isExtraImport": true,
+        "detail": "diffusers.schedulers.scheduling_utils",
+        "documentation": {}
+    },
+    {
+        "label": "randn_tensor",
+        "importPath": "diffusers.utils.torch_utils",
+        "description": "diffusers.utils.torch_utils",
+        "isExtraImport": true,
+        "detail": "diffusers.utils.torch_utils",
+        "documentation": {}
+    },
+    {
+        "label": "randn_tensor",
+        "importPath": "diffusers.utils.torch_utils",
+        "description": "diffusers.utils.torch_utils",
+        "isExtraImport": true,
+        "detail": "diffusers.utils.torch_utils",
+        "documentation": {}
+    },
+    {
+        "label": "gradio",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "gradio",
+        "description": "gradio",
+        "detail": "gradio",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "click",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "click",
+        "description": "click",
+        "detail": "click",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "importPath": "loguru",
+        "description": "loguru",
+        "isExtraImport": true,
+        "detail": "loguru",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "importPath": "loguru",
+        "description": "loguru",
+        "isExtraImport": true,
+        "detail": "loguru",
+        "documentation": {}
+    },
+    {
+        "label": "snapshot_download",
+        "importPath": "huggingface_hub",
+        "description": "huggingface_hub",
+        "isExtraImport": true,
+        "detail": "huggingface_hub",
+        "documentation": {}
+    },
+    {
+        "label": "FlowMatchEulerDiscreteScheduler",
+        "importPath": "acestep.schedulers.scheduling_flow_match_euler_discrete",
+        "description": "acestep.schedulers.scheduling_flow_match_euler_discrete",
+        "isExtraImport": true,
+        "detail": "acestep.schedulers.scheduling_flow_match_euler_discrete",
+        "documentation": {}
+    },
+    {
+        "label": "FlowMatchHeunDiscreteScheduler",
+        "importPath": "acestep.schedulers.scheduling_flow_match_heun_discrete",
+        "description": "acestep.schedulers.scheduling_flow_match_heun_discrete",
+        "isExtraImport": true,
+        "detail": "acestep.schedulers.scheduling_flow_match_heun_discrete",
+        "documentation": {}
+    },
+    {
+        "label": "FlowMatchPingPongScheduler",
+        "importPath": "acestep.schedulers.scheduling_flow_match_pingpong",
+        "description": "acestep.schedulers.scheduling_flow_match_pingpong",
+        "isExtraImport": true,
+        "detail": "acestep.schedulers.scheduling_flow_match_pingpong",
+        "documentation": {}
+    },
+    {
+        "label": "retrieve_timesteps",
+        "importPath": "diffusers.pipelines.stable_diffusion_3.pipeline_stable_diffusion_3",
+        "description": "diffusers.pipelines.stable_diffusion_3.pipeline_stable_diffusion_3",
+        "isExtraImport": true,
+        "detail": "diffusers.pipelines.stable_diffusion_3.pipeline_stable_diffusion_3",
+        "documentation": {}
+    },
+    {
+        "label": "set_weights_and_activate_adapters",
+        "importPath": "diffusers.utils.peft_utils",
+        "description": "diffusers.utils.peft_utils",
+        "isExtraImport": true,
+        "detail": "diffusers.utils.peft_utils",
+        "documentation": {}
+    },
+    {
+        "label": "UMT5EncoderModel",
+        "importPath": "transformers",
+        "description": "transformers",
+        "isExtraImport": true,
+        "detail": "transformers",
+        "documentation": {}
+    },
+    {
+        "label": "AutoTokenizer",
+        "importPath": "transformers",
+        "description": "transformers",
+        "isExtraImport": true,
+        "detail": "transformers",
+        "documentation": {}
+    },
+    {
+        "label": "LangSegment",
+        "importPath": "acestep.language_segmentation",
+        "description": "acestep.language_segmentation",
+        "isExtraImport": true,
+        "detail": "acestep.language_segmentation",
+        "documentation": {}
+    },
+    {
+        "label": "language_filters",
+        "importPath": "acestep.language_segmentation",
+        "description": "acestep.language_segmentation",
+        "isExtraImport": true,
+        "detail": "acestep.language_segmentation",
+        "documentation": {}
+    },
+    {
+        "label": "LangSegment",
+        "importPath": "acestep.language_segmentation",
+        "description": "acestep.language_segmentation",
+        "isExtraImport": true,
+        "detail": "acestep.language_segmentation",
+        "documentation": {}
+    },
+    {
+        "label": "MusicDCAE",
+        "importPath": "acestep.music_dcae.music_dcae_pipeline",
+        "description": "acestep.music_dcae.music_dcae_pipeline",
+        "isExtraImport": true,
+        "detail": "acestep.music_dcae.music_dcae_pipeline",
+        "documentation": {}
+    },
+    {
+        "label": "ACEStepTransformer2DModel",
+        "importPath": "acestep.models.ace_step_transformer",
+        "description": "acestep.models.ace_step_transformer",
+        "isExtraImport": true,
+        "detail": "acestep.models.ace_step_transformer",
+        "documentation": {}
+    },
+    {
+        "label": "VoiceBpeTokenizer",
+        "importPath": "acestep.models.lyrics_utils.lyric_tokenizer",
+        "description": "acestep.models.lyrics_utils.lyric_tokenizer",
+        "isExtraImport": true,
+        "detail": "acestep.models.lyrics_utils.lyric_tokenizer",
+        "documentation": {}
+    },
+    {
+        "label": "VoiceBpeTokenizer",
+        "importPath": "acestep.models.lyrics_utils.lyric_tokenizer",
+        "description": "acestep.models.lyrics_utils.lyric_tokenizer",
+        "isExtraImport": true,
+        "detail": "acestep.models.lyrics_utils.lyric_tokenizer",
+        "documentation": {}
+    },
+    {
+        "label": "apg_forward",
+        "importPath": "acestep.apg_guidance",
+        "description": "acestep.apg_guidance",
+        "isExtraImport": true,
+        "detail": "acestep.apg_guidance",
+        "documentation": {}
+    },
+    {
+        "label": "MomentumBuffer",
+        "importPath": "acestep.apg_guidance",
+        "description": "acestep.apg_guidance",
+        "isExtraImport": true,
+        "detail": "acestep.apg_guidance",
+        "documentation": {}
+    },
+    {
+        "label": "cfg_forward",
+        "importPath": "acestep.apg_guidance",
+        "description": "acestep.apg_guidance",
+        "isExtraImport": true,
+        "detail": "acestep.apg_guidance",
+        "documentation": {}
+    },
+    {
+        "label": "cfg_zero_star",
+        "importPath": "acestep.apg_guidance",
+        "description": "acestep.apg_guidance",
+        "isExtraImport": true,
+        "detail": "acestep.apg_guidance",
+        "documentation": {}
+    },
+    {
+        "label": "cfg_double_condition_forward",
+        "importPath": "acestep.apg_guidance",
+        "description": "acestep.apg_guidance",
+        "isExtraImport": true,
+        "detail": "acestep.apg_guidance",
+        "documentation": {}
+    },
+    {
+        "label": "Dataset",
+        "importPath": "torch.utils.data",
+        "description": "torch.utils.data",
+        "isExtraImport": true,
+        "detail": "torch.utils.data",
+        "documentation": {}
+    },
+    {
+        "label": "load_from_disk",
+        "importPath": "datasets",
+        "description": "datasets",
+        "isExtraImport": true,
+        "detail": "datasets",
+        "documentation": {}
+    },
+    {
+        "label": "traceback",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "traceback",
+        "description": "traceback",
+        "detail": "traceback",
+        "documentation": {}
+    },
+    {
+        "label": "warnings",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "warnings",
+        "description": "warnings",
+        "detail": "warnings",
+        "documentation": {}
+    },
+    {
+        "label": "base64",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "base64",
+        "description": "base64",
+        "detail": "base64",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "modal",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "modal",
+        "description": "modal",
+        "detail": "modal",
+        "documentation": {}
+    },
+    {
+        "label": "subprocess",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "subprocess",
+        "description": "subprocess",
+        "detail": "subprocess",
+        "documentation": {}
+    },
+    {
+        "label": "replace_frac",
+        "kind": 2,
+        "importPath": "acestep.language_segmentation.utils.num",
+        "description": "acestep.language_segmentation.utils.num",
+        "peekOfCode": "def replace_frac(match) -> str:\n    \"\"\"\n    Args:\n        match (re.Match)\n    Returns:\n        str\n    \"\"\"\n    sign = match.group(1)\n    nominator = match.group(2)\n    denominator = match.group(3)",
+        "detail": "acestep.language_segmentation.utils.num",
+        "documentation": {}
+    },
+    {
+        "label": "replace_percentage",
+        "kind": 2,
+        "importPath": "acestep.language_segmentation.utils.num",
+        "description": "acestep.language_segmentation.utils.num",
+        "peekOfCode": "def replace_percentage(match) -> str:\n    \"\"\"\n    Args:\n        match (re.Match)\n    Returns:\n        str\n    \"\"\"\n    sign = match.group(1)\n    percent = match.group(2)\n    sign: str = \"负\" if sign else \"\"",
+        "detail": "acestep.language_segmentation.utils.num",
+        "documentation": {}
+    },
+    {
+        "label": "replace_negative_num",
+        "kind": 2,
+        "importPath": "acestep.language_segmentation.utils.num",
+        "description": "acestep.language_segmentation.utils.num",
+        "peekOfCode": "def replace_negative_num(match) -> str:\n    \"\"\"\n    Args:\n        match (re.Match)\n    Returns:\n        str\n    \"\"\"\n    sign = match.group(1)\n    number = match.group(2)\n    sign: str = \"负\" if sign else \"\"",
+        "detail": "acestep.language_segmentation.utils.num",
+        "documentation": {}
+    },
+    {
+        "label": "replace_default_num",
+        "kind": 2,
+        "importPath": "acestep.language_segmentation.utils.num",
+        "description": "acestep.language_segmentation.utils.num",
+        "peekOfCode": "def replace_default_num(match):\n    \"\"\"\n    Args:\n        match (re.Match)\n    Returns:\n        str\n    \"\"\"\n    number = match.group(0)\n    return verbalize_digit(number, alt_one=True)\n# 加减乘除",
+        "detail": "acestep.language_segmentation.utils.num",
+        "documentation": {}
+    },
+    {
+        "label": "replace_asmd",
+        "kind": 2,
+        "importPath": "acestep.language_segmentation.utils.num",
+        "description": "acestep.language_segmentation.utils.num",
+        "peekOfCode": "def replace_asmd(match) -> str:\n    \"\"\"\n    Args:\n        match (re.Match)\n    Returns:\n        str\n    \"\"\"\n    result = match.group(1) + asmd_map[match.group(8)] + match.group(9)\n    return result\n# 次方专项",
+        "detail": "acestep.language_segmentation.utils.num",
+        "documentation": {}
+    },
+    {
+        "label": "replace_power",
+        "kind": 2,
+        "importPath": "acestep.language_segmentation.utils.num",
+        "description": "acestep.language_segmentation.utils.num",
+        "peekOfCode": "def replace_power(match) -> str:\n    \"\"\"\n    Args:\n        match (re.Match)\n    Returns:\n        str\n    \"\"\"\n    power_num = \"\"\n    for m in match.group(0):\n        power_num += power_map[m]",
+        "detail": "acestep.language_segmentation.utils.num",
+        "documentation": {}
+    },
+    {
+        "label": "replace_positive_quantifier",
+        "kind": 2,
+        "importPath": "acestep.language_segmentation.utils.num",
+        "description": "acestep.language_segmentation.utils.num",
+        "peekOfCode": "def replace_positive_quantifier(match) -> str:\n    \"\"\"\n    Args:\n        match (re.Match)\n    Returns:\n        str\n    \"\"\"\n    number = match.group(1)\n    match_2 = match.group(2)\n    if match_2 == \"+\":",
+        "detail": "acestep.language_segmentation.utils.num",
+        "documentation": {}
+    },
+    {
+        "label": "replace_number",
+        "kind": 2,
+        "importPath": "acestep.language_segmentation.utils.num",
+        "description": "acestep.language_segmentation.utils.num",
+        "peekOfCode": "def replace_number(match) -> str:\n    \"\"\"\n    Args:\n        match (re.Match)\n    Returns:\n        str\n    \"\"\"\n    sign = match.group(1)\n    number = match.group(2)\n    pure_decimal = match.group(5)",
+        "detail": "acestep.language_segmentation.utils.num",
+        "documentation": {}
+    },
+    {
+        "label": "replace_range",
+        "kind": 2,
+        "importPath": "acestep.language_segmentation.utils.num",
+        "description": "acestep.language_segmentation.utils.num",
+        "peekOfCode": "def replace_range(match) -> str:\n    \"\"\"\n    Args:\n        match (re.Match)\n    Returns:\n        str\n    \"\"\"\n    first, second = match.group(1), match.group(6)\n    first = RE_NUMBER.sub(replace_number, first)\n    second = RE_NUMBER.sub(replace_number, second)",
+        "detail": "acestep.language_segmentation.utils.num",
+        "documentation": {}
+    },
+    {
+        "label": "replace_to_range",
+        "kind": 2,
+        "importPath": "acestep.language_segmentation.utils.num",
+        "description": "acestep.language_segmentation.utils.num",
+        "peekOfCode": "def replace_to_range(match) -> str:\n    \"\"\"\n    Args:\n        match (re.Match)\n    Returns:\n        str\n    \"\"\"\n    result = match.group(0).replace(\"~\", \"至\")\n    return result\ndef _get_value(value_string: str, use_zero: bool = True) -> List[str]:",
+        "detail": "acestep.language_segmentation.utils.num",
+        "documentation": {}
+    },
+    {
+        "label": "verbalize_cardinal",
+        "kind": 2,
+        "importPath": "acestep.language_segmentation.utils.num",
+        "description": "acestep.language_segmentation.utils.num",
+        "peekOfCode": "def verbalize_cardinal(value_string: str) -> str:\n    if not value_string:\n        return \"\"\n    # 000 -> '零' , 0 -> '零'\n    value_string = value_string.lstrip(\"0\")\n    if len(value_string) == 0:\n        return DIGITS[\"0\"]\n    result_symbols = _get_value(value_string)\n    # verbalized number starting with '一十*' is abbreviated as `十*`\n    if (",
+        "detail": "acestep.language_segmentation.utils.num",
+        "documentation": {}
+    },
+    {
+        "label": "verbalize_digit",
+        "kind": 2,
+        "importPath": "acestep.language_segmentation.utils.num",
+        "description": "acestep.language_segmentation.utils.num",
+        "peekOfCode": "def verbalize_digit(value_string: str, alt_one=False) -> str:\n    result_symbols = [DIGITS[digit] for digit in value_string]\n    result = \"\".join(result_symbols)\n    if alt_one:\n        result = result.replace(\"一\", \"幺\")\n    return result\ndef num2str(value_string: str) -> str:\n    integer_decimal = value_string.split(\".\")\n    if len(integer_decimal) == 1:\n        integer = integer_decimal[0]",
+        "detail": "acestep.language_segmentation.utils.num",
+        "documentation": {}
+    },
+    {
+        "label": "num2str",
+        "kind": 2,
+        "importPath": "acestep.language_segmentation.utils.num",
+        "description": "acestep.language_segmentation.utils.num",
+        "peekOfCode": "def num2str(value_string: str) -> str:\n    integer_decimal = value_string.split(\".\")\n    if len(integer_decimal) == 1:\n        integer = integer_decimal[0]\n        decimal = \"\"\n    elif len(integer_decimal) == 2:\n        integer, decimal = integer_decimal\n    else:\n        raise ValueError(\n            f\"The value string: '${value_string}' has more than one point in it.\"",
+        "detail": "acestep.language_segmentation.utils.num",
+        "documentation": {}
+    },
+    {
+        "label": "DIGITS",
+        "kind": 5,
+        "importPath": "acestep.language_segmentation.utils.num",
+        "description": "acestep.language_segmentation.utils.num",
+        "peekOfCode": "DIGITS = {str(i): tran for i, tran in enumerate(\"零一二三四五六七八九\")}\nUNITS = OrderedDict(\n    {\n        1: \"十\",\n        2: \"百\",\n        3: \"千\",\n        4: \"万\",\n        8: \"亿\",\n    }\n)",
+        "detail": "acestep.language_segmentation.utils.num",
+        "documentation": {}
+    },
+    {
+        "label": "UNITS",
+        "kind": 5,
+        "importPath": "acestep.language_segmentation.utils.num",
+        "description": "acestep.language_segmentation.utils.num",
+        "peekOfCode": "UNITS = OrderedDict(\n    {\n        1: \"十\",\n        2: \"百\",\n        3: \"千\",\n        4: \"万\",\n        8: \"亿\",\n    }\n)\nCOM_QUANTIFIERS = \"(处|台|架|枚|趟|幅|平|方|堵|间|床|株|批|项|例|列|篇|栋|注|亩|封|艘|把|目|套|段|人|所|朵|匹|张|座|回|场|尾|条|个|首|阙|阵|网|炮|顶|丘|棵|只|支|袭|辆|挑|担|颗|壳|窠|曲|墙|群|腔|砣|座|客|贯|扎|捆|刀|令|打|手|罗|坡|山|岭|江|溪|钟|队|单|双|对|出|口|头|脚|板|跳|枝|件|贴|针|线|管|名|位|身|堂|课|本|页|家|户|层|丝|毫|厘|分|钱|两|斤|担|铢|石|钧|锱|忽|(千|毫|微)克|毫|厘|(公)分|分|寸|尺|丈|里|寻|常|铺|程|(千|分|厘|毫|微)米|米|撮|勺|合|升|斗|石|盘|碗|碟|叠|桶|笼|盆|盒|杯|钟|斛|锅|簋|篮|盘|桶|罐|瓶|壶|卮|盏|箩|箱|煲|啖|袋|钵|年|月|日|季|刻|时|周|天|秒|分|小时|旬|纪|岁|世|更|夜|春|夏|秋|冬|代|伏|辈|丸|泡|粒|颗|幢|堆|条|根|支|道|面|片|张|颗|块|元|(亿|千万|百万|万|千|百)|(亿|千万|百万|万|千|百|美|)元|(亿|千万|百万|万|千|百|十|)吨|(亿|千万|百万|万|千|百|)块|角|毛|分)\"",
+        "detail": "acestep.language_segmentation.utils.num",
+        "documentation": {}
+    },
+    {
+        "label": "COM_QUANTIFIERS",
+        "kind": 5,
+        "importPath": "acestep.language_segmentation.utils.num",
+        "description": "acestep.language_segmentation.utils.num",
+        "peekOfCode": "COM_QUANTIFIERS = \"(处|台|架|枚|趟|幅|平|方|堵|间|床|株|批|项|例|列|篇|栋|注|亩|封|艘|把|目|套|段|人|所|朵|匹|张|座|回|场|尾|条|个|首|阙|阵|网|炮|顶|丘|棵|只|支|袭|辆|挑|担|颗|壳|窠|曲|墙|群|腔|砣|座|客|贯|扎|捆|刀|令|打|手|罗|坡|山|岭|江|溪|钟|队|单|双|对|出|口|头|脚|板|跳|枝|件|贴|针|线|管|名|位|身|堂|课|本|页|家|户|层|丝|毫|厘|分|钱|两|斤|担|铢|石|钧|锱|忽|(千|毫|微)克|毫|厘|(公)分|分|寸|尺|丈|里|寻|常|铺|程|(千|分|厘|毫|微)米|米|撮|勺|合|升|斗|石|盘|碗|碟|叠|桶|笼|盆|盒|杯|钟|斛|锅|簋|篮|盘|桶|罐|瓶|壶|卮|盏|箩|箱|煲|啖|袋|钵|年|月|日|季|刻|时|周|天|秒|分|小时|旬|纪|岁|世|更|夜|春|夏|秋|冬|代|伏|辈|丸|泡|粒|颗|幢|堆|条|根|支|道|面|片|张|颗|块|元|(亿|千万|百万|万|千|百)|(亿|千万|百万|万|千|百|美|)元|(亿|千万|百万|万|千|百|十|)吨|(亿|千万|百万|万|千|百|)块|角|毛|分)\"\n# 分数表达式\nRE_FRAC = re.compile(r\"(-?)(\\d+)/(\\d+)\")\ndef replace_frac(match) -> str:\n    \"\"\"\n    Args:\n        match (re.Match)\n    Returns:\n        str\n    \"\"\"",
+        "detail": "acestep.language_segmentation.utils.num",
+        "documentation": {}
+    },
+    {
+        "label": "RE_FRAC",
+        "kind": 5,
+        "importPath": "acestep.language_segmentation.utils.num",
+        "description": "acestep.language_segmentation.utils.num",
+        "peekOfCode": "RE_FRAC = re.compile(r\"(-?)(\\d+)/(\\d+)\")\ndef replace_frac(match) -> str:\n    \"\"\"\n    Args:\n        match (re.Match)\n    Returns:\n        str\n    \"\"\"\n    sign = match.group(1)\n    nominator = match.group(2)",
+        "detail": "acestep.language_segmentation.utils.num",
+        "documentation": {}
+    },
+    {
+        "label": "RE_PERCENTAGE",
+        "kind": 5,
+        "importPath": "acestep.language_segmentation.utils.num",
+        "description": "acestep.language_segmentation.utils.num",
+        "peekOfCode": "RE_PERCENTAGE = re.compile(r\"(-?)(\\d+(\\.\\d+)?)%\")\ndef replace_percentage(match) -> str:\n    \"\"\"\n    Args:\n        match (re.Match)\n    Returns:\n        str\n    \"\"\"\n    sign = match.group(1)\n    percent = match.group(2)",
+        "detail": "acestep.language_segmentation.utils.num",
+        "documentation": {}
+    },
+    {
+        "label": "RE_INTEGER",
+        "kind": 5,
+        "importPath": "acestep.language_segmentation.utils.num",
+        "description": "acestep.language_segmentation.utils.num",
+        "peekOfCode": "RE_INTEGER = re.compile(r\"(-)\" r\"(\\d+)\")\ndef replace_negative_num(match) -> str:\n    \"\"\"\n    Args:\n        match (re.Match)\n    Returns:\n        str\n    \"\"\"\n    sign = match.group(1)\n    number = match.group(2)",
+        "detail": "acestep.language_segmentation.utils.num",
+        "documentation": {}
+    },
+    {
+        "label": "RE_DEFAULT_NUM",
+        "kind": 5,
+        "importPath": "acestep.language_segmentation.utils.num",
+        "description": "acestep.language_segmentation.utils.num",
+        "peekOfCode": "RE_DEFAULT_NUM = re.compile(r\"\\d{3}\\d*\")\ndef replace_default_num(match):\n    \"\"\"\n    Args:\n        match (re.Match)\n    Returns:\n        str\n    \"\"\"\n    number = match.group(0)\n    return verbalize_digit(number, alt_one=True)",
+        "detail": "acestep.language_segmentation.utils.num",
+        "documentation": {}
+    },
+    {
+        "label": "RE_ASMD",
+        "kind": 5,
+        "importPath": "acestep.language_segmentation.utils.num",
+        "description": "acestep.language_segmentation.utils.num",
+        "peekOfCode": "RE_ASMD = re.compile(\n    r\"((-?)((\\d+)(\\.\\d+)?[⁰¹²³⁴⁵⁶⁷⁸⁹ˣʸⁿ]*)|(\\.\\d+[⁰¹²³⁴⁵⁶⁷⁸⁹ˣʸⁿ]*)|([A-Za-z][⁰¹²³⁴⁵⁶⁷⁸⁹ˣʸⁿ]*))([\\+\\-\\×÷=])((-?)((\\d+)(\\.\\d+)?[⁰¹²³⁴⁵⁶⁷⁸⁹ˣʸⁿ]*)|(\\.\\d+[⁰¹²³⁴⁵⁶⁷⁸⁹ˣʸⁿ]*)|([A-Za-z][⁰¹²³⁴⁵⁶⁷⁸⁹ˣʸⁿ]*))\"\n)\nasmd_map = {\"+\": \"加\", \"-\": \"减\", \"×\": \"乘\", \"÷\": \"除\", \"=\": \"等于\"}\ndef replace_asmd(match) -> str:\n    \"\"\"\n    Args:\n        match (re.Match)\n    Returns:\n        str",
+        "detail": "acestep.language_segmentation.utils.num",
+        "documentation": {}
+    },
+    {
+        "label": "asmd_map",
+        "kind": 5,
+        "importPath": "acestep.language_segmentation.utils.num",
+        "description": "acestep.language_segmentation.utils.num",
+        "peekOfCode": "asmd_map = {\"+\": \"加\", \"-\": \"减\", \"×\": \"乘\", \"÷\": \"除\", \"=\": \"等于\"}\ndef replace_asmd(match) -> str:\n    \"\"\"\n    Args:\n        match (re.Match)\n    Returns:\n        str\n    \"\"\"\n    result = match.group(1) + asmd_map[match.group(8)] + match.group(9)\n    return result",
+        "detail": "acestep.language_segmentation.utils.num",
+        "documentation": {}
+    },
+    {
+        "label": "RE_POWER",
+        "kind": 5,
+        "importPath": "acestep.language_segmentation.utils.num",
+        "description": "acestep.language_segmentation.utils.num",
+        "peekOfCode": "RE_POWER = re.compile(r\"[⁰¹²³⁴⁵⁶⁷⁸⁹ˣʸⁿ]+\")\npower_map = {\n    \"⁰\": \"0\",\n    \"¹\": \"1\",\n    \"²\": \"2\",\n    \"³\": \"3\",\n    \"⁴\": \"4\",\n    \"⁵\": \"5\",\n    \"⁶\": \"6\",\n    \"⁷\": \"7\",",
+        "detail": "acestep.language_segmentation.utils.num",
+        "documentation": {}
+    },
+    {
+        "label": "power_map",
+        "kind": 5,
+        "importPath": "acestep.language_segmentation.utils.num",
+        "description": "acestep.language_segmentation.utils.num",
+        "peekOfCode": "power_map = {\n    \"⁰\": \"0\",\n    \"¹\": \"1\",\n    \"²\": \"2\",\n    \"³\": \"3\",\n    \"⁴\": \"4\",\n    \"⁵\": \"5\",\n    \"⁶\": \"6\",\n    \"⁷\": \"7\",\n    \"⁸\": \"8\",",
+        "detail": "acestep.language_segmentation.utils.num",
+        "documentation": {}
+    },
+    {
+        "label": "RE_DECIMAL_NUM",
+        "kind": 5,
+        "importPath": "acestep.language_segmentation.utils.num",
+        "description": "acestep.language_segmentation.utils.num",
+        "peekOfCode": "RE_DECIMAL_NUM = re.compile(r\"(-?)((\\d+)(\\.\\d+))\" r\"|(\\.(\\d+))\")\n# 正整数 + 量词\nRE_POSITIVE_QUANTIFIERS = re.compile(r\"(\\d+)([多余几\\+])?\" + COM_QUANTIFIERS)\nRE_NUMBER = re.compile(r\"(-?)((\\d+)(\\.\\d+)?)\" r\"|(\\.(\\d+))\")\ndef replace_positive_quantifier(match) -> str:\n    \"\"\"\n    Args:\n        match (re.Match)\n    Returns:\n        str",
+        "detail": "acestep.language_segmentation.utils.num",
+        "documentation": {}
+    },
+    {
+        "label": "RE_POSITIVE_QUANTIFIERS",
+        "kind": 5,
+        "importPath": "acestep.language_segmentation.utils.num",
+        "description": "acestep.language_segmentation.utils.num",
+        "peekOfCode": "RE_POSITIVE_QUANTIFIERS = re.compile(r\"(\\d+)([多余几\\+])?\" + COM_QUANTIFIERS)\nRE_NUMBER = re.compile(r\"(-?)((\\d+)(\\.\\d+)?)\" r\"|(\\.(\\d+))\")\ndef replace_positive_quantifier(match) -> str:\n    \"\"\"\n    Args:\n        match (re.Match)\n    Returns:\n        str\n    \"\"\"\n    number = match.group(1)",
+        "detail": "acestep.language_segmentation.utils.num",
+        "documentation": {}
+    },
+    {
+        "label": "RE_NUMBER",
+        "kind": 5,
+        "importPath": "acestep.language_segmentation.utils.num",
+        "description": "acestep.language_segmentation.utils.num",
+        "peekOfCode": "RE_NUMBER = re.compile(r\"(-?)((\\d+)(\\.\\d+)?)\" r\"|(\\.(\\d+))\")\ndef replace_positive_quantifier(match) -> str:\n    \"\"\"\n    Args:\n        match (re.Match)\n    Returns:\n        str\n    \"\"\"\n    number = match.group(1)\n    match_2 = match.group(2)",
+        "detail": "acestep.language_segmentation.utils.num",
+        "documentation": {}
+    },
+    {
+        "label": "RE_RANGE",
+        "kind": 5,
+        "importPath": "acestep.language_segmentation.utils.num",
+        "description": "acestep.language_segmentation.utils.num",
+        "peekOfCode": "RE_RANGE = re.compile(\n    r\"\"\"\n    (?<![\\d\\+\\-\\×÷=])      # 使用反向前瞻以确保数字范围之前没有其他数字和操作符\n    ((-?)((\\d+)(\\.\\d+)?))  # 匹配范围起始的负数或正数（整数或小数）\n    [-~]                   # 匹配范围分隔符\n    ((-?)((\\d+)(\\.\\d+)?))  # 匹配范围结束的负数或正数（整数或小数）\n    (?![\\d\\+\\-\\×÷=])       # 使用正向前瞻以确保数字范围之后没有其他数字和操作符\n    \"\"\",\n    re.VERBOSE,\n)",
+        "detail": "acestep.language_segmentation.utils.num",
+        "documentation": {}
+    },
+    {
+        "label": "RE_TO_RANGE",
+        "kind": 5,
+        "importPath": "acestep.language_segmentation.utils.num",
+        "description": "acestep.language_segmentation.utils.num",
+        "peekOfCode": "RE_TO_RANGE = re.compile(\n    r\"((-?)((\\d+)(\\.\\d+)?)|(\\.(\\d+)))(%|°C|℃|度|摄氏度|cm2|cm²|cm3|cm³|cm|db|ds|kg|km|m2|m²|m³|m3|ml|m|mm|s)[~]((-?)((\\d+)(\\.\\d+)?)|(\\.(\\d+)))(%|°C|℃|度|摄氏度|cm2|cm²|cm3|cm³|cm|db|ds|kg|km|m2|m²|m³|m3|ml|m|mm|s)\"\n)\ndef replace_to_range(match) -> str:\n    \"\"\"\n    Args:\n        match (re.Match)\n    Returns:\n        str\n    \"\"\"",
+        "detail": "acestep.language_segmentation.utils.num",
+        "documentation": {}
+    },
+    {
+        "label": "LangSSML",
+        "kind": 6,
+        "importPath": "acestep.language_segmentation.LangSegment",
+        "description": "acestep.language_segmentation.LangSegment",
+        "peekOfCode": "class LangSSML:\n    def __init__(self):\n        # 纯数字\n        self._zh_numerals_number = {\n            \"0\": \"零\",\n            \"1\": \"一\",\n            \"2\": \"二\",\n            \"3\": \"三\",\n            \"4\": \"四\",\n            \"5\": \"五\",",
+        "detail": "acestep.language_segmentation.LangSegment",
+        "documentation": {}
+    },
+    {
+        "label": "LangSegment",
+        "kind": 6,
+        "importPath": "acestep.language_segmentation.LangSegment",
+        "description": "acestep.language_segmentation.LangSegment",
+        "peekOfCode": "class LangSegment:\n    def __init__(self):\n        self.langid = LanguageIdentifier.from_pickled_model(MODEL_FILE, norm_probs=True)\n        self._text_cache = None\n        self._text_lasts = None\n        self._text_langs = None\n        self._lang_count = None\n        self._lang_eos = None\n        # 可自定义语言匹配标签：カスタマイズ可能な言語対応タグ:사용자 지정 가능한 언어 일치 태그:\n        # Customizable language matching tags: These are supported，이 표현들은 모두 지지합니다",
+        "detail": "acestep.language_segmentation.LangSegment",
+        "documentation": {}
+    },
+    {
+        "label": "printList",
+        "kind": 2,
+        "importPath": "acestep.language_segmentation.LangSegment",
+        "description": "acestep.language_segmentation.LangSegment",
+        "peekOfCode": "def printList(langlist):\n    \"\"\"\n    功能：打印数组结果\n    기능: 어레이 결과 인쇄\n    機能:配列結果を印刷\n    Function: Print array results\n    \"\"\"\n    print(\"\\n===================【打印结果】===================\")\n    if langlist is None or len(langlist) == 0:\n        print(\"无内容结果,No content result\")",
+        "detail": "acestep.language_segmentation.LangSegment",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "acestep.language_segmentation.LangSegment",
+        "description": "acestep.language_segmentation.LangSegment",
+        "peekOfCode": "def main():\n    # -----------------------------------\n    # 更新日志：新版本分词更加精准。\n    # Changelog: The new version of the word segmentation is more accurate.\n    # チェンジログ:新しいバージョンの単語セグメンテーションはより正確です。\n    # Changelog: 분할이라는 단어의 새로운 버전이 더 정확합니다.\n    # -----------------------------------\n    # 输入示例1：（包含日文，中文）Input Example 1: (including Japanese, Chinese)\n    # text = \"“昨日は雨が降った，音楽、映画。。。”你今天学习日语了吗？春は桜の季節です。语种分词是语音合成必不可少的环节。言語分詞は音声合成に欠かせない環節である！\"\n    # 输入示例2：（包含日文，中文）Input Example 1: (including Japanese, Chinese)",
+        "detail": "acestep.language_segmentation.LangSegment",
+        "documentation": {}
+    },
+    {
+        "label": "default",
+        "kind": 5,
+        "importPath": "acestep.language_segmentation.language_filters",
+        "description": "acestep.language_segmentation.language_filters",
+        "peekOfCode": "default = [\n    \"af\",\n    \"am\",\n    \"an\",\n    \"ar\",\n    \"as\",\n    \"az\",\n    \"be\",\n    \"bg\",\n    \"bn\",",
+        "detail": "acestep.language_segmentation.language_filters",
+        "documentation": {}
+    },
+    {
+        "label": "ConvolutionModule",
+        "kind": 6,
+        "importPath": "acestep.models.lyrics_utils.lyric_encoder",
+        "description": "acestep.models.lyrics_utils.lyric_encoder",
+        "peekOfCode": "class ConvolutionModule(nn.Module):\n    \"\"\"ConvolutionModule in Conformer model.\"\"\"\n    def __init__(\n        self,\n        channels: int,\n        kernel_size: int = 15,\n        activation: nn.Module = nn.ReLU(),\n        norm: str = \"batch_norm\",\n        causal: bool = False,\n        bias: bool = True,",
+        "detail": "acestep.models.lyrics_utils.lyric_encoder",
+        "documentation": {}
+    },
+    {
+        "label": "PositionwiseFeedForward",
+        "kind": 6,
+        "importPath": "acestep.models.lyrics_utils.lyric_encoder",
+        "description": "acestep.models.lyrics_utils.lyric_encoder",
+        "peekOfCode": "class PositionwiseFeedForward(torch.nn.Module):\n    \"\"\"Positionwise feed forward layer.\n    FeedForward are appied on each position of the sequence.\n    The output dim is same with the input dim.\n    Args:\n        idim (int): Input dimenstion.\n        hidden_units (int): The number of hidden units.\n        dropout_rate (float): Dropout rate.\n        activation (torch.nn.Module): Activation function\n    \"\"\"",
+        "detail": "acestep.models.lyrics_utils.lyric_encoder",
+        "documentation": {}
+    },
+    {
+        "label": "Swish",
+        "kind": 6,
+        "importPath": "acestep.models.lyrics_utils.lyric_encoder",
+        "description": "acestep.models.lyrics_utils.lyric_encoder",
+        "peekOfCode": "class Swish(torch.nn.Module):\n    \"\"\"Construct an Swish object.\"\"\"\n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        \"\"\"Return Swish activation function.\"\"\"\n        return x * torch.sigmoid(x)\nclass MultiHeadedAttention(nn.Module):\n    \"\"\"Multi-Head Attention layer.\n    Args:\n        n_head (int): The number of heads.\n        n_feat (int): The number of features.",
+        "detail": "acestep.models.lyrics_utils.lyric_encoder",
+        "documentation": {}
+    },
+    {
+        "label": "MultiHeadedAttention",
+        "kind": 6,
+        "importPath": "acestep.models.lyrics_utils.lyric_encoder",
+        "description": "acestep.models.lyrics_utils.lyric_encoder",
+        "peekOfCode": "class MultiHeadedAttention(nn.Module):\n    \"\"\"Multi-Head Attention layer.\n    Args:\n        n_head (int): The number of heads.\n        n_feat (int): The number of features.\n        dropout_rate (float): Dropout rate.\n    \"\"\"\n    def __init__(\n        self, n_head: int, n_feat: int, dropout_rate: float, key_bias: bool = True\n    ):",
+        "detail": "acestep.models.lyrics_utils.lyric_encoder",
+        "documentation": {}
+    },
+    {
+        "label": "RelPositionMultiHeadedAttention",
+        "kind": 6,
+        "importPath": "acestep.models.lyrics_utils.lyric_encoder",
+        "description": "acestep.models.lyrics_utils.lyric_encoder",
+        "peekOfCode": "class RelPositionMultiHeadedAttention(MultiHeadedAttention):\n    \"\"\"Multi-Head Attention layer with relative position encoding.\n    Paper: https://arxiv.org/abs/1901.02860\n    Args:\n        n_head (int): The number of heads.\n        n_feat (int): The number of features.\n        dropout_rate (float): Dropout rate.\n    \"\"\"\n    def __init__(\n        self, n_head: int, n_feat: int, dropout_rate: float, key_bias: bool = True",
+        "detail": "acestep.models.lyrics_utils.lyric_encoder",
+        "documentation": {}
+    },
+    {
+        "label": "ConformerEncoderLayer",
+        "kind": 6,
+        "importPath": "acestep.models.lyrics_utils.lyric_encoder",
+        "description": "acestep.models.lyrics_utils.lyric_encoder",
+        "peekOfCode": "class ConformerEncoderLayer(nn.Module):\n    \"\"\"Encoder layer module.\n    Args:\n        size (int): Input dimension.\n        self_attn (torch.nn.Module): Self-attention module instance.\n            `MultiHeadedAttention` or `RelPositionMultiHeadedAttention`\n            instance can be used as the argument.\n        feed_forward (torch.nn.Module): Feed-forward module instance.\n            `PositionwiseFeedForward` instance can be used as the argument.\n        feed_forward_macaron (torch.nn.Module): Additional feed-forward module",
+        "detail": "acestep.models.lyrics_utils.lyric_encoder",
+        "documentation": {}
+    },
+    {
+        "label": "EspnetRelPositionalEncoding",
+        "kind": 6,
+        "importPath": "acestep.models.lyrics_utils.lyric_encoder",
+        "description": "acestep.models.lyrics_utils.lyric_encoder",
+        "peekOfCode": "class EspnetRelPositionalEncoding(torch.nn.Module):\n    \"\"\"Relative positional encoding module (new implementation).\n    Details can be found in https://github.com/espnet/espnet/pull/2816.\n    See : Appendix B in https://arxiv.org/abs/1901.02860\n    Args:\n        d_model (int): Embedding dimension.\n        dropout_rate (float): Dropout rate.\n        max_len (int): Maximum input length.\n    \"\"\"\n    def __init__(self, d_model: int, dropout_rate: float, max_len: int = 5000):",
+        "detail": "acestep.models.lyrics_utils.lyric_encoder",
+        "documentation": {}
+    },
+    {
+        "label": "LinearEmbed",
+        "kind": 6,
+        "importPath": "acestep.models.lyrics_utils.lyric_encoder",
+        "description": "acestep.models.lyrics_utils.lyric_encoder",
+        "peekOfCode": "class LinearEmbed(torch.nn.Module):\n    \"\"\"Linear transform the input without subsampling\n    Args:\n        idim (int): Input dimension.\n        odim (int): Output dimension.\n        dropout_rate (float): Dropout rate.\n    \"\"\"\n    def __init__(\n        self, idim: int, odim: int, dropout_rate: float, pos_enc_class: torch.nn.Module\n    ):",
+        "detail": "acestep.models.lyrics_utils.lyric_encoder",
+        "documentation": {}
+    },
+    {
+        "label": "ConformerEncoder",
+        "kind": 6,
+        "importPath": "acestep.models.lyrics_utils.lyric_encoder",
+        "description": "acestep.models.lyrics_utils.lyric_encoder",
+        "peekOfCode": "class ConformerEncoder(torch.nn.Module):\n    \"\"\"Conformer encoder module.\"\"\"\n    def __init__(\n        self,\n        input_size: int,\n        output_size: int = 1024,\n        attention_heads: int = 16,\n        linear_units: int = 4096,\n        num_blocks: int = 6,\n        dropout_rate: float = 0.1,",
+        "detail": "acestep.models.lyrics_utils.lyric_encoder",
+        "documentation": {}
+    },
+    {
+        "label": "subsequent_mask",
+        "kind": 2,
+        "importPath": "acestep.models.lyrics_utils.lyric_encoder",
+        "description": "acestep.models.lyrics_utils.lyric_encoder",
+        "peekOfCode": "def subsequent_mask(\n    size: int,\n    device: torch.device = torch.device(\"cpu\"),\n) -> torch.Tensor:\n    \"\"\"Create mask for subsequent steps (size, size).\n    This mask is used only in decoder which works in an auto-regressive mode.\n    This means the current step could only do attention with its left steps.\n    In encoder, fully attention is used when streaming is not necessary and\n    the sequence is not long. In this  case, no attention mask is needed.\n    When streaming is need, chunk-based attention is used in encoder. See",
+        "detail": "acestep.models.lyrics_utils.lyric_encoder",
+        "documentation": {}
+    },
+    {
+        "label": "subsequent_chunk_mask",
+        "kind": 2,
+        "importPath": "acestep.models.lyrics_utils.lyric_encoder",
+        "description": "acestep.models.lyrics_utils.lyric_encoder",
+        "peekOfCode": "def subsequent_chunk_mask(\n    size: int,\n    chunk_size: int,\n    num_left_chunks: int = -1,\n    device: torch.device = torch.device(\"cpu\"),\n) -> torch.Tensor:\n    \"\"\"Create mask for subsequent steps (size, size) with chunk size,\n       this is for streaming encoder\n    Args:\n        size (int): size of mask",
+        "detail": "acestep.models.lyrics_utils.lyric_encoder",
+        "documentation": {}
+    },
+    {
+        "label": "add_optional_chunk_mask",
+        "kind": 2,
+        "importPath": "acestep.models.lyrics_utils.lyric_encoder",
+        "description": "acestep.models.lyrics_utils.lyric_encoder",
+        "peekOfCode": "def add_optional_chunk_mask(\n    xs: torch.Tensor,\n    masks: torch.Tensor,\n    use_dynamic_chunk: bool,\n    use_dynamic_left_chunk: bool,\n    decoding_chunk_size: int,\n    static_chunk_size: int,\n    num_decoding_left_chunks: int,\n    enable_full_context: bool = True,\n):",
+        "detail": "acestep.models.lyrics_utils.lyric_encoder",
+        "documentation": {}
+    },
+    {
+        "label": "make_pad_mask",
+        "kind": 2,
+        "importPath": "acestep.models.lyrics_utils.lyric_encoder",
+        "description": "acestep.models.lyrics_utils.lyric_encoder",
+        "peekOfCode": "def make_pad_mask(lengths: torch.Tensor, max_len: int = 0) -> torch.Tensor:\n    \"\"\"Make mask tensor containing indices of padded part.\n    See description of make_non_pad_mask.\n    Args:\n        lengths (torch.Tensor): Batch of lengths (B,).\n    Returns:\n        torch.Tensor: Mask tensor containing indices of padded part.\n    Examples:\n        >>> lengths = [5, 3, 2]\n        >>> make_pad_mask(lengths)",
+        "detail": "acestep.models.lyrics_utils.lyric_encoder",
+        "documentation": {}
+    },
+    {
+        "label": "ATTENTION_CLASSES",
+        "kind": 5,
+        "importPath": "acestep.models.lyrics_utils.lyric_encoder",
+        "description": "acestep.models.lyrics_utils.lyric_encoder",
+        "peekOfCode": "ATTENTION_CLASSES = {\n    \"selfattn\": MultiHeadedAttention,\n    \"rel_selfattn\": RelPositionMultiHeadedAttention,\n}\nACTIVATION_CLASSES = {\n    \"hardtanh\": torch.nn.Hardtanh,\n    \"tanh\": torch.nn.Tanh,\n    \"relu\": torch.nn.ReLU,\n    \"selu\": torch.nn.SELU,\n    \"swish\": getattr(torch.nn, \"SiLU\", Swish),",
+        "detail": "acestep.models.lyrics_utils.lyric_encoder",
+        "documentation": {}
+    },
+    {
+        "label": "ACTIVATION_CLASSES",
+        "kind": 5,
+        "importPath": "acestep.models.lyrics_utils.lyric_encoder",
+        "description": "acestep.models.lyrics_utils.lyric_encoder",
+        "peekOfCode": "ACTIVATION_CLASSES = {\n    \"hardtanh\": torch.nn.Hardtanh,\n    \"tanh\": torch.nn.Tanh,\n    \"relu\": torch.nn.ReLU,\n    \"selu\": torch.nn.SELU,\n    \"swish\": getattr(torch.nn, \"SiLU\", Swish),\n    \"gelu\": torch.nn.GELU,\n}\ndef make_pad_mask(lengths: torch.Tensor, max_len: int = 0) -> torch.Tensor:\n    \"\"\"Make mask tensor containing indices of padded part.",
+        "detail": "acestep.models.lyrics_utils.lyric_encoder",
+        "documentation": {}
+    },
+    {
+        "label": "normalize_text",
+        "kind": 2,
+        "importPath": "acestep.models.lyrics_utils.lyric_normalizer",
+        "description": "acestep.models.lyrics_utils.lyric_normalizer",
+        "peekOfCode": "def normalize_text(text, language, strip=True):\n    \"\"\"\n    对文本进行标准化处理，去除标点符号，转为小写（如果适用）\n    \"\"\"\n    # Step 1: 替换 '-' 为 ' ' 并移除标点符号\n    text = text.translate(TRANSLATION_TABLE)\n    # Step 2: 移除表情符号\n    text = EMOJI_PATTERN.sub(\"\", text)\n    # Step 3: 连续空白字符替换为单个空格，首位除外\n    text = SPACE_PATTERN.sub(\" \", text)",
+        "detail": "acestep.models.lyrics_utils.lyric_normalizer",
+        "documentation": {}
+    },
+    {
+        "label": "t2s_converter",
+        "kind": 5,
+        "importPath": "acestep.models.lyrics_utils.lyric_normalizer",
+        "description": "acestep.models.lyrics_utils.lyric_normalizer",
+        "peekOfCode": "t2s_converter = OpenCC(\"t2s\")\ns2t_converter = OpenCC(\"s2t\")\nEMOJI_PATTERN = re.compile(\n    \"[\"\n    \"\\U0001f600-\\U0001f64f\"  # Emoticons\n    \"]+\",\n    flags=re.UNICODE,\n)\n# 创建一个翻译表，用于替换和移除字符\nTRANSLATION_TABLE = str.maketrans(",
+        "detail": "acestep.models.lyrics_utils.lyric_normalizer",
+        "documentation": {}
+    },
+    {
+        "label": "s2t_converter",
+        "kind": 5,
+        "importPath": "acestep.models.lyrics_utils.lyric_normalizer",
+        "description": "acestep.models.lyrics_utils.lyric_normalizer",
+        "peekOfCode": "s2t_converter = OpenCC(\"s2t\")\nEMOJI_PATTERN = re.compile(\n    \"[\"\n    \"\\U0001f600-\\U0001f64f\"  # Emoticons\n    \"]+\",\n    flags=re.UNICODE,\n)\n# 创建一个翻译表，用于替换和移除字符\nTRANSLATION_TABLE = str.maketrans(\n    {",
+        "detail": "acestep.models.lyrics_utils.lyric_normalizer",
+        "documentation": {}
+    },
+    {
+        "label": "EMOJI_PATTERN",
+        "kind": 5,
+        "importPath": "acestep.models.lyrics_utils.lyric_normalizer",
+        "description": "acestep.models.lyrics_utils.lyric_normalizer",
+        "peekOfCode": "EMOJI_PATTERN = re.compile(\n    \"[\"\n    \"\\U0001f600-\\U0001f64f\"  # Emoticons\n    \"]+\",\n    flags=re.UNICODE,\n)\n# 创建一个翻译表，用于替换和移除字符\nTRANSLATION_TABLE = str.maketrans(\n    {\n        \"-\": \" \",  # 将 '-' 替换为空格",
+        "detail": "acestep.models.lyrics_utils.lyric_normalizer",
+        "documentation": {}
+    },
+    {
+        "label": "TRANSLATION_TABLE",
+        "kind": 5,
+        "importPath": "acestep.models.lyrics_utils.lyric_normalizer",
+        "description": "acestep.models.lyrics_utils.lyric_normalizer",
+        "peekOfCode": "TRANSLATION_TABLE = str.maketrans(\n    {\n        \"-\": \" \",  # 将 '-' 替换为空格\n        \",\": None,\n        \".\": None,\n        \"，\": None,\n        \"。\": None,\n        \"!\": None,\n        \"！\": None,\n        \"?\": None,",
+        "detail": "acestep.models.lyrics_utils.lyric_normalizer",
+        "documentation": {}
+    },
+    {
+        "label": "BACKSLASH_PATTERN",
+        "kind": 5,
+        "importPath": "acestep.models.lyrics_utils.lyric_normalizer",
+        "description": "acestep.models.lyrics_utils.lyric_normalizer",
+        "peekOfCode": "BACKSLASH_PATTERN = re.compile(r\"\\(.*?\\)|\\[.*?\\]\")\nSPACE_PATTERN = re.compile(\"(?<!^)\\s+(?!$)\")\ndef normalize_text(text, language, strip=True):\n    \"\"\"\n    对文本进行标准化处理，去除标点符号，转为小写（如果适用）\n    \"\"\"\n    # Step 1: 替换 '-' 为 ' ' 并移除标点符号\n    text = text.translate(TRANSLATION_TABLE)\n    # Step 2: 移除表情符号\n    text = EMOJI_PATTERN.sub(\"\", text)",
+        "detail": "acestep.models.lyrics_utils.lyric_normalizer",
+        "documentation": {}
+    },
+    {
+        "label": "SPACE_PATTERN",
+        "kind": 5,
+        "importPath": "acestep.models.lyrics_utils.lyric_normalizer",
+        "description": "acestep.models.lyrics_utils.lyric_normalizer",
+        "peekOfCode": "SPACE_PATTERN = re.compile(\"(?<!^)\\s+(?!$)\")\ndef normalize_text(text, language, strip=True):\n    \"\"\"\n    对文本进行标准化处理，去除标点符号，转为小写（如果适用）\n    \"\"\"\n    # Step 1: 替换 '-' 为 ' ' 并移除标点符号\n    text = text.translate(TRANSLATION_TABLE)\n    # Step 2: 移除表情符号\n    text = EMOJI_PATTERN.sub(\"\", text)\n    # Step 3: 连续空白字符替换为单个空格，首位除外",
+        "detail": "acestep.models.lyrics_utils.lyric_normalizer",
+        "documentation": {}
+    },
+    {
+        "label": "VoiceBpeTokenizer",
+        "kind": 6,
+        "importPath": "acestep.models.lyrics_utils.lyric_tokenizer",
+        "description": "acestep.models.lyrics_utils.lyric_tokenizer",
+        "peekOfCode": "class VoiceBpeTokenizer:\n    def __init__(self, vocab_file=DEFAULT_VOCAB_FILE):\n        self.tokenizer = None\n        if vocab_file is not None:\n            self.tokenizer = Tokenizer.from_file(vocab_file)\n        self.char_limits = {\n            \"en\": 10000,\n            \"de\": 253,\n            \"fr\": 273,\n            \"es\": 239,",
+        "detail": "acestep.models.lyrics_utils.lyric_tokenizer",
+        "documentation": {}
+    },
+    {
+        "label": "get_spacy_lang",
+        "kind": 2,
+        "importPath": "acestep.models.lyrics_utils.lyric_tokenizer",
+        "description": "acestep.models.lyrics_utils.lyric_tokenizer",
+        "peekOfCode": "def get_spacy_lang(lang):\n    if lang == \"zh\":\n        return Chinese()\n    elif lang == \"ja\":\n        return Japanese()\n    elif lang == \"ar\":\n        return Arabic()\n    elif lang == \"es\":\n        return Spanish()\n    else:",
+        "detail": "acestep.models.lyrics_utils.lyric_tokenizer",
+        "documentation": {}
+    },
+    {
+        "label": "split_sentence",
+        "kind": 2,
+        "importPath": "acestep.models.lyrics_utils.lyric_tokenizer",
+        "description": "acestep.models.lyrics_utils.lyric_tokenizer",
+        "peekOfCode": "def split_sentence(text, lang, text_split_length=250):\n    \"\"\"Preprocess the input text\"\"\"\n    text_splits = []\n    if text_split_length is not None and len(text) >= text_split_length:\n        text_splits.append(\"\")\n        nlp = get_spacy_lang(lang)\n        nlp.add_pipe(\"sentencizer\")\n        doc = nlp(text)\n        for sentence in doc.sents:\n            if len(text_splits[-1]) + len(str(sentence)) <= text_split_length:",
+        "detail": "acestep.models.lyrics_utils.lyric_tokenizer",
+        "documentation": {}
+    },
+    {
+        "label": "expand_abbreviations_multilingual",
+        "kind": 2,
+        "importPath": "acestep.models.lyrics_utils.lyric_tokenizer",
+        "description": "acestep.models.lyrics_utils.lyric_tokenizer",
+        "peekOfCode": "def expand_abbreviations_multilingual(text, lang=\"en\"):\n    for regex, replacement in _abbreviations[lang]:\n        text = re.sub(regex, replacement, text)\n    return text\n_symbols_multilingual = {\n    \"en\": [\n        (re.compile(r\"%s\" % re.escape(x[0]), re.IGNORECASE), x[1])\n        for x in [\n            (\"&\", \" and \"),\n            (\"@\", \" at \"),",
+        "detail": "acestep.models.lyrics_utils.lyric_tokenizer",
+        "documentation": {}
+    },
+    {
+        "label": "expand_symbols_multilingual",
+        "kind": 2,
+        "importPath": "acestep.models.lyrics_utils.lyric_tokenizer",
+        "description": "acestep.models.lyrics_utils.lyric_tokenizer",
+        "peekOfCode": "def expand_symbols_multilingual(text, lang=\"en\"):\n    for regex, replacement in _symbols_multilingual[lang]:\n        text = re.sub(regex, replacement, text)\n        text = text.replace(\"  \", \" \")  # Ensure there are no double spaces\n    return text.strip()\n_ordinal_re = {\n    \"en\": re.compile(r\"([0-9]+)(st|nd|rd|th)\"),\n    \"es\": re.compile(r\"([0-9]+)(º|ª|er|o|a|os|as)\"),\n    \"fr\": re.compile(r\"([0-9]+)(º|ª|er|re|e|ème)\"),\n    \"de\": re.compile(r\"([0-9]+)(st|nd|rd|th|º|ª|\\.(?=\\s|$))\"),",
+        "detail": "acestep.models.lyrics_utils.lyric_tokenizer",
+        "documentation": {}
+    },
+    {
+        "label": "expand_numbers_multilingual",
+        "kind": 2,
+        "importPath": "acestep.models.lyrics_utils.lyric_tokenizer",
+        "description": "acestep.models.lyrics_utils.lyric_tokenizer",
+        "peekOfCode": "def expand_numbers_multilingual(text, lang=\"en\"):\n    if lang == \"zh\":\n        text = zh_num2words()(text)\n    else:\n        if lang in [\"en\", \"ru\"]:\n            text = re.sub(_comma_number_re, _remove_commas, text)\n        else:\n            text = re.sub(_dot_number_re, _remove_dots, text)\n        try:\n            text = re.sub(",
+        "detail": "acestep.models.lyrics_utils.lyric_tokenizer",
+        "documentation": {}
+    },
+    {
+        "label": "lowercase",
+        "kind": 2,
+        "importPath": "acestep.models.lyrics_utils.lyric_tokenizer",
+        "description": "acestep.models.lyrics_utils.lyric_tokenizer",
+        "peekOfCode": "def lowercase(text):\n    return text.lower()\ndef collapse_whitespace(text):\n    return re.sub(_whitespace_re, \" \", text)\ndef multilingual_cleaners(text, lang):\n    text = text.replace('\"', \"\")\n    if lang == \"tr\":\n        text = text.replace(\"İ\", \"i\")\n        text = text.replace(\"Ö\", \"ö\")\n        text = text.replace(\"Ü\", \"ü\")",
+        "detail": "acestep.models.lyrics_utils.lyric_tokenizer",
+        "documentation": {}
+    },
+    {
+        "label": "collapse_whitespace",
+        "kind": 2,
+        "importPath": "acestep.models.lyrics_utils.lyric_tokenizer",
+        "description": "acestep.models.lyrics_utils.lyric_tokenizer",
+        "peekOfCode": "def collapse_whitespace(text):\n    return re.sub(_whitespace_re, \" \", text)\ndef multilingual_cleaners(text, lang):\n    text = text.replace('\"', \"\")\n    if lang == \"tr\":\n        text = text.replace(\"İ\", \"i\")\n        text = text.replace(\"Ö\", \"ö\")\n        text = text.replace(\"Ü\", \"ü\")\n    text = lowercase(text)\n    try:",
+        "detail": "acestep.models.lyrics_utils.lyric_tokenizer",
+        "documentation": {}
+    },
+    {
+        "label": "multilingual_cleaners",
+        "kind": 2,
+        "importPath": "acestep.models.lyrics_utils.lyric_tokenizer",
+        "description": "acestep.models.lyrics_utils.lyric_tokenizer",
+        "peekOfCode": "def multilingual_cleaners(text, lang):\n    text = text.replace('\"', \"\")\n    if lang == \"tr\":\n        text = text.replace(\"İ\", \"i\")\n        text = text.replace(\"Ö\", \"ö\")\n        text = text.replace(\"Ü\", \"ü\")\n    text = lowercase(text)\n    try:\n        text = expand_numbers_multilingual(text, lang)\n    except:",
+        "detail": "acestep.models.lyrics_utils.lyric_tokenizer",
+        "documentation": {}
+    },
+    {
+        "label": "basic_cleaners",
+        "kind": 2,
+        "importPath": "acestep.models.lyrics_utils.lyric_tokenizer",
+        "description": "acestep.models.lyrics_utils.lyric_tokenizer",
+        "peekOfCode": "def basic_cleaners(text):\n    \"\"\"Basic pipeline that lowercases and collapses whitespace without transliteration.\"\"\"\n    text = lowercase(text)\n    text = collapse_whitespace(text)\n    return text\ndef chinese_transliterate(text):\n    return \"\".join(\n        [\n            p[0]\n            for p in pypinyin.pinyin(",
+        "detail": "acestep.models.lyrics_utils.lyric_tokenizer",
+        "documentation": {}
+    },
+    {
+        "label": "chinese_transliterate",
+        "kind": 2,
+        "importPath": "acestep.models.lyrics_utils.lyric_tokenizer",
+        "description": "acestep.models.lyrics_utils.lyric_tokenizer",
+        "peekOfCode": "def chinese_transliterate(text):\n    return \"\".join(\n        [\n            p[0]\n            for p in pypinyin.pinyin(\n                text,\n                style=pypinyin.Style.TONE3,\n                heteronym=False,\n                neutral_tone_with_five=True,\n            )",
+        "detail": "acestep.models.lyrics_utils.lyric_tokenizer",
+        "documentation": {}
+    },
+    {
+        "label": "japanese_cleaners",
+        "kind": 2,
+        "importPath": "acestep.models.lyrics_utils.lyric_tokenizer",
+        "description": "acestep.models.lyrics_utils.lyric_tokenizer",
+        "peekOfCode": "def japanese_cleaners(text, katsu):\n    text = katsu.romaji(text)\n    text = lowercase(text)\n    return text\ndef korean_transliterate(text):\n    r = Transliter(academic)\n    return r.translit(text)\nDEFAULT_VOCAB_FILE = os.path.join(\n    os.path.dirname(os.path.realpath(__file__)), \"vocab.json\"\n)",
+        "detail": "acestep.models.lyrics_utils.lyric_tokenizer",
+        "documentation": {}
+    },
+    {
+        "label": "korean_transliterate",
+        "kind": 2,
+        "importPath": "acestep.models.lyrics_utils.lyric_tokenizer",
+        "description": "acestep.models.lyrics_utils.lyric_tokenizer",
+        "peekOfCode": "def korean_transliterate(text):\n    r = Transliter(academic)\n    return r.translit(text)\nDEFAULT_VOCAB_FILE = os.path.join(\n    os.path.dirname(os.path.realpath(__file__)), \"vocab.json\"\n)\nclass VoiceBpeTokenizer:\n    def __init__(self, vocab_file=DEFAULT_VOCAB_FILE):\n        self.tokenizer = None\n        if vocab_file is not None:",
+        "detail": "acestep.models.lyrics_utils.lyric_tokenizer",
+        "documentation": {}
+    },
+    {
+        "label": "test_expand_numbers_multilingual",
+        "kind": 2,
+        "importPath": "acestep.models.lyrics_utils.lyric_tokenizer",
+        "description": "acestep.models.lyrics_utils.lyric_tokenizer",
+        "peekOfCode": "def test_expand_numbers_multilingual():\n    test_cases = [\n        # English\n        (\"In 12.5 seconds.\", \"In twelve point five seconds.\", \"en\"),\n        (\"There were 50 soldiers.\", \"There were fifty soldiers.\", \"en\"),\n        (\"This is a 1st test\", \"This is a first test\", \"en\"),\n        (\"That will be $20 sir.\", \"That will be twenty dollars sir.\", \"en\"),\n        (\"That will be 20€ sir.\", \"That will be twenty euro sir.\", \"en\"),\n        (\n            \"That will be 20.15€ sir.\",",
+        "detail": "acestep.models.lyrics_utils.lyric_tokenizer",
+        "documentation": {}
+    },
+    {
+        "label": "test_abbreviations_multilingual",
+        "kind": 2,
+        "importPath": "acestep.models.lyrics_utils.lyric_tokenizer",
+        "description": "acestep.models.lyrics_utils.lyric_tokenizer",
+        "peekOfCode": "def test_abbreviations_multilingual():\n    test_cases = [\n        # English\n        (\"Hello Mr. Smith.\", \"Hello mister Smith.\", \"en\"),\n        (\"Dr. Jones is here.\", \"doctor Jones is here.\", \"en\"),\n        # Spanish\n        (\"Hola Sr. Garcia.\", \"Hola señor Garcia.\", \"es\"),\n        (\"La Dra. Martinez es muy buena.\", \"La doctora Martinez es muy buena.\", \"es\"),\n        # French\n        (\"Bonjour Mr. Dupond.\", \"Bonjour monsieur Dupond.\", \"fr\"),",
+        "detail": "acestep.models.lyrics_utils.lyric_tokenizer",
+        "documentation": {}
+    },
+    {
+        "label": "test_symbols_multilingual",
+        "kind": 2,
+        "importPath": "acestep.models.lyrics_utils.lyric_tokenizer",
+        "description": "acestep.models.lyrics_utils.lyric_tokenizer",
+        "peekOfCode": "def test_symbols_multilingual():\n    test_cases = [\n        (\"I have 14% battery\", \"I have 14 percent battery\", \"en\"),\n        (\"Te veo @ la fiesta\", \"Te veo arroba la fiesta\", \"es\"),\n        (\"J'ai 14° de fièvre\", \"J'ai 14 degrés de fièvre\", \"fr\"),\n        (\"Die Rechnung beträgt £ 20\", \"Die Rechnung beträgt pfund 20\", \"de\"),\n        (\n            \"O meu email é ana&joao@gmail.com\",\n            \"O meu email é ana e joao arroba gmail.com\",\n            \"pt\",",
+        "detail": "acestep.models.lyrics_utils.lyric_tokenizer",
+        "documentation": {}
+    },
+    {
+        "label": "_whitespace_re",
+        "kind": 5,
+        "importPath": "acestep.models.lyrics_utils.lyric_tokenizer",
+        "description": "acestep.models.lyrics_utils.lyric_tokenizer",
+        "peekOfCode": "_whitespace_re = re.compile(r\"\\s+\")\n# List of (regular expression, replacement) pairs for abbreviations:\n_abbreviations = {\n    \"en\": [\n        (re.compile(\"\\\\b%s\\\\.\" % x[0], re.IGNORECASE), x[1])\n        for x in [\n            (\"mrs\", \"misess\"),\n            (\"mr\", \"mister\"),\n            (\"dr\", \"doctor\"),\n            (\"st\", \"saint\"),",
+        "detail": "acestep.models.lyrics_utils.lyric_tokenizer",
+        "documentation": {}
+    },
+    {
+        "label": "_abbreviations",
+        "kind": 5,
+        "importPath": "acestep.models.lyrics_utils.lyric_tokenizer",
+        "description": "acestep.models.lyrics_utils.lyric_tokenizer",
+        "peekOfCode": "_abbreviations = {\n    \"en\": [\n        (re.compile(\"\\\\b%s\\\\.\" % x[0], re.IGNORECASE), x[1])\n        for x in [\n            (\"mrs\", \"misess\"),\n            (\"mr\", \"mister\"),\n            (\"dr\", \"doctor\"),\n            (\"st\", \"saint\"),\n            (\"co\", \"company\"),\n            (\"jr\", \"junior\"),",
+        "detail": "acestep.models.lyrics_utils.lyric_tokenizer",
+        "documentation": {}
+    },
+    {
+        "label": "_symbols_multilingual",
+        "kind": 5,
+        "importPath": "acestep.models.lyrics_utils.lyric_tokenizer",
+        "description": "acestep.models.lyrics_utils.lyric_tokenizer",
+        "peekOfCode": "_symbols_multilingual = {\n    \"en\": [\n        (re.compile(r\"%s\" % re.escape(x[0]), re.IGNORECASE), x[1])\n        for x in [\n            (\"&\", \" and \"),\n            (\"@\", \" at \"),\n            (\"%\", \" percent \"),\n            (\"#\", \" hash \"),\n            (\"$\", \" dollar \"),\n            (\"£\", \" pound \"),",
+        "detail": "acestep.models.lyrics_utils.lyric_tokenizer",
+        "documentation": {}
+    },
+    {
+        "label": "_ordinal_re",
+        "kind": 5,
+        "importPath": "acestep.models.lyrics_utils.lyric_tokenizer",
+        "description": "acestep.models.lyrics_utils.lyric_tokenizer",
+        "peekOfCode": "_ordinal_re = {\n    \"en\": re.compile(r\"([0-9]+)(st|nd|rd|th)\"),\n    \"es\": re.compile(r\"([0-9]+)(º|ª|er|o|a|os|as)\"),\n    \"fr\": re.compile(r\"([0-9]+)(º|ª|er|re|e|ème)\"),\n    \"de\": re.compile(r\"([0-9]+)(st|nd|rd|th|º|ª|\\.(?=\\s|$))\"),\n    \"pt\": re.compile(r\"([0-9]+)(º|ª|o|a|os|as)\"),\n    \"it\": re.compile(r\"([0-9]+)(º|°|ª|o|a|i|e)\"),\n    \"pl\": re.compile(r\"([0-9]+)(º|ª|st|nd|rd|th)\"),\n    \"ar\": re.compile(r\"([0-9]+)(ون|ين|ث|ر|ى)\"),\n    \"cs\": re.compile(",
+        "detail": "acestep.models.lyrics_utils.lyric_tokenizer",
+        "documentation": {}
+    },
+    {
+        "label": "_number_re",
+        "kind": 5,
+        "importPath": "acestep.models.lyrics_utils.lyric_tokenizer",
+        "description": "acestep.models.lyrics_utils.lyric_tokenizer",
+        "peekOfCode": "_number_re = re.compile(r\"[0-9]+\")\n_currency_re = {\n    \"USD\": re.compile(r\"((\\$[0-9\\.\\,]*[0-9]+)|([0-9\\.\\,]*[0-9]+\\$))\"),\n    \"GBP\": re.compile(r\"((£[0-9\\.\\,]*[0-9]+)|([0-9\\.\\,]*[0-9]+£))\"),\n    \"EUR\": re.compile(r\"(([0-9\\.\\,]*[0-9]+€)|((€[0-9\\.\\,]*[0-9]+)))\"),\n}\n_comma_number_re = re.compile(r\"\\b\\d{1,3}(,\\d{3})*(\\.\\d+)?\\b\")\n_dot_number_re = re.compile(r\"\\b\\d{1,3}(.\\d{3})*(\\,\\d+)?\\b\")\n_decimal_number_re = re.compile(r\"([0-9]+[.,][0-9]+)\")\ndef _remove_commas(m):",
+        "detail": "acestep.models.lyrics_utils.lyric_tokenizer",
+        "documentation": {}
+    },
+    {
+        "label": "_currency_re",
+        "kind": 5,
+        "importPath": "acestep.models.lyrics_utils.lyric_tokenizer",
+        "description": "acestep.models.lyrics_utils.lyric_tokenizer",
+        "peekOfCode": "_currency_re = {\n    \"USD\": re.compile(r\"((\\$[0-9\\.\\,]*[0-9]+)|([0-9\\.\\,]*[0-9]+\\$))\"),\n    \"GBP\": re.compile(r\"((£[0-9\\.\\,]*[0-9]+)|([0-9\\.\\,]*[0-9]+£))\"),\n    \"EUR\": re.compile(r\"(([0-9\\.\\,]*[0-9]+€)|((€[0-9\\.\\,]*[0-9]+)))\"),\n}\n_comma_number_re = re.compile(r\"\\b\\d{1,3}(,\\d{3})*(\\.\\d+)?\\b\")\n_dot_number_re = re.compile(r\"\\b\\d{1,3}(.\\d{3})*(\\,\\d+)?\\b\")\n_decimal_number_re = re.compile(r\"([0-9]+[.,][0-9]+)\")\ndef _remove_commas(m):\n    text = m.group(0)",
+        "detail": "acestep.models.lyrics_utils.lyric_tokenizer",
+        "documentation": {}
+    },
+    {
+        "label": "_comma_number_re",
+        "kind": 5,
+        "importPath": "acestep.models.lyrics_utils.lyric_tokenizer",
+        "description": "acestep.models.lyrics_utils.lyric_tokenizer",
+        "peekOfCode": "_comma_number_re = re.compile(r\"\\b\\d{1,3}(,\\d{3})*(\\.\\d+)?\\b\")\n_dot_number_re = re.compile(r\"\\b\\d{1,3}(.\\d{3})*(\\,\\d+)?\\b\")\n_decimal_number_re = re.compile(r\"([0-9]+[.,][0-9]+)\")\ndef _remove_commas(m):\n    text = m.group(0)\n    if \",\" in text:\n        text = text.replace(\",\", \"\")\n    return text\ndef _remove_dots(m):\n    text = m.group(0)",
+        "detail": "acestep.models.lyrics_utils.lyric_tokenizer",
+        "documentation": {}
+    },
+    {
+        "label": "_dot_number_re",
+        "kind": 5,
+        "importPath": "acestep.models.lyrics_utils.lyric_tokenizer",
+        "description": "acestep.models.lyrics_utils.lyric_tokenizer",
+        "peekOfCode": "_dot_number_re = re.compile(r\"\\b\\d{1,3}(.\\d{3})*(\\,\\d+)?\\b\")\n_decimal_number_re = re.compile(r\"([0-9]+[.,][0-9]+)\")\ndef _remove_commas(m):\n    text = m.group(0)\n    if \",\" in text:\n        text = text.replace(\",\", \"\")\n    return text\ndef _remove_dots(m):\n    text = m.group(0)\n    if \".\" in text:",
+        "detail": "acestep.models.lyrics_utils.lyric_tokenizer",
+        "documentation": {}
+    },
+    {
+        "label": "_decimal_number_re",
+        "kind": 5,
+        "importPath": "acestep.models.lyrics_utils.lyric_tokenizer",
+        "description": "acestep.models.lyrics_utils.lyric_tokenizer",
+        "peekOfCode": "_decimal_number_re = re.compile(r\"([0-9]+[.,][0-9]+)\")\ndef _remove_commas(m):\n    text = m.group(0)\n    if \",\" in text:\n        text = text.replace(\",\", \"\")\n    return text\ndef _remove_dots(m):\n    text = m.group(0)\n    if \".\" in text:\n        text = text.replace(\".\", \"\")",
+        "detail": "acestep.models.lyrics_utils.lyric_tokenizer",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_VOCAB_FILE",
+        "kind": 5,
+        "importPath": "acestep.models.lyrics_utils.lyric_tokenizer",
+        "description": "acestep.models.lyrics_utils.lyric_tokenizer",
+        "peekOfCode": "DEFAULT_VOCAB_FILE = os.path.join(\n    os.path.dirname(os.path.realpath(__file__)), \"vocab.json\"\n)\nclass VoiceBpeTokenizer:\n    def __init__(self, vocab_file=DEFAULT_VOCAB_FILE):\n        self.tokenizer = None\n        if vocab_file is not None:\n            self.tokenizer = Tokenizer.from_file(vocab_file)\n        self.char_limits = {\n            \"en\": 10000,",
+        "detail": "acestep.models.lyrics_utils.lyric_tokenizer",
+        "documentation": {}
+    },
+    {
+        "label": "ChineseChar",
+        "kind": 6,
+        "importPath": "acestep.models.lyrics_utils.zh_num2words",
+        "description": "acestep.models.lyrics_utils.zh_num2words",
+        "peekOfCode": "class ChineseChar(object):\n    \"\"\"\n    中文字符\n    每个字符对应简体和繁体,\n    e.g. 简体 = '负', 繁体 = '負'\n    转换时可转换为简体或繁体\n    \"\"\"\n    def __init__(self, simplified, traditional):\n        self.simplified = simplified\n        self.traditional = traditional",
+        "detail": "acestep.models.lyrics_utils.zh_num2words",
+        "documentation": {}
+    },
+    {
+        "label": "ChineseNumberUnit",
+        "kind": 6,
+        "importPath": "acestep.models.lyrics_utils.zh_num2words",
+        "description": "acestep.models.lyrics_utils.zh_num2words",
+        "peekOfCode": "class ChineseNumberUnit(ChineseChar):\n    \"\"\"\n    中文数字/数位字符\n    每个字符除繁简体外还有一个额外的大写字符\n    e.g. '陆' 和 '陸'\n    \"\"\"\n    def __init__(self, power, simplified, traditional, big_s, big_t):\n        super(ChineseNumberUnit, self).__init__(simplified, traditional)\n        self.power = power\n        self.big_s = big_s",
+        "detail": "acestep.models.lyrics_utils.zh_num2words",
+        "documentation": {}
+    },
+    {
+        "label": "ChineseNumberDigit",
+        "kind": 6,
+        "importPath": "acestep.models.lyrics_utils.zh_num2words",
+        "description": "acestep.models.lyrics_utils.zh_num2words",
+        "peekOfCode": "class ChineseNumberDigit(ChineseChar):\n    \"\"\"\n    中文数字字符\n    \"\"\"\n    def __init__(self, value, simplified, traditional, big_s, big_t, alt_s=None, alt_t=None):\n        super(ChineseNumberDigit, self).__init__(simplified, traditional)\n        self.value = value\n        self.big_s = big_s\n        self.big_t = big_t\n        self.alt_s = alt_s",
+        "detail": "acestep.models.lyrics_utils.zh_num2words",
+        "documentation": {}
+    },
+    {
+        "label": "ChineseMath",
+        "kind": 6,
+        "importPath": "acestep.models.lyrics_utils.zh_num2words",
+        "description": "acestep.models.lyrics_utils.zh_num2words",
+        "peekOfCode": "class ChineseMath(ChineseChar):\n    \"\"\"\n    中文数位字符\n    \"\"\"\n    def __init__(self, simplified, traditional, symbol, expression=None):\n        super(ChineseMath, self).__init__(simplified, traditional)\n        self.symbol = symbol\n        self.expression = expression\n        self.big_s = simplified\n        self.big_t = traditional",
+        "detail": "acestep.models.lyrics_utils.zh_num2words",
+        "documentation": {}
+    },
+    {
+        "label": "NumberSystem",
+        "kind": 6,
+        "importPath": "acestep.models.lyrics_utils.zh_num2words",
+        "description": "acestep.models.lyrics_utils.zh_num2words",
+        "peekOfCode": "class NumberSystem(object):\n    \"\"\"\n    中文数字系统\n    \"\"\"\n    pass\nclass MathSymbol(object):\n    \"\"\"\n    用于中文数字系统的数学符号 (繁/简体), e.g.\n    positive = ['正', '正']\n    negative = ['负', '負']",
+        "detail": "acestep.models.lyrics_utils.zh_num2words",
+        "documentation": {}
+    },
+    {
+        "label": "MathSymbol",
+        "kind": 6,
+        "importPath": "acestep.models.lyrics_utils.zh_num2words",
+        "description": "acestep.models.lyrics_utils.zh_num2words",
+        "peekOfCode": "class MathSymbol(object):\n    \"\"\"\n    用于中文数字系统的数学符号 (繁/简体), e.g.\n    positive = ['正', '正']\n    negative = ['负', '負']\n    point = ['点', '點']\n    \"\"\"\n    def __init__(self, positive, negative, point):\n        self.positive = positive\n        self.negative = negative",
+        "detail": "acestep.models.lyrics_utils.zh_num2words",
+        "documentation": {}
+    },
+    {
+        "label": "Cardinal",
+        "kind": 6,
+        "importPath": "acestep.models.lyrics_utils.zh_num2words",
+        "description": "acestep.models.lyrics_utils.zh_num2words",
+        "peekOfCode": "class Cardinal:\n    \"\"\"\n    CARDINAL类\n    \"\"\"\n    def __init__(self, cardinal=None, chntext=None):\n        self.cardinal = cardinal\n        self.chntext = chntext\n    def chntext2cardinal(self):\n        return chn2num(self.chntext)\n    def cardinal2chntext(self):",
+        "detail": "acestep.models.lyrics_utils.zh_num2words",
+        "documentation": {}
+    },
+    {
+        "label": "Digit",
+        "kind": 6,
+        "importPath": "acestep.models.lyrics_utils.zh_num2words",
+        "description": "acestep.models.lyrics_utils.zh_num2words",
+        "peekOfCode": "class Digit:\n    \"\"\"\n    DIGIT类\n    \"\"\"\n    def __init__(self, digit=None, chntext=None):\n        self.digit = digit\n        self.chntext = chntext\n    # def chntext2digit(self):\n    #     return chn2num(self.chntext)\n    def digit2chntext(self):",
+        "detail": "acestep.models.lyrics_utils.zh_num2words",
+        "documentation": {}
+    },
+    {
+        "label": "TelePhone",
+        "kind": 6,
+        "importPath": "acestep.models.lyrics_utils.zh_num2words",
+        "description": "acestep.models.lyrics_utils.zh_num2words",
+        "peekOfCode": "class TelePhone:\n    \"\"\"\n    TELEPHONE类\n    \"\"\"\n    def __init__(self, telephone=None, raw_chntext=None, chntext=None):\n        self.telephone = telephone\n        self.raw_chntext = raw_chntext\n        self.chntext = chntext\n    # def chntext2telephone(self):\n    #     sil_parts = self.raw_chntext.split('<SIL>')",
+        "detail": "acestep.models.lyrics_utils.zh_num2words",
+        "documentation": {}
+    },
+    {
+        "label": "Fraction",
+        "kind": 6,
+        "importPath": "acestep.models.lyrics_utils.zh_num2words",
+        "description": "acestep.models.lyrics_utils.zh_num2words",
+        "peekOfCode": "class Fraction:\n    \"\"\"\n    FRACTION类\n    \"\"\"\n    def __init__(self, fraction=None, chntext=None):\n        self.fraction = fraction\n        self.chntext = chntext\n    def chntext2fraction(self):\n        denominator, numerator = self.chntext.split(\"分之\")\n        return chn2num(numerator) + \"/\" + chn2num(denominator)",
+        "detail": "acestep.models.lyrics_utils.zh_num2words",
+        "documentation": {}
+    },
+    {
+        "label": "Date",
+        "kind": 6,
+        "importPath": "acestep.models.lyrics_utils.zh_num2words",
+        "description": "acestep.models.lyrics_utils.zh_num2words",
+        "peekOfCode": "class Date:\n    \"\"\"\n    DATE类\n    \"\"\"\n    def __init__(self, date=None, chntext=None):\n        self.date = date\n        self.chntext = chntext\n    # def chntext2date(self):\n    #     chntext = self.chntext\n    #     try:",
+        "detail": "acestep.models.lyrics_utils.zh_num2words",
+        "documentation": {}
+    },
+    {
+        "label": "Money",
+        "kind": 6,
+        "importPath": "acestep.models.lyrics_utils.zh_num2words",
+        "description": "acestep.models.lyrics_utils.zh_num2words",
+        "peekOfCode": "class Money:\n    \"\"\"\n    MONEY类\n    \"\"\"\n    def __init__(self, money=None, chntext=None):\n        self.money = money\n        self.chntext = chntext\n    # def chntext2money(self):\n    #     return self.money\n    def money2chntext(self):",
+        "detail": "acestep.models.lyrics_utils.zh_num2words",
+        "documentation": {}
+    },
+    {
+        "label": "Percentage",
+        "kind": 6,
+        "importPath": "acestep.models.lyrics_utils.zh_num2words",
+        "description": "acestep.models.lyrics_utils.zh_num2words",
+        "peekOfCode": "class Percentage:\n    \"\"\"\n    PERCENTAGE类\n    \"\"\"\n    def __init__(self, percentage=None, chntext=None):\n        self.percentage = percentage\n        self.chntext = chntext\n    def chntext2percentage(self):\n        return chn2num(self.chntext.strip().strip(\"百分之\")) + \"%\"\n    def percentage2chntext(self):",
+        "detail": "acestep.models.lyrics_utils.zh_num2words",
+        "documentation": {}
+    },
+    {
+        "label": "TextNorm",
+        "kind": 6,
+        "importPath": "acestep.models.lyrics_utils.zh_num2words",
+        "description": "acestep.models.lyrics_utils.zh_num2words",
+        "peekOfCode": "class TextNorm:\n    def __init__(\n        self,\n        to_banjiao: bool = False,\n        to_upper: bool = False,\n        to_lower: bool = False,\n        remove_fillers: bool = False,\n        remove_erhua: bool = False,\n        check_chars: bool = False,\n        remove_space: bool = False,",
+        "detail": "acestep.models.lyrics_utils.zh_num2words",
+        "documentation": {}
+    },
+    {
+        "label": "create_system",
+        "kind": 2,
+        "importPath": "acestep.models.lyrics_utils.zh_num2words",
+        "description": "acestep.models.lyrics_utils.zh_num2words",
+        "peekOfCode": "def create_system(numbering_type=NUMBERING_TYPES[1]):\n    \"\"\"\n    根据数字系统类型返回创建相应的数字系统，默认为 mid\n    NUMBERING_TYPES = ['low', 'mid', 'high']: 中文数字系统类型\n        low:  '兆' = '亿' * '十' = $10^{9}$,  '京' = '兆' * '十', etc.\n        mid:  '兆' = '亿' * '万' = $10^{12}$, '京' = '兆' * '万', etc.\n        high: '兆' = '亿' * '亿' = $10^{16}$, '京' = '兆' * '兆', etc.\n    返回对应的数字系统\n    \"\"\"\n    # chinese number units of '亿' and larger",
+        "detail": "acestep.models.lyrics_utils.zh_num2words",
+        "documentation": {}
+    },
+    {
+        "label": "chn2num",
+        "kind": 2,
+        "importPath": "acestep.models.lyrics_utils.zh_num2words",
+        "description": "acestep.models.lyrics_utils.zh_num2words",
+        "peekOfCode": "def chn2num(chinese_string, numbering_type=NUMBERING_TYPES[1]):\n    def get_symbol(char, system):\n        for u in system.units:\n            if char in [u.traditional, u.simplified, u.big_s, u.big_t]:\n                return u\n        for d in system.digits:\n            if char in [d.traditional, d.simplified, d.big_s, d.big_t, d.alt_s, d.alt_t]:\n                return d\n        for m in system.math:\n            if char in [m.traditional, m.simplified]:",
+        "detail": "acestep.models.lyrics_utils.zh_num2words",
+        "documentation": {}
+    },
+    {
+        "label": "num2chn",
+        "kind": 2,
+        "importPath": "acestep.models.lyrics_utils.zh_num2words",
+        "description": "acestep.models.lyrics_utils.zh_num2words",
+        "peekOfCode": "def num2chn(\n    number_string,\n    numbering_type=NUMBERING_TYPES[1],\n    big=False,\n    traditional=False,\n    alt_zero=False,\n    alt_one=False,\n    alt_two=True,\n    use_zeros=True,\n    use_units=True,",
+        "detail": "acestep.models.lyrics_utils.zh_num2words",
+        "documentation": {}
+    },
+    {
+        "label": "normalize_nsw",
+        "kind": 2,
+        "importPath": "acestep.models.lyrics_utils.zh_num2words",
+        "description": "acestep.models.lyrics_utils.zh_num2words",
+        "peekOfCode": "def normalize_nsw(raw_text):\n    text = \"^\" + raw_text + \"$\"\n    # 规范化日期\n    pattern = re.compile(r\"\\D+((([089]\\d|(19|20)\\d{2})年)?(\\d{1,2}月(\\d{1,2}[日号])?)?)\")\n    matchers = pattern.findall(text)\n    if matchers:\n        # print('date')\n        for matcher in matchers:\n            text = text.replace(matcher[0], Date(date=matcher[0]).date2chntext(), 1)\n    # 规范化金钱",
+        "detail": "acestep.models.lyrics_utils.zh_num2words",
+        "documentation": {}
+    },
+    {
+        "label": "remove_erhua",
+        "kind": 2,
+        "importPath": "acestep.models.lyrics_utils.zh_num2words",
+        "description": "acestep.models.lyrics_utils.zh_num2words",
+        "peekOfCode": "def remove_erhua(text):\n    \"\"\"\n    去除儿化音词中的儿:\n    他女儿在那边儿 -> 他女儿在那边\n    \"\"\"\n    new_str = \"\"\n    while re.search(\"儿\", text):\n        a = re.search(\"儿\", text).span()\n        remove_er_flag = 0\n        if ER_WHITELIST_PATTERN.search(text):",
+        "detail": "acestep.models.lyrics_utils.zh_num2words",
+        "documentation": {}
+    },
+    {
+        "label": "remove_space",
+        "kind": 2,
+        "importPath": "acestep.models.lyrics_utils.zh_num2words",
+        "description": "acestep.models.lyrics_utils.zh_num2words",
+        "peekOfCode": "def remove_space(text):\n    tokens = text.split()\n    new = []\n    for k, t in enumerate(tokens):\n        if k != 0:\n            if IN_EN_CHARS.get(tokens[k - 1][-1]) and IN_EN_CHARS.get(t[0]):\n                new.append(\" \")\n        new.append(t)\n    return \"\".join(new)\nclass TextNorm:",
+        "detail": "acestep.models.lyrics_utils.zh_num2words",
+        "documentation": {}
+    },
+    {
+        "label": "CHINESE_DIGIS",
+        "kind": 5,
+        "importPath": "acestep.models.lyrics_utils.zh_num2words",
+        "description": "acestep.models.lyrics_utils.zh_num2words",
+        "peekOfCode": "CHINESE_DIGIS = \"零一二三四五六七八九\"\nBIG_CHINESE_DIGIS_SIMPLIFIED = \"零壹贰叁肆伍陆柒捌玖\"\nBIG_CHINESE_DIGIS_TRADITIONAL = \"零壹貳參肆伍陸柒捌玖\"\nSMALLER_BIG_CHINESE_UNITS_SIMPLIFIED = \"十百千万\"\nSMALLER_BIG_CHINESE_UNITS_TRADITIONAL = \"拾佰仟萬\"\nLARGER_CHINESE_NUMERING_UNITS_SIMPLIFIED = \"亿兆京垓秭穰沟涧正载\"\nLARGER_CHINESE_NUMERING_UNITS_TRADITIONAL = \"億兆京垓秭穰溝澗正載\"\nSMALLER_CHINESE_NUMERING_UNITS_SIMPLIFIED = \"十百千万\"\nSMALLER_CHINESE_NUMERING_UNITS_TRADITIONAL = \"拾佰仟萬\"\nZERO_ALT = \"〇\"",
+        "detail": "acestep.models.lyrics_utils.zh_num2words",
+        "documentation": {}
+    },
+    {
+        "label": "BIG_CHINESE_DIGIS_SIMPLIFIED",
+        "kind": 5,
+        "importPath": "acestep.models.lyrics_utils.zh_num2words",
+        "description": "acestep.models.lyrics_utils.zh_num2words",
+        "peekOfCode": "BIG_CHINESE_DIGIS_SIMPLIFIED = \"零壹贰叁肆伍陆柒捌玖\"\nBIG_CHINESE_DIGIS_TRADITIONAL = \"零壹貳參肆伍陸柒捌玖\"\nSMALLER_BIG_CHINESE_UNITS_SIMPLIFIED = \"十百千万\"\nSMALLER_BIG_CHINESE_UNITS_TRADITIONAL = \"拾佰仟萬\"\nLARGER_CHINESE_NUMERING_UNITS_SIMPLIFIED = \"亿兆京垓秭穰沟涧正载\"\nLARGER_CHINESE_NUMERING_UNITS_TRADITIONAL = \"億兆京垓秭穰溝澗正載\"\nSMALLER_CHINESE_NUMERING_UNITS_SIMPLIFIED = \"十百千万\"\nSMALLER_CHINESE_NUMERING_UNITS_TRADITIONAL = \"拾佰仟萬\"\nZERO_ALT = \"〇\"\nONE_ALT = \"幺\"",
+        "detail": "acestep.models.lyrics_utils.zh_num2words",
+        "documentation": {}
+    },
+    {
+        "label": "BIG_CHINESE_DIGIS_TRADITIONAL",
+        "kind": 5,
+        "importPath": "acestep.models.lyrics_utils.zh_num2words",
+        "description": "acestep.models.lyrics_utils.zh_num2words",
+        "peekOfCode": "BIG_CHINESE_DIGIS_TRADITIONAL = \"零壹貳參肆伍陸柒捌玖\"\nSMALLER_BIG_CHINESE_UNITS_SIMPLIFIED = \"十百千万\"\nSMALLER_BIG_CHINESE_UNITS_TRADITIONAL = \"拾佰仟萬\"\nLARGER_CHINESE_NUMERING_UNITS_SIMPLIFIED = \"亿兆京垓秭穰沟涧正载\"\nLARGER_CHINESE_NUMERING_UNITS_TRADITIONAL = \"億兆京垓秭穰溝澗正載\"\nSMALLER_CHINESE_NUMERING_UNITS_SIMPLIFIED = \"十百千万\"\nSMALLER_CHINESE_NUMERING_UNITS_TRADITIONAL = \"拾佰仟萬\"\nZERO_ALT = \"〇\"\nONE_ALT = \"幺\"\nTWO_ALTS = [\"两\", \"兩\"]",
+        "detail": "acestep.models.lyrics_utils.zh_num2words",
+        "documentation": {}
+    },
+    {
+        "label": "SMALLER_BIG_CHINESE_UNITS_SIMPLIFIED",
+        "kind": 5,
+        "importPath": "acestep.models.lyrics_utils.zh_num2words",
+        "description": "acestep.models.lyrics_utils.zh_num2words",
+        "peekOfCode": "SMALLER_BIG_CHINESE_UNITS_SIMPLIFIED = \"十百千万\"\nSMALLER_BIG_CHINESE_UNITS_TRADITIONAL = \"拾佰仟萬\"\nLARGER_CHINESE_NUMERING_UNITS_SIMPLIFIED = \"亿兆京垓秭穰沟涧正载\"\nLARGER_CHINESE_NUMERING_UNITS_TRADITIONAL = \"億兆京垓秭穰溝澗正載\"\nSMALLER_CHINESE_NUMERING_UNITS_SIMPLIFIED = \"十百千万\"\nSMALLER_CHINESE_NUMERING_UNITS_TRADITIONAL = \"拾佰仟萬\"\nZERO_ALT = \"〇\"\nONE_ALT = \"幺\"\nTWO_ALTS = [\"两\", \"兩\"]\nPOSITIVE = [\"正\", \"正\"]",
+        "detail": "acestep.models.lyrics_utils.zh_num2words",
+        "documentation": {}
+    },
+    {
+        "label": "SMALLER_BIG_CHINESE_UNITS_TRADITIONAL",
+        "kind": 5,
+        "importPath": "acestep.models.lyrics_utils.zh_num2words",
+        "description": "acestep.models.lyrics_utils.zh_num2words",
+        "peekOfCode": "SMALLER_BIG_CHINESE_UNITS_TRADITIONAL = \"拾佰仟萬\"\nLARGER_CHINESE_NUMERING_UNITS_SIMPLIFIED = \"亿兆京垓秭穰沟涧正载\"\nLARGER_CHINESE_NUMERING_UNITS_TRADITIONAL = \"億兆京垓秭穰溝澗正載\"\nSMALLER_CHINESE_NUMERING_UNITS_SIMPLIFIED = \"十百千万\"\nSMALLER_CHINESE_NUMERING_UNITS_TRADITIONAL = \"拾佰仟萬\"\nZERO_ALT = \"〇\"\nONE_ALT = \"幺\"\nTWO_ALTS = [\"两\", \"兩\"]\nPOSITIVE = [\"正\", \"正\"]\nNEGATIVE = [\"负\", \"負\"]",
+        "detail": "acestep.models.lyrics_utils.zh_num2words",
+        "documentation": {}
+    },
+    {
+        "label": "LARGER_CHINESE_NUMERING_UNITS_SIMPLIFIED",
+        "kind": 5,
+        "importPath": "acestep.models.lyrics_utils.zh_num2words",
+        "description": "acestep.models.lyrics_utils.zh_num2words",
+        "peekOfCode": "LARGER_CHINESE_NUMERING_UNITS_SIMPLIFIED = \"亿兆京垓秭穰沟涧正载\"\nLARGER_CHINESE_NUMERING_UNITS_TRADITIONAL = \"億兆京垓秭穰溝澗正載\"\nSMALLER_CHINESE_NUMERING_UNITS_SIMPLIFIED = \"十百千万\"\nSMALLER_CHINESE_NUMERING_UNITS_TRADITIONAL = \"拾佰仟萬\"\nZERO_ALT = \"〇\"\nONE_ALT = \"幺\"\nTWO_ALTS = [\"两\", \"兩\"]\nPOSITIVE = [\"正\", \"正\"]\nNEGATIVE = [\"负\", \"負\"]\nPOINT = [\"点\", \"點\"]",
+        "detail": "acestep.models.lyrics_utils.zh_num2words",
+        "documentation": {}
+    },
+    {
+        "label": "LARGER_CHINESE_NUMERING_UNITS_TRADITIONAL",
+        "kind": 5,
+        "importPath": "acestep.models.lyrics_utils.zh_num2words",
+        "description": "acestep.models.lyrics_utils.zh_num2words",
+        "peekOfCode": "LARGER_CHINESE_NUMERING_UNITS_TRADITIONAL = \"億兆京垓秭穰溝澗正載\"\nSMALLER_CHINESE_NUMERING_UNITS_SIMPLIFIED = \"十百千万\"\nSMALLER_CHINESE_NUMERING_UNITS_TRADITIONAL = \"拾佰仟萬\"\nZERO_ALT = \"〇\"\nONE_ALT = \"幺\"\nTWO_ALTS = [\"两\", \"兩\"]\nPOSITIVE = [\"正\", \"正\"]\nNEGATIVE = [\"负\", \"負\"]\nPOINT = [\"点\", \"點\"]\n# PLUS = [u'加', u'加']",
+        "detail": "acestep.models.lyrics_utils.zh_num2words",
+        "documentation": {}
+    },
+    {
+        "label": "SMALLER_CHINESE_NUMERING_UNITS_SIMPLIFIED",
+        "kind": 5,
+        "importPath": "acestep.models.lyrics_utils.zh_num2words",
+        "description": "acestep.models.lyrics_utils.zh_num2words",
+        "peekOfCode": "SMALLER_CHINESE_NUMERING_UNITS_SIMPLIFIED = \"十百千万\"\nSMALLER_CHINESE_NUMERING_UNITS_TRADITIONAL = \"拾佰仟萬\"\nZERO_ALT = \"〇\"\nONE_ALT = \"幺\"\nTWO_ALTS = [\"两\", \"兩\"]\nPOSITIVE = [\"正\", \"正\"]\nNEGATIVE = [\"负\", \"負\"]\nPOINT = [\"点\", \"點\"]\n# PLUS = [u'加', u'加']\n# SIL = [u'杠', u'槓']",
+        "detail": "acestep.models.lyrics_utils.zh_num2words",
+        "documentation": {}
+    },
+    {
+        "label": "SMALLER_CHINESE_NUMERING_UNITS_TRADITIONAL",
+        "kind": 5,
+        "importPath": "acestep.models.lyrics_utils.zh_num2words",
+        "description": "acestep.models.lyrics_utils.zh_num2words",
+        "peekOfCode": "SMALLER_CHINESE_NUMERING_UNITS_TRADITIONAL = \"拾佰仟萬\"\nZERO_ALT = \"〇\"\nONE_ALT = \"幺\"\nTWO_ALTS = [\"两\", \"兩\"]\nPOSITIVE = [\"正\", \"正\"]\nNEGATIVE = [\"负\", \"負\"]\nPOINT = [\"点\", \"點\"]\n# PLUS = [u'加', u'加']\n# SIL = [u'杠', u'槓']\nFILLER_CHARS = [\"呃\", \"啊\"]",
+        "detail": "acestep.models.lyrics_utils.zh_num2words",
+        "documentation": {}
+    },
+    {
+        "label": "ZERO_ALT",
+        "kind": 5,
+        "importPath": "acestep.models.lyrics_utils.zh_num2words",
+        "description": "acestep.models.lyrics_utils.zh_num2words",
+        "peekOfCode": "ZERO_ALT = \"〇\"\nONE_ALT = \"幺\"\nTWO_ALTS = [\"两\", \"兩\"]\nPOSITIVE = [\"正\", \"正\"]\nNEGATIVE = [\"负\", \"負\"]\nPOINT = [\"点\", \"點\"]\n# PLUS = [u'加', u'加']\n# SIL = [u'杠', u'槓']\nFILLER_CHARS = [\"呃\", \"啊\"]\nER_WHITELIST = (",
+        "detail": "acestep.models.lyrics_utils.zh_num2words",
+        "documentation": {}
+    },
+    {
+        "label": "ONE_ALT",
+        "kind": 5,
+        "importPath": "acestep.models.lyrics_utils.zh_num2words",
+        "description": "acestep.models.lyrics_utils.zh_num2words",
+        "peekOfCode": "ONE_ALT = \"幺\"\nTWO_ALTS = [\"两\", \"兩\"]\nPOSITIVE = [\"正\", \"正\"]\nNEGATIVE = [\"负\", \"負\"]\nPOINT = [\"点\", \"點\"]\n# PLUS = [u'加', u'加']\n# SIL = [u'杠', u'槓']\nFILLER_CHARS = [\"呃\", \"啊\"]\nER_WHITELIST = (\n    \"(儿女|儿子|儿孙|女儿|儿媳|妻儿|\"",
+        "detail": "acestep.models.lyrics_utils.zh_num2words",
+        "documentation": {}
+    },
+    {
+        "label": "TWO_ALTS",
+        "kind": 5,
+        "importPath": "acestep.models.lyrics_utils.zh_num2words",
+        "description": "acestep.models.lyrics_utils.zh_num2words",
+        "peekOfCode": "TWO_ALTS = [\"两\", \"兩\"]\nPOSITIVE = [\"正\", \"正\"]\nNEGATIVE = [\"负\", \"負\"]\nPOINT = [\"点\", \"點\"]\n# PLUS = [u'加', u'加']\n# SIL = [u'杠', u'槓']\nFILLER_CHARS = [\"呃\", \"啊\"]\nER_WHITELIST = (\n    \"(儿女|儿子|儿孙|女儿|儿媳|妻儿|\"\n    \"胎儿|婴儿|新生儿|婴幼儿|幼儿|少儿|小儿|儿歌|儿童|儿科|托儿所|孤儿|\"",
+        "detail": "acestep.models.lyrics_utils.zh_num2words",
+        "documentation": {}
+    },
+    {
+        "label": "POSITIVE",
+        "kind": 5,
+        "importPath": "acestep.models.lyrics_utils.zh_num2words",
+        "description": "acestep.models.lyrics_utils.zh_num2words",
+        "peekOfCode": "POSITIVE = [\"正\", \"正\"]\nNEGATIVE = [\"负\", \"負\"]\nPOINT = [\"点\", \"點\"]\n# PLUS = [u'加', u'加']\n# SIL = [u'杠', u'槓']\nFILLER_CHARS = [\"呃\", \"啊\"]\nER_WHITELIST = (\n    \"(儿女|儿子|儿孙|女儿|儿媳|妻儿|\"\n    \"胎儿|婴儿|新生儿|婴幼儿|幼儿|少儿|小儿|儿歌|儿童|儿科|托儿所|孤儿|\"\n    \"儿戏|儿化|台儿庄|鹿儿岛|正儿八经|吊儿郎当|生儿育女|托儿带女|养儿防老|痴儿呆女|\"",
+        "detail": "acestep.models.lyrics_utils.zh_num2words",
+        "documentation": {}
+    },
+    {
+        "label": "NEGATIVE",
+        "kind": 5,
+        "importPath": "acestep.models.lyrics_utils.zh_num2words",
+        "description": "acestep.models.lyrics_utils.zh_num2words",
+        "peekOfCode": "NEGATIVE = [\"负\", \"負\"]\nPOINT = [\"点\", \"點\"]\n# PLUS = [u'加', u'加']\n# SIL = [u'杠', u'槓']\nFILLER_CHARS = [\"呃\", \"啊\"]\nER_WHITELIST = (\n    \"(儿女|儿子|儿孙|女儿|儿媳|妻儿|\"\n    \"胎儿|婴儿|新生儿|婴幼儿|幼儿|少儿|小儿|儿歌|儿童|儿科|托儿所|孤儿|\"\n    \"儿戏|儿化|台儿庄|鹿儿岛|正儿八经|吊儿郎当|生儿育女|托儿带女|养儿防老|痴儿呆女|\"\n    \"佳儿佳妇|儿怜兽扰|儿无常父|儿不嫌母丑|儿行千里母担忧|儿大不由爷|苏乞儿)\"",
+        "detail": "acestep.models.lyrics_utils.zh_num2words",
+        "documentation": {}
+    },
+    {
+        "label": "POINT",
+        "kind": 5,
+        "importPath": "acestep.models.lyrics_utils.zh_num2words",
+        "description": "acestep.models.lyrics_utils.zh_num2words",
+        "peekOfCode": "POINT = [\"点\", \"點\"]\n# PLUS = [u'加', u'加']\n# SIL = [u'杠', u'槓']\nFILLER_CHARS = [\"呃\", \"啊\"]\nER_WHITELIST = (\n    \"(儿女|儿子|儿孙|女儿|儿媳|妻儿|\"\n    \"胎儿|婴儿|新生儿|婴幼儿|幼儿|少儿|小儿|儿歌|儿童|儿科|托儿所|孤儿|\"\n    \"儿戏|儿化|台儿庄|鹿儿岛|正儿八经|吊儿郎当|生儿育女|托儿带女|养儿防老|痴儿呆女|\"\n    \"佳儿佳妇|儿怜兽扰|儿无常父|儿不嫌母丑|儿行千里母担忧|儿大不由爷|苏乞儿)\"\n)",
+        "detail": "acestep.models.lyrics_utils.zh_num2words",
+        "documentation": {}
+    },
+    {
+        "label": "FILLER_CHARS",
+        "kind": 5,
+        "importPath": "acestep.models.lyrics_utils.zh_num2words",
+        "description": "acestep.models.lyrics_utils.zh_num2words",
+        "peekOfCode": "FILLER_CHARS = [\"呃\", \"啊\"]\nER_WHITELIST = (\n    \"(儿女|儿子|儿孙|女儿|儿媳|妻儿|\"\n    \"胎儿|婴儿|新生儿|婴幼儿|幼儿|少儿|小儿|儿歌|儿童|儿科|托儿所|孤儿|\"\n    \"儿戏|儿化|台儿庄|鹿儿岛|正儿八经|吊儿郎当|生儿育女|托儿带女|养儿防老|痴儿呆女|\"\n    \"佳儿佳妇|儿怜兽扰|儿无常父|儿不嫌母丑|儿行千里母担忧|儿大不由爷|苏乞儿)\"\n)\nER_WHITELIST_PATTERN = re.compile(ER_WHITELIST)\n# 中文数字系统类型\nNUMBERING_TYPES = [\"low\", \"mid\", \"high\"]",
+        "detail": "acestep.models.lyrics_utils.zh_num2words",
+        "documentation": {}
+    },
+    {
+        "label": "ER_WHITELIST",
+        "kind": 5,
+        "importPath": "acestep.models.lyrics_utils.zh_num2words",
+        "description": "acestep.models.lyrics_utils.zh_num2words",
+        "peekOfCode": "ER_WHITELIST = (\n    \"(儿女|儿子|儿孙|女儿|儿媳|妻儿|\"\n    \"胎儿|婴儿|新生儿|婴幼儿|幼儿|少儿|小儿|儿歌|儿童|儿科|托儿所|孤儿|\"\n    \"儿戏|儿化|台儿庄|鹿儿岛|正儿八经|吊儿郎当|生儿育女|托儿带女|养儿防老|痴儿呆女|\"\n    \"佳儿佳妇|儿怜兽扰|儿无常父|儿不嫌母丑|儿行千里母担忧|儿大不由爷|苏乞儿)\"\n)\nER_WHITELIST_PATTERN = re.compile(ER_WHITELIST)\n# 中文数字系统类型\nNUMBERING_TYPES = [\"low\", \"mid\", \"high\"]\nCURRENCY_NAMES = \"(人民币|美元|日元|英镑|欧元|马克|法郎|加拿大元|澳元|港币|先令|芬兰马克|爱尔兰镑|\" \"里拉|荷兰盾|埃斯库多|比塞塔|印尼盾|林吉特|新西兰元|比索|卢布|新加坡元|韩元|泰铢)\"",
+        "detail": "acestep.models.lyrics_utils.zh_num2words",
+        "documentation": {}
+    },
+    {
+        "label": "ER_WHITELIST_PATTERN",
+        "kind": 5,
+        "importPath": "acestep.models.lyrics_utils.zh_num2words",
+        "description": "acestep.models.lyrics_utils.zh_num2words",
+        "peekOfCode": "ER_WHITELIST_PATTERN = re.compile(ER_WHITELIST)\n# 中文数字系统类型\nNUMBERING_TYPES = [\"low\", \"mid\", \"high\"]\nCURRENCY_NAMES = \"(人民币|美元|日元|英镑|欧元|马克|法郎|加拿大元|澳元|港币|先令|芬兰马克|爱尔兰镑|\" \"里拉|荷兰盾|埃斯库多|比塞塔|印尼盾|林吉特|新西兰元|比索|卢布|新加坡元|韩元|泰铢)\"\nCURRENCY_UNITS = \"((亿|千万|百万|万|千|百)|(亿|千万|百万|万|千|百|)元|(亿|千万|百万|万|千|百|)块|角|毛|分)\"\nCOM_QUANTIFIERS = (\n    \"(匹|张|座|回|场|尾|条|个|首|阙|阵|网|炮|顶|丘|棵|只|支|袭|辆|挑|担|颗|壳|窠|曲|墙|群|腔|\"\n    \"砣|座|客|贯|扎|捆|刀|令|打|手|罗|坡|山|岭|江|溪|钟|队|单|双|对|出|口|头|脚|板|跳|枝|件|贴|\"\n    \"针|线|管|名|位|身|堂|课|本|页|家|户|层|丝|毫|厘|分|钱|两|斤|担|铢|石|钧|锱|忽|(千|毫|微)克|\"\n    \"毫|厘|分|寸|尺|丈|里|寻|常|铺|程|(千|分|厘|毫|微)米|撮|勺|合|升|斗|石|盘|碗|碟|叠|桶|笼|盆|\"",
+        "detail": "acestep.models.lyrics_utils.zh_num2words",
+        "documentation": {}
+    },
+    {
+        "label": "NUMBERING_TYPES",
+        "kind": 5,
+        "importPath": "acestep.models.lyrics_utils.zh_num2words",
+        "description": "acestep.models.lyrics_utils.zh_num2words",
+        "peekOfCode": "NUMBERING_TYPES = [\"low\", \"mid\", \"high\"]\nCURRENCY_NAMES = \"(人民币|美元|日元|英镑|欧元|马克|法郎|加拿大元|澳元|港币|先令|芬兰马克|爱尔兰镑|\" \"里拉|荷兰盾|埃斯库多|比塞塔|印尼盾|林吉特|新西兰元|比索|卢布|新加坡元|韩元|泰铢)\"\nCURRENCY_UNITS = \"((亿|千万|百万|万|千|百)|(亿|千万|百万|万|千|百|)元|(亿|千万|百万|万|千|百|)块|角|毛|分)\"\nCOM_QUANTIFIERS = (\n    \"(匹|张|座|回|场|尾|条|个|首|阙|阵|网|炮|顶|丘|棵|只|支|袭|辆|挑|担|颗|壳|窠|曲|墙|群|腔|\"\n    \"砣|座|客|贯|扎|捆|刀|令|打|手|罗|坡|山|岭|江|溪|钟|队|单|双|对|出|口|头|脚|板|跳|枝|件|贴|\"\n    \"针|线|管|名|位|身|堂|课|本|页|家|户|层|丝|毫|厘|分|钱|两|斤|担|铢|石|钧|锱|忽|(千|毫|微)克|\"\n    \"毫|厘|分|寸|尺|丈|里|寻|常|铺|程|(千|分|厘|毫|微)米|撮|勺|合|升|斗|石|盘|碗|碟|叠|桶|笼|盆|\"\n    \"盒|杯|钟|斛|锅|簋|篮|盘|桶|罐|瓶|壶|卮|盏|箩|箱|煲|啖|袋|钵|年|月|日|季|刻|时|周|天|秒|分|旬|\"\n    \"纪|岁|世|更|夜|春|夏|秋|冬|代|伏|辈|丸|泡|粒|颗|幢|堆|条|根|支|道|面|片|张|颗|块)\"",
+        "detail": "acestep.models.lyrics_utils.zh_num2words",
+        "documentation": {}
+    },
+    {
+        "label": "CURRENCY_NAMES",
+        "kind": 5,
+        "importPath": "acestep.models.lyrics_utils.zh_num2words",
+        "description": "acestep.models.lyrics_utils.zh_num2words",
+        "peekOfCode": "CURRENCY_NAMES = \"(人民币|美元|日元|英镑|欧元|马克|法郎|加拿大元|澳元|港币|先令|芬兰马克|爱尔兰镑|\" \"里拉|荷兰盾|埃斯库多|比塞塔|印尼盾|林吉特|新西兰元|比索|卢布|新加坡元|韩元|泰铢)\"\nCURRENCY_UNITS = \"((亿|千万|百万|万|千|百)|(亿|千万|百万|万|千|百|)元|(亿|千万|百万|万|千|百|)块|角|毛|分)\"\nCOM_QUANTIFIERS = (\n    \"(匹|张|座|回|场|尾|条|个|首|阙|阵|网|炮|顶|丘|棵|只|支|袭|辆|挑|担|颗|壳|窠|曲|墙|群|腔|\"\n    \"砣|座|客|贯|扎|捆|刀|令|打|手|罗|坡|山|岭|江|溪|钟|队|单|双|对|出|口|头|脚|板|跳|枝|件|贴|\"\n    \"针|线|管|名|位|身|堂|课|本|页|家|户|层|丝|毫|厘|分|钱|两|斤|担|铢|石|钧|锱|忽|(千|毫|微)克|\"\n    \"毫|厘|分|寸|尺|丈|里|寻|常|铺|程|(千|分|厘|毫|微)米|撮|勺|合|升|斗|石|盘|碗|碟|叠|桶|笼|盆|\"\n    \"盒|杯|钟|斛|锅|簋|篮|盘|桶|罐|瓶|壶|卮|盏|箩|箱|煲|啖|袋|钵|年|月|日|季|刻|时|周|天|秒|分|旬|\"\n    \"纪|岁|世|更|夜|春|夏|秋|冬|代|伏|辈|丸|泡|粒|颗|幢|堆|条|根|支|道|面|片|张|颗|块)\"\n)",
+        "detail": "acestep.models.lyrics_utils.zh_num2words",
+        "documentation": {}
+    },
+    {
+        "label": "CURRENCY_UNITS",
+        "kind": 5,
+        "importPath": "acestep.models.lyrics_utils.zh_num2words",
+        "description": "acestep.models.lyrics_utils.zh_num2words",
+        "peekOfCode": "CURRENCY_UNITS = \"((亿|千万|百万|万|千|百)|(亿|千万|百万|万|千|百|)元|(亿|千万|百万|万|千|百|)块|角|毛|分)\"\nCOM_QUANTIFIERS = (\n    \"(匹|张|座|回|场|尾|条|个|首|阙|阵|网|炮|顶|丘|棵|只|支|袭|辆|挑|担|颗|壳|窠|曲|墙|群|腔|\"\n    \"砣|座|客|贯|扎|捆|刀|令|打|手|罗|坡|山|岭|江|溪|钟|队|单|双|对|出|口|头|脚|板|跳|枝|件|贴|\"\n    \"针|线|管|名|位|身|堂|课|本|页|家|户|层|丝|毫|厘|分|钱|两|斤|担|铢|石|钧|锱|忽|(千|毫|微)克|\"\n    \"毫|厘|分|寸|尺|丈|里|寻|常|铺|程|(千|分|厘|毫|微)米|撮|勺|合|升|斗|石|盘|碗|碟|叠|桶|笼|盆|\"\n    \"盒|杯|钟|斛|锅|簋|篮|盘|桶|罐|瓶|壶|卮|盏|箩|箱|煲|啖|袋|钵|年|月|日|季|刻|时|周|天|秒|分|旬|\"\n    \"纪|岁|世|更|夜|春|夏|秋|冬|代|伏|辈|丸|泡|粒|颗|幢|堆|条|根|支|道|面|片|张|颗|块)\"\n)\n# Punctuation information are based on Zhon project (https://github.com/tsroten/zhon.git)",
+        "detail": "acestep.models.lyrics_utils.zh_num2words",
+        "documentation": {}
+    },
+    {
+        "label": "COM_QUANTIFIERS",
+        "kind": 5,
+        "importPath": "acestep.models.lyrics_utils.zh_num2words",
+        "description": "acestep.models.lyrics_utils.zh_num2words",
+        "peekOfCode": "COM_QUANTIFIERS = (\n    \"(匹|张|座|回|场|尾|条|个|首|阙|阵|网|炮|顶|丘|棵|只|支|袭|辆|挑|担|颗|壳|窠|曲|墙|群|腔|\"\n    \"砣|座|客|贯|扎|捆|刀|令|打|手|罗|坡|山|岭|江|溪|钟|队|单|双|对|出|口|头|脚|板|跳|枝|件|贴|\"\n    \"针|线|管|名|位|身|堂|课|本|页|家|户|层|丝|毫|厘|分|钱|两|斤|担|铢|石|钧|锱|忽|(千|毫|微)克|\"\n    \"毫|厘|分|寸|尺|丈|里|寻|常|铺|程|(千|分|厘|毫|微)米|撮|勺|合|升|斗|石|盘|碗|碟|叠|桶|笼|盆|\"\n    \"盒|杯|钟|斛|锅|簋|篮|盘|桶|罐|瓶|壶|卮|盏|箩|箱|煲|啖|袋|钵|年|月|日|季|刻|时|周|天|秒|分|旬|\"\n    \"纪|岁|世|更|夜|春|夏|秋|冬|代|伏|辈|丸|泡|粒|颗|幢|堆|条|根|支|道|面|片|张|颗|块)\"\n)\n# Punctuation information are based on Zhon project (https://github.com/tsroten/zhon.git)\nCN_PUNCS_STOP = \"！？｡。\"",
+        "detail": "acestep.models.lyrics_utils.zh_num2words",
+        "documentation": {}
+    },
+    {
+        "label": "CN_PUNCS_STOP",
+        "kind": 5,
+        "importPath": "acestep.models.lyrics_utils.zh_num2words",
+        "description": "acestep.models.lyrics_utils.zh_num2words",
+        "peekOfCode": "CN_PUNCS_STOP = \"！？｡。\"\nCN_PUNCS_NONSTOP = \"＂＃＄％＆＇（）＊＋，－／：；＜＝＞＠［＼］＾＿｀｛｜｝～｟｠｢｣､、〃《》「」『』【】〔〕〖〗〘〙〚〛〜〝〞〟〰〾〿–—‘’‛“”„‟…‧﹏·〈〉-\"\nCN_PUNCS = CN_PUNCS_STOP + CN_PUNCS_NONSTOP\nPUNCS = CN_PUNCS + string.punctuation\nPUNCS_TRANSFORM = str.maketrans(PUNCS, \",\" * len(PUNCS), \"\")  # replace puncs with English comma\n# https://zh.wikipedia.org/wiki/全行和半行\nQJ2BJ = {\n    \"　\": \" \",\n    \"！\": \"!\",\n    \"＂\": '\"',",
+        "detail": "acestep.models.lyrics_utils.zh_num2words",
+        "documentation": {}
+    },
+    {
+        "label": "CN_PUNCS_NONSTOP",
+        "kind": 5,
+        "importPath": "acestep.models.lyrics_utils.zh_num2words",
+        "description": "acestep.models.lyrics_utils.zh_num2words",
+        "peekOfCode": "CN_PUNCS_NONSTOP = \"＂＃＄％＆＇（）＊＋，－／：；＜＝＞＠［＼］＾＿｀｛｜｝～｟｠｢｣､、〃《》「」『』【】〔〕〖〗〘〙〚〛〜〝〞〟〰〾〿–—‘’‛“”„‟…‧﹏·〈〉-\"\nCN_PUNCS = CN_PUNCS_STOP + CN_PUNCS_NONSTOP\nPUNCS = CN_PUNCS + string.punctuation\nPUNCS_TRANSFORM = str.maketrans(PUNCS, \",\" * len(PUNCS), \"\")  # replace puncs with English comma\n# https://zh.wikipedia.org/wiki/全行和半行\nQJ2BJ = {\n    \"　\": \" \",\n    \"！\": \"!\",\n    \"＂\": '\"',\n    \"＃\": \"#\",",
+        "detail": "acestep.models.lyrics_utils.zh_num2words",
+        "documentation": {}
+    },
+    {
+        "label": "CN_PUNCS",
+        "kind": 5,
+        "importPath": "acestep.models.lyrics_utils.zh_num2words",
+        "description": "acestep.models.lyrics_utils.zh_num2words",
+        "peekOfCode": "CN_PUNCS = CN_PUNCS_STOP + CN_PUNCS_NONSTOP\nPUNCS = CN_PUNCS + string.punctuation\nPUNCS_TRANSFORM = str.maketrans(PUNCS, \",\" * len(PUNCS), \"\")  # replace puncs with English comma\n# https://zh.wikipedia.org/wiki/全行和半行\nQJ2BJ = {\n    \"　\": \" \",\n    \"！\": \"!\",\n    \"＂\": '\"',\n    \"＃\": \"#\",\n    \"＄\": \"$\",",
+        "detail": "acestep.models.lyrics_utils.zh_num2words",
+        "documentation": {}
+    },
+    {
+        "label": "PUNCS",
+        "kind": 5,
+        "importPath": "acestep.models.lyrics_utils.zh_num2words",
+        "description": "acestep.models.lyrics_utils.zh_num2words",
+        "peekOfCode": "PUNCS = CN_PUNCS + string.punctuation\nPUNCS_TRANSFORM = str.maketrans(PUNCS, \",\" * len(PUNCS), \"\")  # replace puncs with English comma\n# https://zh.wikipedia.org/wiki/全行和半行\nQJ2BJ = {\n    \"　\": \" \",\n    \"！\": \"!\",\n    \"＂\": '\"',\n    \"＃\": \"#\",\n    \"＄\": \"$\",\n    \"％\": \"%\",",
+        "detail": "acestep.models.lyrics_utils.zh_num2words",
+        "documentation": {}
+    },
+    {
+        "label": "PUNCS_TRANSFORM",
+        "kind": 5,
+        "importPath": "acestep.models.lyrics_utils.zh_num2words",
+        "description": "acestep.models.lyrics_utils.zh_num2words",
+        "peekOfCode": "PUNCS_TRANSFORM = str.maketrans(PUNCS, \",\" * len(PUNCS), \"\")  # replace puncs with English comma\n# https://zh.wikipedia.org/wiki/全行和半行\nQJ2BJ = {\n    \"　\": \" \",\n    \"！\": \"!\",\n    \"＂\": '\"',\n    \"＃\": \"#\",\n    \"＄\": \"$\",\n    \"％\": \"%\",\n    \"＆\": \"&\",",
+        "detail": "acestep.models.lyrics_utils.zh_num2words",
+        "documentation": {}
+    },
+    {
+        "label": "QJ2BJ",
+        "kind": 5,
+        "importPath": "acestep.models.lyrics_utils.zh_num2words",
+        "description": "acestep.models.lyrics_utils.zh_num2words",
+        "peekOfCode": "QJ2BJ = {\n    \"　\": \" \",\n    \"！\": \"!\",\n    \"＂\": '\"',\n    \"＃\": \"#\",\n    \"＄\": \"$\",\n    \"％\": \"%\",\n    \"＆\": \"&\",\n    \"＇\": \"'\",\n    \"（\": \"(\",",
+        "detail": "acestep.models.lyrics_utils.zh_num2words",
+        "documentation": {}
+    },
+    {
+        "label": "QJ2BJ_TRANSFORM",
+        "kind": 5,
+        "importPath": "acestep.models.lyrics_utils.zh_num2words",
+        "description": "acestep.models.lyrics_utils.zh_num2words",
+        "peekOfCode": "QJ2BJ_TRANSFORM = str.maketrans(\"\".join(QJ2BJ.keys()), \"\".join(QJ2BJ.values()), \"\")\n# 2013 China National Standard: https://zh.wikipedia.org/wiki/通用规范汉字表, raw resources:\n#   https://github.com/mozillazg/pinyin-data/blob/master/kMandarin_8105.txt with 8105 chinese chars in total\nCN_CHARS_COMMON = (\n    \"一丁七万丈三上下不与丏丐丑专且丕世丘丙业丛东丝丞丢两严丧个丫中丰串临丸丹为主丽举\"\n    \"乂乃久么义之乌乍乎乏乐乒乓乔乖乘乙乜九乞也习乡书乩买乱乳乸乾了予争事二亍于亏云互\"\n    \"亓五井亘亚些亟亡亢交亥亦产亨亩享京亭亮亲亳亵亶亸亹人亿什仁仂仃仄仅仆仇仉今介仍从\"\n    \"仑仓仔仕他仗付仙仝仞仟仡代令以仨仪仫们仰仲仳仵件价任份仿企伈伉伊伋伍伎伏伐休众优\"\n    \"伙会伛伞伟传伢伣伤伥伦伧伪伫伭伯估伲伴伶伸伺似伽伾佁佃但位低住佐佑体何佖佗佘余佚\"\n    \"佛作佝佞佟你佣佤佥佩佬佯佰佳佴佶佸佺佻佼佽佾使侁侂侃侄侈侉例侍侏侑侔侗侘供依侠侣\"",
+        "detail": "acestep.models.lyrics_utils.zh_num2words",
+        "documentation": {}
+    },
+    {
+        "label": "CN_CHARS_COMMON",
+        "kind": 5,
+        "importPath": "acestep.models.lyrics_utils.zh_num2words",
+        "description": "acestep.models.lyrics_utils.zh_num2words",
+        "peekOfCode": "CN_CHARS_COMMON = (\n    \"一丁七万丈三上下不与丏丐丑专且丕世丘丙业丛东丝丞丢两严丧个丫中丰串临丸丹为主丽举\"\n    \"乂乃久么义之乌乍乎乏乐乒乓乔乖乘乙乜九乞也习乡书乩买乱乳乸乾了予争事二亍于亏云互\"\n    \"亓五井亘亚些亟亡亢交亥亦产亨亩享京亭亮亲亳亵亶亸亹人亿什仁仂仃仄仅仆仇仉今介仍从\"\n    \"仑仓仔仕他仗付仙仝仞仟仡代令以仨仪仫们仰仲仳仵件价任份仿企伈伉伊伋伍伎伏伐休众优\"\n    \"伙会伛伞伟传伢伣伤伥伦伧伪伫伭伯估伲伴伶伸伺似伽伾佁佃但位低住佐佑体何佖佗佘余佚\"\n    \"佛作佝佞佟你佣佤佥佩佬佯佰佳佴佶佸佺佻佼佽佾使侁侂侃侄侈侉例侍侏侑侔侗侘供依侠侣\"\n    \"侥侦侧侨侩侪侬侮侯侴侵侹便促俄俅俊俍俎俏俐俑俗俘俙俚俜保俞俟信俣俦俨俩俪俫俭修俯\"\n    \"俱俳俵俶俸俺俾倌倍倏倒倓倔倕倘候倚倜倞借倡倥倦倧倨倩倪倬倭倮倴债倻值倾偁偃假偈偌\"\n    \"偎偏偓偕做停偡健偬偭偰偲偶偷偻偾偿傀傃傅傈傉傍傒傕傣傥傧储傩催傲傺傻僇僎像僔僖僚\"",
+        "detail": "acestep.models.lyrics_utils.zh_num2words",
+        "documentation": {}
+    },
+    {
+        "label": "CN_CHARS_EXT",
+        "kind": 5,
+        "importPath": "acestep.models.lyrics_utils.zh_num2words",
+        "description": "acestep.models.lyrics_utils.zh_num2words",
+        "peekOfCode": "CN_CHARS_EXT = \"吶诶屌囧飚屄\"\nCN_CHARS = CN_CHARS_COMMON + CN_CHARS_EXT\nIN_CH_CHARS = {c: True for c in CN_CHARS}\nEN_CHARS = string.ascii_letters + string.digits\nIN_EN_CHARS = {c: True for c in EN_CHARS}\nVALID_CHARS = CN_CHARS + EN_CHARS + \" \"\nIN_VALID_CHARS = {c: True for c in VALID_CHARS}\n# ================================================================================ #\n#                                    basic class\n# ================================================================================ #",
+        "detail": "acestep.models.lyrics_utils.zh_num2words",
+        "documentation": {}
+    },
+    {
+        "label": "CN_CHARS",
+        "kind": 5,
+        "importPath": "acestep.models.lyrics_utils.zh_num2words",
+        "description": "acestep.models.lyrics_utils.zh_num2words",
+        "peekOfCode": "CN_CHARS = CN_CHARS_COMMON + CN_CHARS_EXT\nIN_CH_CHARS = {c: True for c in CN_CHARS}\nEN_CHARS = string.ascii_letters + string.digits\nIN_EN_CHARS = {c: True for c in EN_CHARS}\nVALID_CHARS = CN_CHARS + EN_CHARS + \" \"\nIN_VALID_CHARS = {c: True for c in VALID_CHARS}\n# ================================================================================ #\n#                                    basic class\n# ================================================================================ #\nclass ChineseChar(object):",
+        "detail": "acestep.models.lyrics_utils.zh_num2words",
+        "documentation": {}
+    },
+    {
+        "label": "IN_CH_CHARS",
+        "kind": 5,
+        "importPath": "acestep.models.lyrics_utils.zh_num2words",
+        "description": "acestep.models.lyrics_utils.zh_num2words",
+        "peekOfCode": "IN_CH_CHARS = {c: True for c in CN_CHARS}\nEN_CHARS = string.ascii_letters + string.digits\nIN_EN_CHARS = {c: True for c in EN_CHARS}\nVALID_CHARS = CN_CHARS + EN_CHARS + \" \"\nIN_VALID_CHARS = {c: True for c in VALID_CHARS}\n# ================================================================================ #\n#                                    basic class\n# ================================================================================ #\nclass ChineseChar(object):\n    \"\"\"",
+        "detail": "acestep.models.lyrics_utils.zh_num2words",
+        "documentation": {}
+    },
+    {
+        "label": "EN_CHARS",
+        "kind": 5,
+        "importPath": "acestep.models.lyrics_utils.zh_num2words",
+        "description": "acestep.models.lyrics_utils.zh_num2words",
+        "peekOfCode": "EN_CHARS = string.ascii_letters + string.digits\nIN_EN_CHARS = {c: True for c in EN_CHARS}\nVALID_CHARS = CN_CHARS + EN_CHARS + \" \"\nIN_VALID_CHARS = {c: True for c in VALID_CHARS}\n# ================================================================================ #\n#                                    basic class\n# ================================================================================ #\nclass ChineseChar(object):\n    \"\"\"\n    中文字符",
+        "detail": "acestep.models.lyrics_utils.zh_num2words",
+        "documentation": {}
+    },
+    {
+        "label": "IN_EN_CHARS",
+        "kind": 5,
+        "importPath": "acestep.models.lyrics_utils.zh_num2words",
+        "description": "acestep.models.lyrics_utils.zh_num2words",
+        "peekOfCode": "IN_EN_CHARS = {c: True for c in EN_CHARS}\nVALID_CHARS = CN_CHARS + EN_CHARS + \" \"\nIN_VALID_CHARS = {c: True for c in VALID_CHARS}\n# ================================================================================ #\n#                                    basic class\n# ================================================================================ #\nclass ChineseChar(object):\n    \"\"\"\n    中文字符\n    每个字符对应简体和繁体,",
+        "detail": "acestep.models.lyrics_utils.zh_num2words",
+        "documentation": {}
+    },
+    {
+        "label": "VALID_CHARS",
+        "kind": 5,
+        "importPath": "acestep.models.lyrics_utils.zh_num2words",
+        "description": "acestep.models.lyrics_utils.zh_num2words",
+        "peekOfCode": "VALID_CHARS = CN_CHARS + EN_CHARS + \" \"\nIN_VALID_CHARS = {c: True for c in VALID_CHARS}\n# ================================================================================ #\n#                                    basic class\n# ================================================================================ #\nclass ChineseChar(object):\n    \"\"\"\n    中文字符\n    每个字符对应简体和繁体,\n    e.g. 简体 = '负', 繁体 = '負'",
+        "detail": "acestep.models.lyrics_utils.zh_num2words",
+        "documentation": {}
+    },
+    {
+        "label": "IN_VALID_CHARS",
+        "kind": 5,
+        "importPath": "acestep.models.lyrics_utils.zh_num2words",
+        "description": "acestep.models.lyrics_utils.zh_num2words",
+        "peekOfCode": "IN_VALID_CHARS = {c: True for c in VALID_CHARS}\n# ================================================================================ #\n#                                    basic class\n# ================================================================================ #\nclass ChineseChar(object):\n    \"\"\"\n    中文字符\n    每个字符对应简体和繁体,\n    e.g. 简体 = '负', 繁体 = '負'\n    转换时可转换为简体或繁体",
+        "detail": "acestep.models.lyrics_utils.zh_num2words",
+        "documentation": {}
+    },
+    {
+        "label": "Qwen2RotaryEmbedding",
+        "kind": 6,
+        "importPath": "acestep.models.ace_step_transformer",
+        "description": "acestep.models.ace_step_transformer",
+        "peekOfCode": "class Qwen2RotaryEmbedding(nn.Module):\n    def __init__(self, dim, max_position_embeddings=2048, base=10000, device=None):\n        super().__init__()\n        self.dim = dim\n        self.max_position_embeddings = max_position_embeddings\n        self.base = base\n        inv_freq = 1.0 / (\n            self.base\n            ** (\n                torch.arange(0, self.dim, 2, dtype=torch.int64).float().to(device)",
+        "detail": "acestep.models.ace_step_transformer",
+        "documentation": {}
+    },
+    {
+        "label": "T2IFinalLayer",
+        "kind": 6,
+        "importPath": "acestep.models.ace_step_transformer",
+        "description": "acestep.models.ace_step_transformer",
+        "peekOfCode": "class T2IFinalLayer(nn.Module):\n    \"\"\"\n    The final layer of Sana.\n    \"\"\"\n    def __init__(self, hidden_size, patch_size=[16, 1], out_channels=256):\n        super().__init__()\n        self.norm_final = nn.RMSNorm(hidden_size, elementwise_affine=False, eps=1e-6)\n        self.linear = nn.Linear(\n            hidden_size, patch_size[0] * patch_size[1] * out_channels, bias=True\n        )",
+        "detail": "acestep.models.ace_step_transformer",
+        "documentation": {}
+    },
+    {
+        "label": "PatchEmbed",
+        "kind": 6,
+        "importPath": "acestep.models.ace_step_transformer",
+        "description": "acestep.models.ace_step_transformer",
+        "peekOfCode": "class PatchEmbed(nn.Module):\n    \"\"\"2D Image to Patch Embedding\"\"\"\n    def __init__(\n        self,\n        height=16,\n        width=4096,\n        patch_size=(16, 1),\n        in_channels=8,\n        embed_dim=1152,\n        bias=True,",
+        "detail": "acestep.models.ace_step_transformer",
+        "documentation": {}
+    },
+    {
+        "label": "Transformer2DModelOutput",
+        "kind": 6,
+        "importPath": "acestep.models.ace_step_transformer",
+        "description": "acestep.models.ace_step_transformer",
+        "peekOfCode": "class Transformer2DModelOutput(BaseOutput):\n    sample: torch.FloatTensor\n    proj_losses: Optional[Tuple[Tuple[str, torch.Tensor]]] = None\nclass ACEStepTransformer2DModel(\n    ModelMixin, ConfigMixin, PeftAdapterMixin, FromOriginalModelMixin\n):\n    _supports_gradient_checkpointing = True\n    @register_to_config\n    def __init__(\n        self,",
+        "detail": "acestep.models.ace_step_transformer",
+        "documentation": {}
+    },
+    {
+        "label": "ACEStepTransformer2DModel",
+        "kind": 6,
+        "importPath": "acestep.models.ace_step_transformer",
+        "description": "acestep.models.ace_step_transformer",
+        "peekOfCode": "class ACEStepTransformer2DModel(\n    ModelMixin, ConfigMixin, PeftAdapterMixin, FromOriginalModelMixin\n):\n    _supports_gradient_checkpointing = True\n    @register_to_config\n    def __init__(\n        self,\n        in_channels: Optional[int] = 8,\n        num_layers: int = 28,\n        inner_dim: int = 1536,",
+        "detail": "acestep.models.ace_step_transformer",
+        "documentation": {}
+    },
+    {
+        "label": "cross_norm",
+        "kind": 2,
+        "importPath": "acestep.models.ace_step_transformer",
+        "description": "acestep.models.ace_step_transformer",
+        "peekOfCode": "def cross_norm(hidden_states, controlnet_input):\n    # input N x T x c\n    mean_hidden_states, std_hidden_states = hidden_states.mean(\n        dim=(1, 2), keepdim=True\n    ), hidden_states.std(dim=(1, 2), keepdim=True)\n    mean_controlnet_input, std_controlnet_input = controlnet_input.mean(\n        dim=(1, 2), keepdim=True\n    ), controlnet_input.std(dim=(1, 2), keepdim=True)\n    controlnet_input = (controlnet_input - mean_controlnet_input) * (\n        std_hidden_states / (std_controlnet_input + 1e-12)",
+        "detail": "acestep.models.ace_step_transformer",
+        "documentation": {}
+    },
+    {
+        "label": "ConvLayer",
+        "kind": 6,
+        "importPath": "acestep.models.attention",
+        "description": "acestep.models.attention",
+        "peekOfCode": "class ConvLayer(nn.Module):\n    def __init__(\n        self,\n        in_dim: int,\n        out_dim: int,\n        kernel_size=3,\n        stride=1,\n        dilation=1,\n        groups=1,\n        padding: Union[int, None] = None,",
+        "detail": "acestep.models.attention",
+        "documentation": {}
+    },
+    {
+        "label": "GLUMBConv",
+        "kind": 6,
+        "importPath": "acestep.models.attention",
+        "description": "acestep.models.attention",
+        "peekOfCode": "class GLUMBConv(nn.Module):\n    def __init__(\n        self,\n        in_features: int,\n        hidden_features: int,\n        out_feature=None,\n        kernel_size=3,\n        stride=1,\n        padding: Union[int, None] = None,\n        use_bias=False,",
+        "detail": "acestep.models.attention",
+        "documentation": {}
+    },
+    {
+        "label": "LinearTransformerBlock",
+        "kind": 6,
+        "importPath": "acestep.models.attention",
+        "description": "acestep.models.attention",
+        "peekOfCode": "class LinearTransformerBlock(nn.Module):\n    \"\"\"\n    A Sana block with global shared adaptive layer norm (adaLN-single) conditioning.\n    \"\"\"\n    def __init__(\n        self,\n        dim,\n        num_attention_heads,\n        attention_head_dim,\n        use_adaln_single=True,",
+        "detail": "acestep.models.attention",
+        "documentation": {}
+    },
+    {
+        "label": "val2list",
+        "kind": 2,
+        "importPath": "acestep.models.attention",
+        "description": "acestep.models.attention",
+        "peekOfCode": "def val2list(x: list or tuple or any, repeat_time=1) -> list:  # type: ignore\n    \"\"\"Repeat `val` for `repeat_time` times and return the list or val if list/tuple.\"\"\"\n    if isinstance(x, (list, tuple)):\n        return list(x)\n    return [x for _ in range(repeat_time)]\ndef val2tuple(x: list or tuple or any, min_len: int = 1, idx_repeat: int = -1) -> tuple:  # type: ignore\n    \"\"\"Return tuple with min_len by repeating element at idx_repeat.\"\"\"\n    # convert to list first\n    x = val2list(x)\n    # repeat elements if necessary",
+        "detail": "acestep.models.attention",
+        "documentation": {}
+    },
+    {
+        "label": "val2tuple",
+        "kind": 2,
+        "importPath": "acestep.models.attention",
+        "description": "acestep.models.attention",
+        "peekOfCode": "def val2tuple(x: list or tuple or any, min_len: int = 1, idx_repeat: int = -1) -> tuple:  # type: ignore\n    \"\"\"Return tuple with min_len by repeating element at idx_repeat.\"\"\"\n    # convert to list first\n    x = val2list(x)\n    # repeat elements if necessary\n    if len(x) > 0:\n        x[idx_repeat:idx_repeat] = [x[idx_repeat] for _ in range(min_len - len(x))]\n    return tuple(x)\ndef t2i_modulate(x, shift, scale):\n    return x * (1 + scale) + shift",
+        "detail": "acestep.models.attention",
+        "documentation": {}
+    },
+    {
+        "label": "t2i_modulate",
+        "kind": 2,
+        "importPath": "acestep.models.attention",
+        "description": "acestep.models.attention",
+        "peekOfCode": "def t2i_modulate(x, shift, scale):\n    return x * (1 + scale) + shift\ndef get_same_padding(\n    kernel_size: Union[int, Tuple[int, ...]],\n) -> Union[int, Tuple[int, ...]]:\n    if isinstance(kernel_size, tuple):\n        return tuple([get_same_padding(ks) for ks in kernel_size])\n    else:\n        assert kernel_size % 2 > 0, f\"kernel size {kernel_size} should be odd number\"\n        return kernel_size // 2",
+        "detail": "acestep.models.attention",
+        "documentation": {}
+    },
+    {
+        "label": "get_same_padding",
+        "kind": 2,
+        "importPath": "acestep.models.attention",
+        "description": "acestep.models.attention",
+        "peekOfCode": "def get_same_padding(\n    kernel_size: Union[int, Tuple[int, ...]],\n) -> Union[int, Tuple[int, ...]]:\n    if isinstance(kernel_size, tuple):\n        return tuple([get_same_padding(ks) for ks in kernel_size])\n    else:\n        assert kernel_size % 2 > 0, f\"kernel size {kernel_size} should be odd number\"\n        return kernel_size // 2\nclass ConvLayer(nn.Module):\n    def __init__(",
+        "detail": "acestep.models.attention",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "acestep.models.attention",
+        "description": "acestep.models.attention",
+        "peekOfCode": "logger = logging.get_logger(__name__)\ndef val2list(x: list or tuple or any, repeat_time=1) -> list:  # type: ignore\n    \"\"\"Repeat `val` for `repeat_time` times and return the list or val if list/tuple.\"\"\"\n    if isinstance(x, (list, tuple)):\n        return list(x)\n    return [x for _ in range(repeat_time)]\ndef val2tuple(x: list or tuple or any, min_len: int = 1, idx_repeat: int = -1) -> tuple:  # type: ignore\n    \"\"\"Return tuple with min_len by repeating element at idx_repeat.\"\"\"\n    # convert to list first\n    x = val2list(x)",
+        "detail": "acestep.models.attention",
+        "documentation": {}
+    },
+    {
+        "label": "CustomLiteLAProcessor2_0",
+        "kind": 6,
+        "importPath": "acestep.models.customer_attention_processor",
+        "description": "acestep.models.customer_attention_processor",
+        "peekOfCode": "class CustomLiteLAProcessor2_0:\n    \"\"\"Attention processor used typically in processing the SD3-like self-attention projections. add rms norm for query and key and apply RoPE\"\"\"\n    def __init__(self):\n        self.kernel_func = nn.ReLU(inplace=False)\n        self.eps = 1e-15\n        self.pad_val = 1.0\n    def apply_rotary_emb(\n        self,\n        x: torch.Tensor,\n        freqs_cis: Union[torch.Tensor, Tuple[torch.Tensor]],",
+        "detail": "acestep.models.customer_attention_processor",
+        "documentation": {}
+    },
+    {
+        "label": "CustomerAttnProcessor2_0",
+        "kind": 6,
+        "importPath": "acestep.models.customer_attention_processor",
+        "description": "acestep.models.customer_attention_processor",
+        "peekOfCode": "class CustomerAttnProcessor2_0:\n    r\"\"\"\n    Processor for implementing scaled dot-product attention (enabled by default if you're using PyTorch 2.0).\n    \"\"\"\n    def __init__(self):\n        if not hasattr(F, \"scaled_dot_product_attention\"):\n            raise ImportError(\n                \"AttnProcessor2_0 requires PyTorch 2.0, to use it, please upgrade PyTorch to 2.0.\"\n            )\n    def apply_rotary_emb(",
+        "detail": "acestep.models.customer_attention_processor",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "acestep.models.customer_attention_processor",
+        "description": "acestep.models.customer_attention_processor",
+        "peekOfCode": "logger = logging.get_logger(__name__)  # pylint: disable=invalid-name\nclass CustomLiteLAProcessor2_0:\n    \"\"\"Attention processor used typically in processing the SD3-like self-attention projections. add rms norm for query and key and apply RoPE\"\"\"\n    def __init__(self):\n        self.kernel_func = nn.ReLU(inplace=False)\n        self.eps = 1e-15\n        self.pad_val = 1.0\n    def apply_rotary_emb(\n        self,\n        x: torch.Tensor,",
+        "detail": "acestep.models.customer_attention_processor",
+        "documentation": {}
+    },
+    {
+        "label": "MusicDCAE",
+        "kind": 6,
+        "importPath": "acestep.music_dcae.music_dcae_pipeline",
+        "description": "acestep.music_dcae.music_dcae_pipeline",
+        "peekOfCode": "class MusicDCAE(ModelMixin, ConfigMixin, FromOriginalModelMixin):\n    @register_to_config\n    def __init__(\n        self,\n        source_sample_rate=None,\n        dcae_checkpoint_path=DEFAULT_PRETRAINED_PATH,\n        vocoder_checkpoint_path=VOCODER_PRETRAINED_PATH,\n    ):\n        super(MusicDCAE, self).__init__()\n        self.dcae = AutoencoderDC.from_pretrained(dcae_checkpoint_path)",
+        "detail": "acestep.music_dcae.music_dcae_pipeline",
+        "documentation": {}
+    },
+    {
+        "label": "root_dir",
+        "kind": 5,
+        "importPath": "acestep.music_dcae.music_dcae_pipeline",
+        "description": "acestep.music_dcae.music_dcae_pipeline",
+        "peekOfCode": "root_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))\nDEFAULT_PRETRAINED_PATH = os.path.join(root_dir, \"checkpoints\", \"music_dcae_f8c8\")\nVOCODER_PRETRAINED_PATH = os.path.join(root_dir, \"checkpoints\", \"music_vocoder\")\nclass MusicDCAE(ModelMixin, ConfigMixin, FromOriginalModelMixin):\n    @register_to_config\n    def __init__(\n        self,\n        source_sample_rate=None,\n        dcae_checkpoint_path=DEFAULT_PRETRAINED_PATH,\n        vocoder_checkpoint_path=VOCODER_PRETRAINED_PATH,",
+        "detail": "acestep.music_dcae.music_dcae_pipeline",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_PRETRAINED_PATH",
+        "kind": 5,
+        "importPath": "acestep.music_dcae.music_dcae_pipeline",
+        "description": "acestep.music_dcae.music_dcae_pipeline",
+        "peekOfCode": "DEFAULT_PRETRAINED_PATH = os.path.join(root_dir, \"checkpoints\", \"music_dcae_f8c8\")\nVOCODER_PRETRAINED_PATH = os.path.join(root_dir, \"checkpoints\", \"music_vocoder\")\nclass MusicDCAE(ModelMixin, ConfigMixin, FromOriginalModelMixin):\n    @register_to_config\n    def __init__(\n        self,\n        source_sample_rate=None,\n        dcae_checkpoint_path=DEFAULT_PRETRAINED_PATH,\n        vocoder_checkpoint_path=VOCODER_PRETRAINED_PATH,\n    ):",
+        "detail": "acestep.music_dcae.music_dcae_pipeline",
+        "documentation": {}
+    },
+    {
+        "label": "VOCODER_PRETRAINED_PATH",
+        "kind": 5,
+        "importPath": "acestep.music_dcae.music_dcae_pipeline",
+        "description": "acestep.music_dcae.music_dcae_pipeline",
+        "peekOfCode": "VOCODER_PRETRAINED_PATH = os.path.join(root_dir, \"checkpoints\", \"music_vocoder\")\nclass MusicDCAE(ModelMixin, ConfigMixin, FromOriginalModelMixin):\n    @register_to_config\n    def __init__(\n        self,\n        source_sample_rate=None,\n        dcae_checkpoint_path=DEFAULT_PRETRAINED_PATH,\n        vocoder_checkpoint_path=VOCODER_PRETRAINED_PATH,\n    ):\n        super(MusicDCAE, self).__init__()",
+        "detail": "acestep.music_dcae.music_dcae_pipeline",
+        "documentation": {}
+    },
+    {
+        "label": "LinearSpectrogram",
+        "kind": 6,
+        "importPath": "acestep.music_dcae.music_log_mel",
+        "description": "acestep.music_dcae.music_log_mel",
+        "peekOfCode": "class LinearSpectrogram(nn.Module):\n    def __init__(\n        self,\n        n_fft=2048,\n        win_length=2048,\n        hop_length=512,\n        center=False,\n        mode=\"pow2_sqrt\",\n    ):\n        super().__init__()",
+        "detail": "acestep.music_dcae.music_log_mel",
+        "documentation": {}
+    },
+    {
+        "label": "LogMelSpectrogram",
+        "kind": 6,
+        "importPath": "acestep.music_dcae.music_log_mel",
+        "description": "acestep.music_dcae.music_log_mel",
+        "peekOfCode": "class LogMelSpectrogram(nn.Module):\n    def __init__(\n        self,\n        sample_rate=44100,\n        n_fft=2048,\n        win_length=2048,\n        hop_length=512,\n        n_mels=128,\n        center=False,\n        f_min=0.0,",
+        "detail": "acestep.music_dcae.music_log_mel",
+        "documentation": {}
+    },
+    {
+        "label": "DropPath",
+        "kind": 6,
+        "importPath": "acestep.music_dcae.music_vocoder",
+        "description": "acestep.music_dcae.music_vocoder",
+        "peekOfCode": "class DropPath(nn.Module):\n    \"\"\"Drop paths (Stochastic Depth) per sample  (when applied in main path of residual blocks).\"\"\"  # noqa: E501\n    def __init__(self, drop_prob: float = 0.0, scale_by_keep: bool = True):\n        super(DropPath, self).__init__()\n        self.drop_prob = drop_prob\n        self.scale_by_keep = scale_by_keep\n    def forward(self, x):\n        return drop_path(x, self.drop_prob, self.training, self.scale_by_keep)\n    def extra_repr(self):\n        return f\"drop_prob={round(self.drop_prob,3):0.3f}\"",
+        "detail": "acestep.music_dcae.music_vocoder",
+        "documentation": {}
+    },
+    {
+        "label": "LayerNorm",
+        "kind": 6,
+        "importPath": "acestep.music_dcae.music_vocoder",
+        "description": "acestep.music_dcae.music_vocoder",
+        "peekOfCode": "class LayerNorm(nn.Module):\n    r\"\"\"LayerNorm that supports two data formats: channels_last (default) or channels_first.\n    The ordering of the dimensions in the inputs. channels_last corresponds to inputs with\n    shape (batch_size, height, width, channels) while channels_first corresponds to inputs\n    with shape (batch_size, channels, height, width).\n    \"\"\"  # noqa: E501\n    def __init__(self, normalized_shape, eps=1e-6, data_format=\"channels_last\"):\n        super().__init__()\n        self.weight = nn.Parameter(torch.ones(normalized_shape))\n        self.bias = nn.Parameter(torch.zeros(normalized_shape))",
+        "detail": "acestep.music_dcae.music_vocoder",
+        "documentation": {}
+    },
+    {
+        "label": "ConvNeXtBlock",
+        "kind": 6,
+        "importPath": "acestep.music_dcae.music_vocoder",
+        "description": "acestep.music_dcae.music_vocoder",
+        "peekOfCode": "class ConvNeXtBlock(nn.Module):\n    r\"\"\"ConvNeXt Block. There are two equivalent implementations:\n    (1) DwConv -> LayerNorm (channels_first) -> 1x1 Conv -> GELU -> 1x1 Conv; all in (N, C, H, W)\n    (2) DwConv -> Permute to (N, H, W, C); LayerNorm (channels_last) -> Linear -> GELU -> Linear; Permute back\n    We use (2) as we find it slightly faster in PyTorch\n    Args:\n        dim (int): Number of input channels.\n        drop_path (float): Stochastic depth rate. Default: 0.0\n        layer_scale_init_value (float): Init value for Layer Scale. Default: 1e-6.\n        mlp_ratio (float): Ratio of mlp hidden dim to embedding dim. Default: 4.0.",
+        "detail": "acestep.music_dcae.music_vocoder",
+        "documentation": {}
+    },
+    {
+        "label": "ParallelConvNeXtBlock",
+        "kind": 6,
+        "importPath": "acestep.music_dcae.music_vocoder",
+        "description": "acestep.music_dcae.music_vocoder",
+        "peekOfCode": "class ParallelConvNeXtBlock(nn.Module):\n    def __init__(self, kernel_sizes: List[int], *args, **kwargs):\n        super().__init__()\n        self.blocks = nn.ModuleList(\n            [\n                ConvNeXtBlock(kernel_size=kernel_size, *args, **kwargs)\n                for kernel_size in kernel_sizes\n            ]\n        )\n    def forward(self, x: torch.Tensor) -> torch.Tensor:",
+        "detail": "acestep.music_dcae.music_vocoder",
+        "documentation": {}
+    },
+    {
+        "label": "ConvNeXtEncoder",
+        "kind": 6,
+        "importPath": "acestep.music_dcae.music_vocoder",
+        "description": "acestep.music_dcae.music_vocoder",
+        "peekOfCode": "class ConvNeXtEncoder(nn.Module):\n    def __init__(\n        self,\n        input_channels=3,\n        depths=[3, 3, 9, 3],\n        dims=[96, 192, 384, 768],\n        drop_path_rate=0.0,\n        layer_scale_init_value=1e-6,\n        kernel_sizes: Tuple[int] = (7,),\n    ):",
+        "detail": "acestep.music_dcae.music_vocoder",
+        "documentation": {}
+    },
+    {
+        "label": "ResBlock1",
+        "kind": 6,
+        "importPath": "acestep.music_dcae.music_vocoder",
+        "description": "acestep.music_dcae.music_vocoder",
+        "peekOfCode": "class ResBlock1(torch.nn.Module):\n    def __init__(self, channels, kernel_size=3, dilation=(1, 3, 5)):\n        super().__init__()\n        self.convs1 = nn.ModuleList(\n            [\n                weight_norm(\n                    Conv1d(\n                        channels,\n                        channels,\n                        kernel_size,",
+        "detail": "acestep.music_dcae.music_vocoder",
+        "documentation": {}
+    },
+    {
+        "label": "HiFiGANGenerator",
+        "kind": 6,
+        "importPath": "acestep.music_dcae.music_vocoder",
+        "description": "acestep.music_dcae.music_vocoder",
+        "peekOfCode": "class HiFiGANGenerator(nn.Module):\n    def __init__(\n        self,\n        *,\n        hop_length: int = 512,\n        upsample_rates: Tuple[int] = (8, 8, 2, 2, 2),\n        upsample_kernel_sizes: Tuple[int] = (16, 16, 8, 2, 2),\n        resblock_kernel_sizes: Tuple[int] = (3, 7, 11),\n        resblock_dilation_sizes: Tuple[Tuple[int]] = ((1, 3, 5), (1, 3, 5), (1, 3, 5)),\n        num_mels: int = 128,",
+        "detail": "acestep.music_dcae.music_vocoder",
+        "documentation": {}
+    },
+    {
+        "label": "ADaMoSHiFiGANV1",
+        "kind": 6,
+        "importPath": "acestep.music_dcae.music_vocoder",
+        "description": "acestep.music_dcae.music_vocoder",
+        "peekOfCode": "class ADaMoSHiFiGANV1(ModelMixin, ConfigMixin, FromOriginalModelMixin):\n    @register_to_config\n    def __init__(\n        self,\n        input_channels: int = 128,\n        depths: List[int] = [3, 3, 9, 3],\n        dims: List[int] = [128, 256, 384, 512],\n        drop_path_rate: float = 0.0,\n        kernel_sizes: Tuple[int] = (7,),\n        upsample_rates: Tuple[int] = (4, 4, 2, 2, 2, 2, 2),",
+        "detail": "acestep.music_dcae.music_vocoder",
+        "documentation": {}
+    },
+    {
+        "label": "drop_path",
+        "kind": 2,
+        "importPath": "acestep.music_dcae.music_vocoder",
+        "description": "acestep.music_dcae.music_vocoder",
+        "peekOfCode": "def drop_path(\n    x, drop_prob: float = 0.0, training: bool = False, scale_by_keep: bool = True\n):\n    \"\"\"Drop paths (Stochastic Depth) per sample (when applied in main path of residual blocks).\n    This is the same as the DropConnect impl I created for EfficientNet, etc networks, however,\n    the original name is misleading as 'Drop Connect' is a different form of dropout in a separate paper...\n    See discussion: https://github.com/tensorflow/tpu/issues/494#issuecomment-532968956 ... I've opted for\n    changing the layer and argument names to 'drop path' rather than mix DropConnect as a layer name and use\n    'survival rate' as the argument.\n    \"\"\"  # noqa: E501",
+        "detail": "acestep.music_dcae.music_vocoder",
+        "documentation": {}
+    },
+    {
+        "label": "init_weights",
+        "kind": 2,
+        "importPath": "acestep.music_dcae.music_vocoder",
+        "description": "acestep.music_dcae.music_vocoder",
+        "peekOfCode": "def init_weights(m, mean=0.0, std=0.01):\n    classname = m.__class__.__name__\n    if classname.find(\"Conv\") != -1:\n        m.weight.data.normal_(mean, std)\ndef get_padding(kernel_size, dilation=1):\n    return (kernel_size * dilation - dilation) // 2\nclass ResBlock1(torch.nn.Module):\n    def __init__(self, channels, kernel_size=3, dilation=(1, 3, 5)):\n        super().__init__()\n        self.convs1 = nn.ModuleList(",
+        "detail": "acestep.music_dcae.music_vocoder",
+        "documentation": {}
+    },
+    {
+        "label": "get_padding",
+        "kind": 2,
+        "importPath": "acestep.music_dcae.music_vocoder",
+        "description": "acestep.music_dcae.music_vocoder",
+        "peekOfCode": "def get_padding(kernel_size, dilation=1):\n    return (kernel_size * dilation - dilation) // 2\nclass ResBlock1(torch.nn.Module):\n    def __init__(self, channels, kernel_size=3, dilation=(1, 3, 5)):\n        super().__init__()\n        self.convs1 = nn.ModuleList(\n            [\n                weight_norm(\n                    Conv1d(\n                        channels,",
+        "detail": "acestep.music_dcae.music_vocoder",
+        "documentation": {}
+    },
+    {
+        "label": "FlowMatchEulerDiscreteSchedulerOutput",
+        "kind": 6,
+        "importPath": "acestep.schedulers.scheduling_flow_match_euler_discrete",
+        "description": "acestep.schedulers.scheduling_flow_match_euler_discrete",
+        "peekOfCode": "class FlowMatchEulerDiscreteSchedulerOutput(BaseOutput):\n    \"\"\"\n    Output class for the scheduler's `step` function output.\n    Args:\n        prev_sample (`torch.FloatTensor` of shape `(batch_size, num_channels, height, width)` for images):\n            Computed sample `(x_{t-1})` of previous timestep. `prev_sample` should be used as next model input in the\n            denoising loop.\n    \"\"\"\n    prev_sample: torch.FloatTensor\nclass FlowMatchEulerDiscreteScheduler(SchedulerMixin, ConfigMixin):",
+        "detail": "acestep.schedulers.scheduling_flow_match_euler_discrete",
+        "documentation": {}
+    },
+    {
+        "label": "FlowMatchEulerDiscreteScheduler",
+        "kind": 6,
+        "importPath": "acestep.schedulers.scheduling_flow_match_euler_discrete",
+        "description": "acestep.schedulers.scheduling_flow_match_euler_discrete",
+        "peekOfCode": "class FlowMatchEulerDiscreteScheduler(SchedulerMixin, ConfigMixin):\n    \"\"\"\n    Euler scheduler.\n    This model inherits from [`SchedulerMixin`] and [`ConfigMixin`]. Check the superclass documentation for the generic\n    methods the library implements for all schedulers such as loading and saving.\n    Args:\n        num_train_timesteps (`int`, defaults to 1000):\n            The number of diffusion steps to train the model.\n        timestep_spacing (`str`, defaults to `\"linspace\"`):\n            The way the timesteps should be scaled. Refer to Table 2 of the [Common Diffusion Noise Schedules and",
+        "detail": "acestep.schedulers.scheduling_flow_match_euler_discrete",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "acestep.schedulers.scheduling_flow_match_euler_discrete",
+        "description": "acestep.schedulers.scheduling_flow_match_euler_discrete",
+        "peekOfCode": "logger = logging.get_logger(__name__)  # pylint: disable=invalid-name\n@dataclass\nclass FlowMatchEulerDiscreteSchedulerOutput(BaseOutput):\n    \"\"\"\n    Output class for the scheduler's `step` function output.\n    Args:\n        prev_sample (`torch.FloatTensor` of shape `(batch_size, num_channels, height, width)` for images):\n            Computed sample `(x_{t-1})` of previous timestep. `prev_sample` should be used as next model input in the\n            denoising loop.\n    \"\"\"",
+        "detail": "acestep.schedulers.scheduling_flow_match_euler_discrete",
+        "documentation": {}
+    },
+    {
+        "label": "FlowMatchHeunDiscreteSchedulerOutput",
+        "kind": 6,
+        "importPath": "acestep.schedulers.scheduling_flow_match_heun_discrete",
+        "description": "acestep.schedulers.scheduling_flow_match_heun_discrete",
+        "peekOfCode": "class FlowMatchHeunDiscreteSchedulerOutput(BaseOutput):\n    \"\"\"\n    Output class for the scheduler's `step` function output.\n    Args:\n        prev_sample (`torch.FloatTensor` of shape `(batch_size, num_channels, height, width)` for images):\n            Computed sample `(x_{t-1})` of previous timestep. `prev_sample` should be used as next model input in the\n            denoising loop.\n    \"\"\"\n    prev_sample: torch.FloatTensor\nclass FlowMatchHeunDiscreteScheduler(SchedulerMixin, ConfigMixin):",
+        "detail": "acestep.schedulers.scheduling_flow_match_heun_discrete",
+        "documentation": {}
+    },
+    {
+        "label": "FlowMatchHeunDiscreteScheduler",
+        "kind": 6,
+        "importPath": "acestep.schedulers.scheduling_flow_match_heun_discrete",
+        "description": "acestep.schedulers.scheduling_flow_match_heun_discrete",
+        "peekOfCode": "class FlowMatchHeunDiscreteScheduler(SchedulerMixin, ConfigMixin):\n    \"\"\"\n    Heun scheduler.\n    This model inherits from [`SchedulerMixin`] and [`ConfigMixin`]. Check the superclass documentation for the generic\n    methods the library implements for all schedulers such as loading and saving.\n    Args:\n        num_train_timesteps (`int`, defaults to 1000):\n            The number of diffusion steps to train the model.\n        timestep_spacing (`str`, defaults to `\"linspace\"`):\n            The way the timesteps should be scaled. Refer to Table 2 of the [Common Diffusion Noise Schedules and",
+        "detail": "acestep.schedulers.scheduling_flow_match_heun_discrete",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "acestep.schedulers.scheduling_flow_match_heun_discrete",
+        "description": "acestep.schedulers.scheduling_flow_match_heun_discrete",
+        "peekOfCode": "logger = logging.get_logger(__name__)  # pylint: disable=invalid-name\n@dataclass\nclass FlowMatchHeunDiscreteSchedulerOutput(BaseOutput):\n    \"\"\"\n    Output class for the scheduler's `step` function output.\n    Args:\n        prev_sample (`torch.FloatTensor` of shape `(batch_size, num_channels, height, width)` for images):\n            Computed sample `(x_{t-1})` of previous timestep. `prev_sample` should be used as next model input in the\n            denoising loop.\n    \"\"\"",
+        "detail": "acestep.schedulers.scheduling_flow_match_heun_discrete",
+        "documentation": {}
+    },
+    {
+        "label": "FlowMatchPingPongSchedulerOutput",
+        "kind": 6,
+        "importPath": "acestep.schedulers.scheduling_flow_match_pingpong",
+        "description": "acestep.schedulers.scheduling_flow_match_pingpong",
+        "peekOfCode": "class FlowMatchPingPongSchedulerOutput(BaseOutput):\n    \"\"\"\n    Output class for the scheduler's `step` function output.\n    Args:\n        prev_sample (`torch.FloatTensor` of shape `(batch_size, num_channels, height, width)` for images):\n            Computed sample `(x_{t-1})` of previous timestep. `prev_sample` should be used as next model input in the\n            denoising loop.\n    \"\"\"\n    prev_sample: torch.FloatTensor\nclass FlowMatchPingPongScheduler(SchedulerMixin, ConfigMixin):",
+        "detail": "acestep.schedulers.scheduling_flow_match_pingpong",
+        "documentation": {}
+    },
+    {
+        "label": "FlowMatchPingPongScheduler",
+        "kind": 6,
+        "importPath": "acestep.schedulers.scheduling_flow_match_pingpong",
+        "description": "acestep.schedulers.scheduling_flow_match_pingpong",
+        "peekOfCode": "class FlowMatchPingPongScheduler(SchedulerMixin, ConfigMixin):\n    \"\"\"\n    PingPong scheduler.\n    This model inherits from [`SchedulerMixin`] and [`ConfigMixin`]. Check the superclass documentation for the generic\n    methods the library implements for all schedulers such as loading and saving.\n    Args:\n        num_train_timesteps (`int`, defaults to 1000):\n            The number of diffusion steps to train the model.\n        timestep_spacing (`str`, defaults to `\"linspace\"`):\n            The way the timesteps should be scaled. Refer to Table 2 of the [Common Diffusion Noise Schedules and",
+        "detail": "acestep.schedulers.scheduling_flow_match_pingpong",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "acestep.schedulers.scheduling_flow_match_pingpong",
+        "description": "acestep.schedulers.scheduling_flow_match_pingpong",
+        "peekOfCode": "logger = logging.get_logger(__name__)  # pylint: disable=invalid-name\n@dataclass\nclass FlowMatchPingPongSchedulerOutput(BaseOutput):\n    \"\"\"\n    Output class for the scheduler's `step` function output.\n    Args:\n        prev_sample (`torch.FloatTensor` of shape `(batch_size, num_channels, height, width)` for images):\n            Computed sample `(x_{t-1})` of previous timestep. `prev_sample` should be used as next model input in the\n            denoising loop.\n    \"\"\"",
+        "detail": "acestep.schedulers.scheduling_flow_match_pingpong",
+        "documentation": {}
+    },
+    {
+        "label": "update_tags_from_preset",
+        "kind": 2,
+        "importPath": "acestep.ui.components",
+        "description": "acestep.ui.components",
+        "peekOfCode": "def update_tags_from_preset(preset_name):\n    if preset_name == \"Custom\":\n        return \"\"\n    return GENRE_PRESETS.get(preset_name, \"\")\ndef create_output_ui(task_name=\"Text2Music\"):\n    # For many consumer-grade GPU devices, only one batch can be run\n    output_audio1 = gr.Audio(type=\"filepath\", label=f\"{task_name} Generated Audio 1\")\n    # output_audio2 = gr.Audio(type=\"filepath\", label=\"Generated Audio 2\")\n    with gr.Accordion(f\"{task_name} Parameters\", open=False):\n        input_params_json = gr.JSON(label=f\"{task_name} Parameters\")",
+        "detail": "acestep.ui.components",
+        "documentation": {}
+    },
+    {
+        "label": "create_output_ui",
+        "kind": 2,
+        "importPath": "acestep.ui.components",
+        "description": "acestep.ui.components",
+        "peekOfCode": "def create_output_ui(task_name=\"Text2Music\"):\n    # For many consumer-grade GPU devices, only one batch can be run\n    output_audio1 = gr.Audio(type=\"filepath\", label=f\"{task_name} Generated Audio 1\")\n    # output_audio2 = gr.Audio(type=\"filepath\", label=\"Generated Audio 2\")\n    with gr.Accordion(f\"{task_name} Parameters\", open=False):\n        input_params_json = gr.JSON(label=f\"{task_name} Parameters\")\n    # outputs = [output_audio1, output_audio2]\n    outputs = [output_audio1]\n    return outputs, input_params_json\ndef dump_func(*args):",
+        "detail": "acestep.ui.components",
+        "documentation": {}
+    },
+    {
+        "label": "dump_func",
+        "kind": 2,
+        "importPath": "acestep.ui.components",
+        "description": "acestep.ui.components",
+        "peekOfCode": "def dump_func(*args):\n    print(args)\n    return []\ndef create_text2music_ui(\n    gr,\n    text2music_process_func,\n    sample_data_func=None,\n    load_data_func=None,\n):\n    with gr.Row(equal_height=True):",
+        "detail": "acestep.ui.components",
+        "documentation": {}
+    },
+    {
+        "label": "create_text2music_ui",
+        "kind": 2,
+        "importPath": "acestep.ui.components",
+        "description": "acestep.ui.components",
+        "peekOfCode": "def create_text2music_ui(\n    gr,\n    text2music_process_func,\n    sample_data_func=None,\n    load_data_func=None,\n):\n    with gr.Row(equal_height=True):\n        # Get base output directory from environment variable, defaulting to CWD-relative 'outputs'.\n        # This default (./outputs) is suitable for non-Docker local development.\n        # For Docker, the ACE_OUTPUT_DIR environment variable should be set (e.g., to /app/outputs).",
+        "detail": "acestep.ui.components",
+        "documentation": {}
+    },
+    {
+        "label": "create_main_demo_ui",
+        "kind": 2,
+        "importPath": "acestep.ui.components",
+        "description": "acestep.ui.components",
+        "peekOfCode": "def create_main_demo_ui(\n    text2music_process_func=dump_func,\n    sample_data_func=dump_func,\n    load_data_func=dump_func,\n):\n    with gr.Blocks(\n        title=\"ACE-Step Model 1.0 DEMO\",\n    ) as demo:\n        gr.Markdown(\n            \"\"\"",
+        "detail": "acestep.ui.components",
+        "documentation": {}
+    },
+    {
+        "label": "TAG_DEFAULT",
+        "kind": 5,
+        "importPath": "acestep.ui.components",
+        "description": "acestep.ui.components",
+        "peekOfCode": "TAG_DEFAULT = \"funk, pop, soul, rock, melodic, guitar, drums, bass, keyboard, percussion, 105 BPM, energetic, upbeat, groovy, vibrant, dynamic\"\nLYRIC_DEFAULT = \"\"\"[verse]\nNeon lights they flicker bright\nCity hums in dead of night\nRhythms pulse through concrete veins\nLost in echoes of refrains\n[verse]\nBassline groovin' in my chest\nHeartbeats match the city's zest\nElectric whispers fill the air",
+        "detail": "acestep.ui.components",
+        "documentation": {}
+    },
+    {
+        "label": "LYRIC_DEFAULT",
+        "kind": 5,
+        "importPath": "acestep.ui.components",
+        "description": "acestep.ui.components",
+        "peekOfCode": "LYRIC_DEFAULT = \"\"\"[verse]\nNeon lights they flicker bright\nCity hums in dead of night\nRhythms pulse through concrete veins\nLost in echoes of refrains\n[verse]\nBassline groovin' in my chest\nHeartbeats match the city's zest\nElectric whispers fill the air\nSynthesized dreams everywhere",
+        "detail": "acestep.ui.components",
+        "documentation": {}
+    },
+    {
+        "label": "GENRE_PRESETS",
+        "kind": 5,
+        "importPath": "acestep.ui.components",
+        "description": "acestep.ui.components",
+        "peekOfCode": "GENRE_PRESETS = {\n    \"Modern Pop\": \"pop, synth, drums, guitar, 120 bpm, upbeat, catchy, vibrant, female vocals, polished vocals\",\n    \"Rock\": \"rock, electric guitar, drums, bass, 130 bpm, energetic, rebellious, gritty, male vocals, raw vocals\",\n    \"Hip Hop\": \"hip hop, 808 bass, hi-hats, synth, 90 bpm, bold, urban, intense, male vocals, rhythmic vocals\",\n    \"Country\": \"country, acoustic guitar, steel guitar, fiddle, 100 bpm, heartfelt, rustic, warm, male vocals, twangy vocals\",\n    \"EDM\": \"edm, synth, bass, kick drum, 128 bpm, euphoric, pulsating, energetic, instrumental\",\n    \"Reggae\": \"reggae, guitar, bass, drums, 80 bpm, chill, soulful, positive, male vocals, smooth vocals\",\n    \"Classical\": \"classical, orchestral, strings, piano, 60 bpm, elegant, emotive, timeless, instrumental\",\n    \"Jazz\": \"jazz, saxophone, piano, double bass, 110 bpm, smooth, improvisational, soulful, male vocals, crooning vocals\",\n    \"Metal\": \"metal, electric guitar, double kick drum, bass, 160 bpm, aggressive, intense, heavy, male vocals, screamed vocals\",",
+        "detail": "acestep.ui.components",
+        "documentation": {}
+    },
+    {
+        "label": "MomentumBuffer",
+        "kind": 6,
+        "importPath": "acestep.apg_guidance",
+        "description": "acestep.apg_guidance",
+        "peekOfCode": "class MomentumBuffer:\n    def __init__(self, momentum: float = -0.75):\n        self.momentum = momentum\n        self.running_average = 0\n    def update(self, update_value: torch.Tensor):\n        new_average = self.momentum * self.running_average\n        self.running_average = update_value + new_average\ndef project(\n    v0: torch.Tensor,  # [B, C, H, W]\n    v1: torch.Tensor,  # [B, C, H, W]",
+        "detail": "acestep.apg_guidance",
+        "documentation": {}
+    },
+    {
+        "label": "project",
+        "kind": 2,
+        "importPath": "acestep.apg_guidance",
+        "description": "acestep.apg_guidance",
+        "peekOfCode": "def project(\n    v0: torch.Tensor,  # [B, C, H, W]\n    v1: torch.Tensor,  # [B, C, H, W]\n    dims=[-1, -2],\n):\n    dtype = v0.dtype\n    device_type = v0.device.type\n    if device_type == \"mps\":\n        v0, v1 = v0.cpu(), v1.cpu()\n    v0, v1 = v0.double(), v1.double()",
+        "detail": "acestep.apg_guidance",
+        "documentation": {}
+    },
+    {
+        "label": "apg_forward",
+        "kind": 2,
+        "importPath": "acestep.apg_guidance",
+        "description": "acestep.apg_guidance",
+        "peekOfCode": "def apg_forward(\n    pred_cond: torch.Tensor,  # [B, C, H, W]\n    pred_uncond: torch.Tensor,  # [B, C, H, W]\n    guidance_scale: float,\n    momentum_buffer: MomentumBuffer = None,\n    eta: float = 0.0,\n    norm_threshold: float = 2.5,\n    dims=[-1, -2],\n):\n    diff = pred_cond - pred_uncond",
+        "detail": "acestep.apg_guidance",
+        "documentation": {}
+    },
+    {
+        "label": "cfg_forward",
+        "kind": 2,
+        "importPath": "acestep.apg_guidance",
+        "description": "acestep.apg_guidance",
+        "peekOfCode": "def cfg_forward(cond_output, uncond_output, cfg_strength):\n    return uncond_output + cfg_strength * (cond_output - uncond_output)\ndef cfg_double_condition_forward(\n    cond_output,\n    uncond_output,\n    only_text_cond_output,\n    guidance_scale_text,\n    guidance_scale_lyric,\n):\n    return (",
+        "detail": "acestep.apg_guidance",
+        "documentation": {}
+    },
+    {
+        "label": "cfg_double_condition_forward",
+        "kind": 2,
+        "importPath": "acestep.apg_guidance",
+        "description": "acestep.apg_guidance",
+        "peekOfCode": "def cfg_double_condition_forward(\n    cond_output,\n    uncond_output,\n    only_text_cond_output,\n    guidance_scale_text,\n    guidance_scale_lyric,\n):\n    return (\n        (1 - guidance_scale_text) * uncond_output\n        + (guidance_scale_text - guidance_scale_lyric) * only_text_cond_output",
+        "detail": "acestep.apg_guidance",
+        "documentation": {}
+    },
+    {
+        "label": "optimized_scale",
+        "kind": 2,
+        "importPath": "acestep.apg_guidance",
+        "description": "acestep.apg_guidance",
+        "peekOfCode": "def optimized_scale(positive_flat, negative_flat):\n    # Calculate dot production\n    dot_product = torch.sum(positive_flat * negative_flat, dim=1, keepdim=True)\n    # Squared norm of uncondition\n    squared_norm = torch.sum(negative_flat**2, dim=1, keepdim=True) + 1e-8\n    # st_star = v_cond^T * v_uncond / ||v_uncond||^2\n    st_star = dot_product / squared_norm\n    return st_star\ndef cfg_zero_star(\n    noise_pred_with_cond,",
+        "detail": "acestep.apg_guidance",
+        "documentation": {}
+    },
+    {
+        "label": "cfg_zero_star",
+        "kind": 2,
+        "importPath": "acestep.apg_guidance",
+        "description": "acestep.apg_guidance",
+        "peekOfCode": "def cfg_zero_star(\n    noise_pred_with_cond,\n    noise_pred_uncond,\n    guidance_scale,\n    i,\n    zero_steps=1,\n    use_zero_init=True,\n):\n    bsz = noise_pred_with_cond.shape[0]\n    positive_flat = noise_pred_with_cond.view(bsz, -1)",
+        "detail": "acestep.apg_guidance",
+        "documentation": {}
+    },
+    {
+        "label": "CpuOffloader",
+        "kind": 6,
+        "importPath": "acestep.cpu_offload",
+        "description": "acestep.cpu_offload",
+        "peekOfCode": "class CpuOffloader:\n    def __init__(self, model, device=\"cpu\"):\n        self.model = model\n        self.original_device = device\n        self.original_dtype = model.dtype\n    def __enter__(self):\n        if not hasattr(self.model,\"torchao_quantized\"):\n            self.model.to(self.original_device, dtype=self.original_dtype)\n        return self.model\n    def __exit__(self, *args):",
+        "detail": "acestep.cpu_offload",
+        "documentation": {}
+    },
+    {
+        "label": "cpu_offload",
+        "kind": 2,
+        "importPath": "acestep.cpu_offload",
+        "description": "acestep.cpu_offload",
+        "peekOfCode": "def cpu_offload(model_attr: str):\n    def decorator(func: Callable[..., T]) -> Callable[..., T]:\n        @functools.wraps(func)\n        def wrapper(self, *args, **kwargs):\n            if not self.cpu_offload:\n                return func(self, *args, **kwargs)\n            # Get the device from the class\n            device = self.device\n            # Get the model from the class attribute\n            model = getattr(self, model_attr)",
+        "detail": "acestep.cpu_offload",
+        "documentation": {}
+    },
+    {
+        "label": "T",
+        "kind": 5,
+        "importPath": "acestep.cpu_offload",
+        "description": "acestep.cpu_offload",
+        "peekOfCode": "T = TypeVar('T')\ndef cpu_offload(model_attr: str):\n    def decorator(func: Callable[..., T]) -> Callable[..., T]:\n        @functools.wraps(func)\n        def wrapper(self, *args, **kwargs):\n            if not self.cpu_offload:\n                return func(self, *args, **kwargs)\n            # Get the device from the class\n            device = self.device\n            # Get the model from the class attribute",
+        "detail": "acestep.cpu_offload",
+        "documentation": {}
+    },
+    {
+        "label": "DataSampler",
+        "kind": 6,
+        "importPath": "acestep.data_sampler",
+        "description": "acestep.data_sampler",
+        "peekOfCode": "class DataSampler:\n    def __init__(self, root_dir=DEFAULT_ROOT_DIR):\n        self.root_dir = root_dir\n        self.input_params_files = list(Path(self.root_dir).glob(\"*.json\"))\n        self.zh_rap_lora_input_params_files = list(Path(ZH_RAP_LORA_ROOT_DIR).glob(\"*.json\"))\n        self.zh_rap_lora_input_params_files += list(Path(ZH_RAP_LORA_ROOT_DIR).glob(\"*.json\"))\n    def load_json(self, file_path):\n        with open(file_path, \"r\", encoding=\"utf-8\") as f:\n            return json.load(f)\n    def sample(self, lora_name_or_path=None):",
+        "detail": "acestep.data_sampler",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_ROOT_DIR",
+        "kind": 5,
+        "importPath": "acestep.data_sampler",
+        "description": "acestep.data_sampler",
+        "peekOfCode": "DEFAULT_ROOT_DIR = \"examples/default/input_params\"\nZH_RAP_LORA_ROOT_DIR = \"examples/zh_rap_lora/input_params\"\nclass DataSampler:\n    def __init__(self, root_dir=DEFAULT_ROOT_DIR):\n        self.root_dir = root_dir\n        self.input_params_files = list(Path(self.root_dir).glob(\"*.json\"))\n        self.zh_rap_lora_input_params_files = list(Path(ZH_RAP_LORA_ROOT_DIR).glob(\"*.json\"))\n        self.zh_rap_lora_input_params_files += list(Path(ZH_RAP_LORA_ROOT_DIR).glob(\"*.json\"))\n    def load_json(self, file_path):\n        with open(file_path, \"r\", encoding=\"utf-8\") as f:",
+        "detail": "acestep.data_sampler",
+        "documentation": {}
+    },
+    {
+        "label": "ZH_RAP_LORA_ROOT_DIR",
+        "kind": 5,
+        "importPath": "acestep.data_sampler",
+        "description": "acestep.data_sampler",
+        "peekOfCode": "ZH_RAP_LORA_ROOT_DIR = \"examples/zh_rap_lora/input_params\"\nclass DataSampler:\n    def __init__(self, root_dir=DEFAULT_ROOT_DIR):\n        self.root_dir = root_dir\n        self.input_params_files = list(Path(self.root_dir).glob(\"*.json\"))\n        self.zh_rap_lora_input_params_files = list(Path(ZH_RAP_LORA_ROOT_DIR).glob(\"*.json\"))\n        self.zh_rap_lora_input_params_files += list(Path(ZH_RAP_LORA_ROOT_DIR).glob(\"*.json\"))\n    def load_json(self, file_path):\n        with open(file_path, \"r\", encoding=\"utf-8\") as f:\n            return json.load(f)",
+        "detail": "acestep.data_sampler",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "acestep.gui",
+        "description": "acestep.gui",
+        "peekOfCode": "def main(checkpoint_path, server_name, port, device_id, share, bf16, torch_compile, cpu_offload, overlapped_decode):\n    \"\"\"\n    Main function to launch the ACE Step pipeline demo.\n    \"\"\"\n    os.environ[\"CUDA_VISIBLE_DEVICES\"] = str(device_id)\n    from acestep.ui.components import create_main_demo_ui\n    from acestep.pipeline_ace_step import ACEStepPipeline\n    from acestep.data_sampler import DataSampler\n    model_demo = ACEStepPipeline(\n        checkpoint_dir=checkpoint_path,",
+        "detail": "acestep.gui",
+        "documentation": {}
+    },
+    {
+        "label": "ACEStepPipeline",
+        "kind": 6,
+        "importPath": "acestep.pipeline_ace_step",
+        "description": "acestep.pipeline_ace_step",
+        "peekOfCode": "class ACEStepPipeline:\n    def __init__(\n        self,\n        checkpoint_dir=None,\n        device_id=0,\n        dtype=\"bfloat16\",\n        text_encoder_checkpoint_path=None,\n        persistent_storage_path=None,\n        torch_compile=False,\n        cpu_offload=False,",
+        "detail": "acestep.pipeline_ace_step",
+        "documentation": {}
+    },
+    {
+        "label": "ensure_directory_exists",
+        "kind": 2,
+        "importPath": "acestep.pipeline_ace_step",
+        "description": "acestep.pipeline_ace_step",
+        "peekOfCode": "def ensure_directory_exists(directory):\n    directory = str(directory)\n    if not os.path.exists(directory):\n        os.makedirs(directory)\nREPO_ID = \"ACE-Step/ACE-Step-v1-3.5B\"\nREPO_ID_QUANT = REPO_ID + \"-q4-K-M\" # ??? update this i guess\n# class ACEStepPipeline(DiffusionPipeline):\nclass ACEStepPipeline:\n    def __init__(\n        self,",
+        "detail": "acestep.pipeline_ace_step",
+        "documentation": {}
+    },
+    {
+        "label": "torch.backends.cudnn.benchmark",
+        "kind": 5,
+        "importPath": "acestep.pipeline_ace_step",
+        "description": "acestep.pipeline_ace_step",
+        "peekOfCode": "torch.backends.cudnn.benchmark = False\ntorch.set_float32_matmul_precision(\"high\")\ntorch.backends.cudnn.deterministic = True\ntorch.backends.cuda.matmul.allow_tf32 = True\nos.environ[\"TOKENIZERS_PARALLELISM\"] = \"false\"\nSUPPORT_LANGUAGES = {\n    \"en\": 259,\n    \"de\": 260,\n    \"fr\": 262,\n    \"es\": 284,",
+        "detail": "acestep.pipeline_ace_step",
+        "documentation": {}
+    },
+    {
+        "label": "torch.backends.cudnn.deterministic",
+        "kind": 5,
+        "importPath": "acestep.pipeline_ace_step",
+        "description": "acestep.pipeline_ace_step",
+        "peekOfCode": "torch.backends.cudnn.deterministic = True\ntorch.backends.cuda.matmul.allow_tf32 = True\nos.environ[\"TOKENIZERS_PARALLELISM\"] = \"false\"\nSUPPORT_LANGUAGES = {\n    \"en\": 259,\n    \"de\": 260,\n    \"fr\": 262,\n    \"es\": 284,\n    \"it\": 285,\n    \"pt\": 286,",
+        "detail": "acestep.pipeline_ace_step",
+        "documentation": {}
+    },
+    {
+        "label": "torch.backends.cuda.matmul.allow_tf32",
+        "kind": 5,
+        "importPath": "acestep.pipeline_ace_step",
+        "description": "acestep.pipeline_ace_step",
+        "peekOfCode": "torch.backends.cuda.matmul.allow_tf32 = True\nos.environ[\"TOKENIZERS_PARALLELISM\"] = \"false\"\nSUPPORT_LANGUAGES = {\n    \"en\": 259,\n    \"de\": 260,\n    \"fr\": 262,\n    \"es\": 284,\n    \"it\": 285,\n    \"pt\": 286,\n    \"pl\": 294,",
+        "detail": "acestep.pipeline_ace_step",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"TOKENIZERS_PARALLELISM\"]",
+        "kind": 5,
+        "importPath": "acestep.pipeline_ace_step",
+        "description": "acestep.pipeline_ace_step",
+        "peekOfCode": "os.environ[\"TOKENIZERS_PARALLELISM\"] = \"false\"\nSUPPORT_LANGUAGES = {\n    \"en\": 259,\n    \"de\": 260,\n    \"fr\": 262,\n    \"es\": 284,\n    \"it\": 285,\n    \"pt\": 286,\n    \"pl\": 294,\n    \"tr\": 295,",
+        "detail": "acestep.pipeline_ace_step",
+        "documentation": {}
+    },
+    {
+        "label": "SUPPORT_LANGUAGES",
+        "kind": 5,
+        "importPath": "acestep.pipeline_ace_step",
+        "description": "acestep.pipeline_ace_step",
+        "peekOfCode": "SUPPORT_LANGUAGES = {\n    \"en\": 259,\n    \"de\": 260,\n    \"fr\": 262,\n    \"es\": 284,\n    \"it\": 285,\n    \"pt\": 286,\n    \"pl\": 294,\n    \"tr\": 295,\n    \"ru\": 267,",
+        "detail": "acestep.pipeline_ace_step",
+        "documentation": {}
+    },
+    {
+        "label": "structure_pattern",
+        "kind": 5,
+        "importPath": "acestep.pipeline_ace_step",
+        "description": "acestep.pipeline_ace_step",
+        "peekOfCode": "structure_pattern = re.compile(r\"\\[.*?\\]\")\ndef ensure_directory_exists(directory):\n    directory = str(directory)\n    if not os.path.exists(directory):\n        os.makedirs(directory)\nREPO_ID = \"ACE-Step/ACE-Step-v1-3.5B\"\nREPO_ID_QUANT = REPO_ID + \"-q4-K-M\" # ??? update this i guess\n# class ACEStepPipeline(DiffusionPipeline):\nclass ACEStepPipeline:\n    def __init__(",
+        "detail": "acestep.pipeline_ace_step",
+        "documentation": {}
+    },
+    {
+        "label": "REPO_ID",
+        "kind": 5,
+        "importPath": "acestep.pipeline_ace_step",
+        "description": "acestep.pipeline_ace_step",
+        "peekOfCode": "REPO_ID = \"ACE-Step/ACE-Step-v1-3.5B\"\nREPO_ID_QUANT = REPO_ID + \"-q4-K-M\" # ??? update this i guess\n# class ACEStepPipeline(DiffusionPipeline):\nclass ACEStepPipeline:\n    def __init__(\n        self,\n        checkpoint_dir=None,\n        device_id=0,\n        dtype=\"bfloat16\",\n        text_encoder_checkpoint_path=None,",
+        "detail": "acestep.pipeline_ace_step",
+        "documentation": {}
+    },
+    {
+        "label": "REPO_ID_QUANT",
+        "kind": 5,
+        "importPath": "acestep.pipeline_ace_step",
+        "description": "acestep.pipeline_ace_step",
+        "peekOfCode": "REPO_ID_QUANT = REPO_ID + \"-q4-K-M\" # ??? update this i guess\n# class ACEStepPipeline(DiffusionPipeline):\nclass ACEStepPipeline:\n    def __init__(\n        self,\n        checkpoint_dir=None,\n        device_id=0,\n        dtype=\"bfloat16\",\n        text_encoder_checkpoint_path=None,\n        persistent_storage_path=None,",
+        "detail": "acestep.pipeline_ace_step",
+        "documentation": {}
+    },
+    {
+        "label": "Text2MusicDataset",
+        "kind": 6,
+        "importPath": "acestep.text2music_dataset",
+        "description": "acestep.text2music_dataset",
+        "peekOfCode": "class Text2MusicDataset(Dataset):\n    \"\"\"\n    Dataset for text-to-music generation that processes lyrics and audio files\n    \"\"\"\n    def __init__(\n        self,\n        train=True,\n        train_dataset_path=DEFAULT_TRAIN_PATH,\n        max_duration=240.0,\n        sample_size=None,",
+        "detail": "acestep.text2music_dataset",
+        "documentation": {}
+    },
+    {
+        "label": "is_silent_audio",
+        "kind": 2,
+        "importPath": "acestep.text2music_dataset",
+        "description": "acestep.text2music_dataset",
+        "peekOfCode": "def is_silent_audio(audio_tensor, silence_threshold=0.95):\n    \"\"\"\n    Determine if an audio is silent and should be discarded\n    Args:\n        audio_tensor: torch.Tensor from torchaudio, shape (num_channels, num_samples)\n        silence_threshold: Silence threshold ratio, default 0.95 means 95%\n    Returns:\n        bool: True if audio should be discarded, False if it should be kept\n    \"\"\"\n    # Check if each sample point is zero across all channels",
+        "detail": "acestep.text2music_dataset",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_TRAIN_PATH",
+        "kind": 5,
+        "importPath": "acestep.text2music_dataset",
+        "description": "acestep.text2music_dataset",
+        "peekOfCode": "DEFAULT_TRAIN_PATH = \"./data/example_dataset\"\ndef is_silent_audio(audio_tensor, silence_threshold=0.95):\n    \"\"\"\n    Determine if an audio is silent and should be discarded\n    Args:\n        audio_tensor: torch.Tensor from torchaudio, shape (num_channels, num_samples)\n        silence_threshold: Silence threshold ratio, default 0.95 means 95%\n    Returns:\n        bool: True if audio should be discarded, False if it should be kept\n    \"\"\"",
+        "detail": "acestep.text2music_dataset",
+        "documentation": {}
+    },
+    {
+        "label": "SUPPORT_LANGUAGES",
+        "kind": 5,
+        "importPath": "acestep.text2music_dataset",
+        "description": "acestep.text2music_dataset",
+        "peekOfCode": "SUPPORT_LANGUAGES = {\n    \"en\": 259,\n    \"de\": 260,\n    \"fr\": 262,\n    \"es\": 284,\n    \"it\": 285,\n    \"pt\": 286,\n    \"pl\": 294,\n    \"tr\": 295,\n    \"ru\": 267,",
+        "detail": "acestep.text2music_dataset",
+        "documentation": {}
+    },
+    {
+        "label": "structure_pattern",
+        "kind": 5,
+        "importPath": "acestep.text2music_dataset",
+        "description": "acestep.text2music_dataset",
+        "peekOfCode": "structure_pattern = re.compile(r\"\\[.*?\\]\")\nclass Text2MusicDataset(Dataset):\n    \"\"\"\n    Dataset for text-to-music generation that processes lyrics and audio files\n    \"\"\"\n    def __init__(\n        self,\n        train=True,\n        train_dataset_path=DEFAULT_TRAIN_PATH,\n        max_duration=240.0,",
+        "detail": "acestep.text2music_dataset",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "call_api",
+        "description": "call_api",
+        "peekOfCode": "def main():\n    parser = argparse.ArgumentParser(description=\"Call the ACE Step service\")\n    parser.add_argument(\n        \"--prompt\",\n        default=\"upbeat pop\",\n        help=\"text prompt for style (defaults to 'upbeat pop')\",\n    )\n    parser.add_argument(\"--lyrics\", default=\"\", help=\"lyrics in ACE Step format\")\n    parser.add_argument(\n        \"--length\",",
+        "detail": "call_api",
+        "documentation": {}
+    },
+    {
+        "label": "generate_song",
+        "kind": 2,
+        "importPath": "modal_app",
+        "description": "modal_app",
+        "peekOfCode": "def generate_song(request_data: dict):\n    \"\"\"\n    Modal web endpoint that wraps the Flask functionality\n    \"\"\"\n    from acestep.pipeline_ace_step import ACEStepPipeline\n    import base64\n    import gc\n    import shutil\n    import torch\n    import tempfile",
+        "detail": "modal_app",
+        "documentation": {}
+    },
+    {
+        "label": "flask_app",
+        "kind": 2,
+        "importPath": "modal_app",
+        "description": "modal_app",
+        "peekOfCode": "def flask_app():\n    \"\"\"\n    Run the Flask app directly in Modal using WSGI\n    \"\"\"\n    from flask import Flask, request, jsonify\n    from acestep.pipeline_ace_step import ACEStepPipeline\n    import base64\n    import gc\n    import shutil\n    import torch",
+        "detail": "modal_app",
+        "documentation": {}
+    },
+    {
+        "label": "setup_ace_step",
+        "kind": 2,
+        "importPath": "modal_app",
+        "description": "modal_app",
+        "peekOfCode": "def setup_ace_step():\n    \"\"\"\n    Verify ACE Step package installation\n    \"\"\"\n    import sys\n    print(\"Verifying ACE Step installation...\")\n    # Verify installation\n    try:\n        from acestep.pipeline_ace_step import ACEStepPipeline\n        print(\"ACE Step pipeline import successful\")",
+        "detail": "modal_app",
+        "documentation": {}
+    },
+    {
+        "label": "setup_directories",
+        "kind": 2,
+        "importPath": "modal_app",
+        "description": "modal_app",
+        "peekOfCode": "def setup_directories():\n    \"\"\"\n    Setup necessary directories\n    \"\"\"\n    from pathlib import Path\n    # Create necessary directories\n    Path(\"/models\").mkdir(exist_ok=True)\n    Path(\"/tmp/ace_outputs\").mkdir(exist_ok=True)\n    print(\"Directory setup complete!\")\n# Local development function",
+        "detail": "modal_app",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "modal_app",
+        "description": "modal_app",
+        "peekOfCode": "def main():\n    \"\"\"\n    Entry point for running setup and deployment\n    \"\"\"\n    print(\"Verifying ACE Step installation...\")\n    setup_ace_step.remote()\n    print(\"Setting up directories...\")\n    setup_directories.remote()\n    print(\"Setup complete! Your Flask API is now deployed on Modal.\")\n    print(\"You can access it at the generated URL from Modal dashboard.\")",
+        "detail": "modal_app",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "modal_app",
+        "description": "modal_app",
+        "peekOfCode": "app = modal.App(\"ace-step-flask-api\")\n# Define the image with all required dependencies\nimage = (\n    modal.Image.debian_slim(python_version=\"3.11\")\n    .apt_install([\n        \"git\",\n        \"wget\",\n        \"curl\",\n        \"ffmpeg\",\n        \"libsndfile1\",",
+        "detail": "modal_app",
+        "documentation": {}
+    },
+    {
+        "label": "image",
+        "kind": 5,
+        "importPath": "modal_app",
+        "description": "modal_app",
+        "peekOfCode": "image = (\n    modal.Image.debian_slim(python_version=\"3.11\")\n    .apt_install([\n        \"git\",\n        \"wget\",\n        \"curl\",\n        \"ffmpeg\",\n        \"libsndfile1\",\n        \"libsndfile1-dev\",\n        \"build-essential\",  # Often needed for compilation",
+        "detail": "modal_app",
+        "documentation": {}
+    },
+    {
+        "label": "model_volume",
+        "kind": 5,
+        "importPath": "modal_app",
+        "description": "modal_app",
+        "peekOfCode": "model_volume = modal.Volume.from_name(\"ace-step-models\", create_if_missing=True)\ntemp_volume = modal.Volume.from_name(\"ace-step-temp\", create_if_missing=True)\n@app.function(\n    image=image,\n    gpu=\"A10G\",\n    volumes={\n        \"/models\": model_volume,\n        \"/tmp/ace_outputs\": temp_volume,\n    },\n    timeout=600,  # 10 minute timeout for generation",
+        "detail": "modal_app",
+        "documentation": {}
+    },
+    {
+        "label": "temp_volume",
+        "kind": 5,
+        "importPath": "modal_app",
+        "description": "modal_app",
+        "peekOfCode": "temp_volume = modal.Volume.from_name(\"ace-step-temp\", create_if_missing=True)\n@app.function(\n    image=image,\n    gpu=\"A10G\",\n    volumes={\n        \"/models\": model_volume,\n        \"/tmp/ace_outputs\": temp_volume,\n    },\n    timeout=600,  # 10 minute timeout for generation\n)",
+        "detail": "modal_app",
+        "documentation": {}
+    }
+]
