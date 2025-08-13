@@ -252,11 +252,27 @@ def _send_request(url: str, payload: Dict[str, Any], output_path: Path, dry_run:
         raise SystemExit(f"Request failed: {response.status_code} {response.text}")
 
     response_json = response.json()
-    audio_base64 = response_json.get("audio_base64")
-    if not audio_base64:
-        raise SystemExit("Response missing audio data")
+    
+    # Check if we have a blob URL (new Azure implementation)
+    audio_url = response_json.get("audio_url")
+    if audio_url:
+        # Download audio from Azure Blob Storage
+        audio_response = requests.get(audio_url)
+        if audio_response.status_code != 200:
+            raise SystemExit(f"Failed to download audio from blob storage: {audio_response.status_code}")
+        
+        audio_bytes = audio_response.content
+        blob_name = response_json.get("blob_name", "unknown")
+        print(f"Downloaded audio from Azure Blob Storage (blob: {blob_name})")
+    else:
+        # Fallback to base64 (old implementation or if Azure upload failed)
+        audio_base64 = response_json.get("audio_base64")
+        if not audio_base64:
+            raise SystemExit("Response missing audio data")
+        
+        audio_bytes = base64.b64decode(audio_base64)
+        print("Downloaded audio using base64 encoding")
 
-    audio_bytes = base64.b64decode(audio_base64)
     output_path.parent.mkdir(parents=True, exist_ok=True)
     with open(output_path, "wb") as f:
         f.write(audio_bytes)

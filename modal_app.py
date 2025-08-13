@@ -21,6 +21,7 @@ image = (
     ])
     .pip_install([
         "flask",
+        "flask_cors",
         "requests",
         "torch",
         "torchaudio",
@@ -33,6 +34,8 @@ image = (
         "soundfile",
         "pydub",
         "werkzeug",
+        "azure-storage-blob",  # Azure Blob Storage support
+        "uuid",  # For generating unique IDs
     ])
     .run_commands([
         # Create directory for ace-step
@@ -46,6 +49,81 @@ image = (
 # Create a volume for model storage and temporary files
 model_volume = modal.Volume.from_name("ace-step-models", create_if_missing=True)
 temp_volume = modal.Volume.from_name("ace-step-temp", create_if_missing=True)
+
+# Azure Blob Storage configuration
+AZURE_CONTAINER_NAME = os.getenv("AZURE_CONTAINER_NAME", "ace-step-audio")
+
+def get_azure_blob_client():
+    """Initialize Azure Blob Storage client"""
+    from azure.storage.blob import BlobServiceClient
+    
+    # Get credentials from environment (injected by Modal secrets)
+    account_name = os.getenv("AZURE_STORAGE_ACCOUNT_NAME")
+    account_key = os.getenv("AZURE_STORAGE_KEY")
+    blob_endpoint = os.getenv("AZURE_BLOB_ENDPOINT")
+    
+    # Debugging: Print the environment variables
+    print(f"DEBUG: AZURE_STORAGE_ACCOUNT_NAME = {account_name}")
+    print(f"DEBUG: AZURE_STORAGE_KEY = {'SET' if account_key else 'NOT SET'}")
+    print(f"DEBUG: AZURE_BLOB_ENDPOINT = {blob_endpoint}")
+    
+    if not account_name or not account_key or not blob_endpoint:
+        raise ValueError("Azure Storage credentials are missing. Please set AZURE_STORAGE_ACCOUNT_NAME, AZURE_STORAGE_KEY, and AZURE_BLOB_ENDPOINT environment variables.")
+    
+    blob_service_client = BlobServiceClient(
+        account_url=blob_endpoint,
+        credential=account_key
+    )
+    return blob_service_client
+
+def upload_to_azure_blob(file_path: str, blob_name: str) -> str:
+    from azure.storage.blob import BlobServiceClient, generate_blob_sas, BlobSasPermissions
+    from datetime import datetime, timedelta
+    try:
+        # Absolute path
+        file_path = str(Path(file_path).resolve())
+        print(f"[Azure Upload] Preparing to upload {file_path} as {blob_name}")
+
+        # Credentials
+        account_name = os.getenv("AZURE_STORAGE_ACCOUNT_NAME")
+        account_key = os.getenv("AZURE_STORAGE_KEY")
+        blob_endpoint = os.getenv("AZURE_BLOB_ENDPOINT")
+        container_name = os.getenv("AZURE_CONTAINER_NAME", "ace-step-audio")
+
+        if not account_name or not account_key:
+            raise ValueError("Azure Storage account name/key not set in environment variables.")
+
+        # Create blob client
+        blob_service_client = BlobServiceClient(
+            account_url=f"https://{account_name}.blob.core.windows.net/",
+            credential=account_key
+        )
+        blob_client = blob_service_client.get_blob_client(container=container_name, blob=blob_name)
+
+        # Upload file
+        with open(file_path, "rb") as data:
+            blob_client.upload_blob(data, overwrite=True, max_concurrency=4)
+
+        print(f"[Azure Upload] Upload complete for {blob_name}")
+
+        # Generate SAS URL valid for 24 hours
+        sas_token = generate_blob_sas(
+            account_name=account_name,
+            container_name=container_name,
+            blob_name=blob_name,
+            account_key=account_key,
+            permission=BlobSasPermissions(read=True),
+            expiry=datetime.utcnow() + timedelta(hours=24)
+        )
+
+        blob_url = f"https://{account_name}.blob.core.windows.net/{container_name}/{blob_name}?{sas_token}"
+        print(f"[Azure Upload] Blob URL: {blob_url}")
+
+        return blob_url
+
+    except Exception as upload_error:
+        print(f"[Azure Upload] Failed: {upload_error}", exc_info=True)
+        return None
 
 
 # Helper to extract generation parameters from request dict with safe defaults.
@@ -146,6 +224,7 @@ def _extract_generation_params(request_dict: dict) -> dict:
         "/models": model_volume,
         "/tmp/ace_outputs": temp_volume,
     },
+    
     scaledown_window=300,
 )
 @modal.wsgi_app()
@@ -154,6 +233,7 @@ def flask_app():
     Run the Flask app directly in Modal using WSGI
     """
     from flask import Flask, request, jsonify
+    from flask_cors import CORS
     from acestep.pipeline_ace_step import ACEStepPipeline
     import base64
     import gc
@@ -162,6 +242,7 @@ def flask_app():
     from werkzeug.middleware.proxy_fix import ProxyFix
     
     flask_app = Flask(__name__)
+    CORS(flask_app, resources={r"/*": {"origins": "*"}})
     flask_app.wsgi_app = ProxyFix(flask_app.wsgi_app)
     
     def env_flag(name: str, default: str = "0") -> bool:
@@ -173,45 +254,79 @@ def flask_app():
     
     @flask_app.route('/generate', methods=['POST'])
     def generate_song():
+        import uuid
         data = request.get_json(force=True)
         gen_params = _extract_generation_params(data)
-        
+
         try:
-            # Load the pipeline on demand
+            # Load pipeline on demand
             pipeline = ACEStepPipeline(
                 device_id=device_id,
                 torch_compile=torch_compile,
                 overlapped_decode=overlapped_decode,
-                model_cache_dir="/models",  # Use mounted volume
+                model_cache_dir="/models"
             )
-            
-            # Call the ACE Step pipeline
+
             output_paths = pipeline(**gen_params)
-            
-            # Explicitly release memory used by the pipeline
+
+        except Exception as e:
+            return jsonify({'error': f'Pipeline execution failed: {e}'}), 500
+
+        finally:
+            # Release resources
             del pipeline
             gc.collect()
             if torch.cuda.is_available():
                 torch.cuda.empty_cache()
-            
-            if not output_paths:
-                return jsonify({'error': 'generation failed'}), 500
-            
-            audio_path = output_paths[0]
-            
-            with open(audio_path, "rb") as f:
-                audio_bytes = f.read()
-            
-            audio_b64 = base64.b64encode(audio_bytes).decode("utf-8")
-            
-            # Clean up
-            outputs_dir = os.path.dirname(audio_path)
+
+        if not output_paths:
+            return jsonify({'error': 'Generation failed, no output paths'}), 500
+
+        audio_path = output_paths[0]
+        audio_id = str(uuid.uuid4())
+        blob_name = f"ace-step-outputs/{audio_id}.wav"
+
+        # Try uploading to Azure Blob
+        try:
+            audio_url = upload_to_azure_blob(audio_path, blob_name)
+
+            # Remove local file
             try:
-                shutil.rmtree(outputs_dir)
+                os.remove(audio_path)
             except Exception as e:
-                flask_app.logger.warning(f"Failed to clean outputs directory {outputs_dir}: {e}")
-            
+                print(f"Failed to remove file {audio_path}: {e}")
+
+            # Remove output directory
+            try:
+                shutil.rmtree(os.path.dirname(audio_path))
+            except Exception as e:
+                print(f"Failed to remove directory {os.path.dirname(audio_path)}: {e}")
+
+            return jsonify({
+                "audio_url": audio_url,
+                "blob_name": blob_name,
+                "audio_base64": None
+            })
+
+        except Exception as upload_error:
+            print(f"Azure upload failed: {upload_error}")
+
+            # Fallback: return base64
+            try:
+                with open(audio_path, "rb") as f:
+                    audio_bytes = f.read()
+                audio_b64 = base64.b64encode(audio_bytes).decode("utf-8")
+            except Exception as read_error:
+                return jsonify({'error': f'Failed to read audio file: {read_error}'}), 500
+
+            # Cleanup outputs
+            try:
+                shutil.rmtree(os.path.dirname(audio_path))
+            except Exception as e:
+                print(f"Failed to clean directory {os.path.dirname(audio_path)}: {e}")
+
             return jsonify({"audio_base64": audio_b64})
+
             
         except Exception as e:
             # Clean up on error
@@ -242,14 +357,48 @@ def flask_app():
             if not output_paths:
                 return jsonify({'error': 'generation failed'}), 500
             audio_path = output_paths[0]
-            with open(audio_path, "rb") as f:
-                audio_bytes = f.read()
-            audio_b64 = base64.b64encode(audio_bytes).decode("utf-8")
+            
+            # Generate a unique filename
+            import uuid
+            audio_id = str(uuid.uuid4())
+            blob_name = f"ace-step-outputs/{audio_id}.wav"
+            
+            # Upload to Azure Blob Storage
             try:
-                shutil.rmtree(os.path.dirname(audio_path))
-            except Exception:
-                pass
-            return jsonify({"audio_base64": audio_b64})
+                audio_url = upload_to_azure_blob(audio_path, blob_name)
+                
+                # Clean up local file
+                try:
+                    os.remove(audio_path)
+                except Exception as e:
+                    print(f"Failed to clean up local file {audio_path}: {e}")
+                
+                # Clean up directory
+                try:
+                    shutil.rmtree(os.path.dirname(audio_path))
+                except Exception:
+                    pass
+                
+                return jsonify({
+                    "audio_url": audio_url,
+                    "blob_name": blob_name,
+                    "audio_base64": None
+                })
+            except Exception as upload_error:
+                # If upload fails, fall back to base64
+                print(f"Failed to upload to Azure Blob Storage: {upload_error}")
+                
+                with open(audio_path, "rb") as f:
+                    audio_bytes = f.read()
+                
+                audio_b64 = base64.b64encode(audio_bytes).decode("utf-8")
+                
+                try:
+                    shutil.rmtree(os.path.dirname(audio_path))
+                except Exception:
+                    pass
+                
+                return jsonify({"audio_base64": audio_b64})
         except Exception as e:
             if torch.cuda.is_available():
                 torch.cuda.empty_cache()
@@ -276,14 +425,48 @@ def flask_app():
             if not output_paths:
                 return jsonify({'error': 'generation failed'}), 500
             audio_path = output_paths[0]
-            with open(audio_path, "rb") as f:
-                audio_bytes = f.read()
-            audio_b64 = base64.b64encode(audio_bytes).decode("utf-8")
+            
+            # Generate a unique filename
+            import uuid
+            audio_id = str(uuid.uuid4())
+            blob_name = f"ace-step-outputs/{audio_id}.wav"
+            
+            # Upload to Azure Blob Storage
             try:
-                shutil.rmtree(os.path.dirname(audio_path))
-            except Exception:
-                pass
-            return jsonify({"audio_base64": audio_b64})
+                audio_url = upload_to_azure_blob(audio_path, blob_name)
+                
+                # Clean up local file
+                try:
+                    os.remove(audio_path)
+                except Exception as e:
+                    print(f"Failed to clean up local file {audio_path}: {e}")
+                
+                # Clean up directory
+                try:
+                    shutil.rmtree(os.path.dirname(audio_path))
+                except Exception:
+                    pass
+                
+                return jsonify({
+                    "audio_url": audio_url,
+                    "blob_name": blob_name,
+                    "audio_base64": None
+                })
+            except Exception as upload_error:
+                # If upload fails, fall back to base64
+                print(f"Failed to upload to Azure Blob Storage: {upload_error}")
+                
+                with open(audio_path, "rb") as f:
+                    audio_bytes = f.read()
+                
+                audio_b64 = base64.b64encode(audio_bytes).decode("utf-8")
+                
+                try:
+                    shutil.rmtree(os.path.dirname(audio_path))
+                except Exception:
+                    pass
+                
+                return jsonify({"audio_base64": audio_b64})
         except Exception as e:
             if torch.cuda.is_available():
                 torch.cuda.empty_cache()
@@ -314,14 +497,48 @@ def flask_app():
             if not output_paths:
                 return jsonify({'error': 'generation failed'}), 500
             audio_path = output_paths[0]
-            with open(audio_path, "rb") as f:
-                audio_bytes = f.read()
-            audio_b64 = base64.b64encode(audio_bytes).decode("utf-8")
+            
+            # Generate a unique filename
+            import uuid
+            audio_id = str(uuid.uuid4())
+            blob_name = f"ace-step-outputs/{audio_id}.wav"
+            
+            # Upload to Azure Blob Storage
             try:
-                shutil.rmtree(os.path.dirname(audio_path))
-            except Exception:
-                pass
-            return jsonify({"audio_base64": audio_b64})
+                audio_url = upload_to_azure_blob(audio_path, blob_name)
+                
+                # Clean up local file
+                try:
+                    os.remove(audio_path)
+                except Exception as e:
+                    print(f"Failed to clean up local file {audio_path}: {e}")
+                
+                # Clean up directory
+                try:
+                    shutil.rmtree(os.path.dirname(audio_path))
+                except Exception:
+                    pass
+                
+                return jsonify({
+                    "audio_url": audio_url,
+                    "blob_name": blob_name,
+                    "audio_base64": None
+                })
+            except Exception as upload_error:
+                # If upload fails, fall back to base64
+                print(f"Failed to upload to Azure Blob Storage: {upload_error}")
+                
+                with open(audio_path, "rb") as f:
+                    audio_bytes = f.read()
+                
+                audio_b64 = base64.b64encode(audio_bytes).decode("utf-8")
+                
+                try:
+                    shutil.rmtree(os.path.dirname(audio_path))
+                except Exception:
+                    pass
+                
+                return jsonify({"audio_base64": audio_b64})
         except Exception as e:
             if torch.cuda.is_available():
                 torch.cuda.empty_cache()
@@ -366,14 +583,48 @@ def flask_app():
             if not output_paths:
                 return jsonify({'error': 'generation failed'}), 500
             audio_path = output_paths[0]
-            with open(audio_path, "rb") as f:
-                audio_bytes = f.read()
-            audio_b64 = base64.b64encode(audio_bytes).decode("utf-8")
+            
+            # Generate a unique filename
+            import uuid
+            audio_id = str(uuid.uuid4())
+            blob_name = f"ace-step-outputs/{audio_id}.wav"
+            
+            # Upload to Azure Blob Storage
             try:
-                shutil.rmtree(os.path.dirname(audio_path))
-            except Exception:
-                pass
-            return jsonify({"audio_base64": audio_b64})
+                audio_url = upload_to_azure_blob(audio_path, blob_name)
+                
+                # Clean up local file
+                try:
+                    os.remove(audio_path)
+                except Exception as e:
+                    print(f"Failed to clean up local file {audio_path}: {e}")
+                
+                # Clean up directory
+                try:
+                    shutil.rmtree(os.path.dirname(audio_path))
+                except Exception:
+                    pass
+                
+                return jsonify({
+                    "audio_url": audio_url,
+                    "blob_name": blob_name,
+                    "audio_base64": None
+                })
+            except Exception as upload_error:
+                # If upload fails, fall back to base64
+                print(f"Failed to upload to Azure Blob Storage: {upload_error}")
+                
+                with open(audio_path, "rb") as f:
+                    audio_bytes = f.read()
+                
+                audio_b64 = base64.b64encode(audio_bytes).decode("utf-8")
+                
+                try:
+                    shutil.rmtree(os.path.dirname(audio_path))
+                except Exception:
+                    pass
+                
+                return jsonify({"audio_base64": audio_b64})
         except Exception as e:
             if torch.cuda.is_available():
                 torch.cuda.empty_cache()
@@ -391,11 +642,12 @@ def flask_app():
 @app.function(
     image=image,
     volumes={"/models": model_volume},
+    
     timeout=1800,  # 30 minutes for setup
 )
 def setup_ace_step():
     """
-    Verify ACE Step package installation
+    Verify ACE Step package installation and setup Azure Blob Storage
     """
     import sys
     
@@ -405,6 +657,25 @@ def setup_ace_step():
     try:
         from acestep.pipeline_ace_step import ACEStepPipeline
         print("ACE Step pipeline import successful")
+        
+        # Try to set up Azure Blob Storage
+        try:
+            blob_client = get_azure_blob_client()
+            # Try to create container if it doesn't exist
+            try:
+                container_client = blob_client.get_container_client(AZURE_CONTAINER_NAME)
+                container_client.get_container_properties()
+                print(f"Container '{AZURE_CONTAINER_NAME}' already exists")
+            except Exception:
+                try:
+                    blob_client.create_container(AZURE_CONTAINER_NAME)
+                    print(f"Created container '{AZURE_CONTAINER_NAME}'")
+                except Exception as e:
+                    print(f"Failed to create container '{AZURE_CONTAINER_NAME}': {e}")
+        except Exception as e:
+            print(f"Warning: Azure Blob Storage not configured: {e}")
+            print("Continuing without Azure Blob Storage support...")
+        
         return True
     except ImportError as e:
         print(f"Failed to import ACE Step pipeline: {e}")
@@ -423,6 +694,7 @@ def setup_ace_step():
         "/models": model_volume,
         "/tmp/ace_outputs": temp_volume,
     },
+    
 )
 def setup_directories():
     """
