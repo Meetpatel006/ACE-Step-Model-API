@@ -72,6 +72,7 @@ def main():
         "guidance_scale": args.guidance_scale,
         "guidance_scale_text": args.guidance_scale_text,
         "guidance_scale_lyric": args.guidance_scale_lyric,
+        #advance setting
         "scheduler_type": args.scheduler_type,
         "cfg_type": args.cfg_type,
         "omega_scale": args.omega_scale,

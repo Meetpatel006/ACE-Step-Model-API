@@ -34,7 +34,7 @@ Note: The Modal app also accepts many advanced parameters (audio2audio, LoRA, re
 Run it:
 ```bash
 python modal_api_tester.py \
-  --url https://YOUR-MODAL-URL/generate \
+  --url https://gcet--ace-step-flask-api-flask-app-dev.modal.run/generate \
   --audio-duration 10 \
   --prompt "funk, pop, energetic" \
   --lyrics "[instrumental]" \
